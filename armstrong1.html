@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Armstrong 1775</title>
+    <meta charset="UTF-8" />
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@allmaps/leaflet/dist/bundled/allmaps-leaflet-1.9.umd.js"></script>
+
+    <script src="plugin/Leaflet.Control.Opacity/dist/L.Control.Opacity.js"></script>
+    <link href="plugin/Leaflet.Control.Opacity/dist/L.Control.Opacity.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div id="map"></div>
+    <script>
+        
+        //OSM
+        const osm = new L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+        });
+
+        //Satellite
+        const sat = new L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+        });
+
+
+        //OS 1st ed
+        const os1 = new L.tileLayer('https://mapseries-tilesets.s3.amazonaws.com/os/6inchfirst/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://maps.nls.uk/os/6inch/">NLS</a>',
+        });
+
+        //OS 2nd ed
+        const os2 = new L.tileLayer('https://api.maptiler.com/tiles/uk-osgb10k1888/{z}/{x}/{y}.jpg?key=lctZzs518h1OEqcsh2zL', {
+            attribution: '&copy; <a href="https://maps.nls.uk/os/6inch-2nd-and-later/">NLS</a>',
+        });
+
+
+        //Map Image
+        const mapimage = new L.tileLayer('https://allmaps.xyz/maps/1c17544af55bc9c5/{z}/{x}/{y}.png', {
+            attribution:
+                "<a href='https://maps.nls.uk/view/218514920' target='_blank'>NLS</a>",
+        });
+
+//Map Name
+        const mapname = 'Armstrong_1'
+
+        //MAP
+        const map = L.map('map', {
+            center: [55.13903,-4.59653],
+            zoom: 10,
+            zoomControl: true,
+            layers: [os1, mapimage],
+        });
+
+        //BaseLayer
+        const Map_BaseLayer = {
+            'OS 1st ed.': os1,
+            'OS 2nd ed.': os2,
+            'OpenStreetMap': osm,
+            'Satellite': sat
+        };
+
+        //AddLayer
+        const overlay = {
+            [mapname]: mapimage
+        };
+
+        //LayerControl
+        L.control
+            .layers(Map_BaseLayer, overlay, {
+                collapsed: false,
+            })
+            .addTo(map);
+
+        //OpacityControl
+        L.control
+            .opacity(overlay, {
+                label: 'Change Layer Transparency',
+            })
+            .addTo(map);
+
+    </script>
+</body>
+
+</html>
