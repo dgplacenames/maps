@@ -85,8 +85,8 @@
             'Satellite': sat
         };
 
-        //Overlays
-        const overlays = {
+        //Overlay
+        const overlay = {
             'Top Sheet': mapimage1,
             'Middle Sheet': mapimage2,
             'Bottom Sheet': mapimage3,
@@ -94,7 +94,7 @@
 
         //LayerControl
         L.control
-            .layers(Map_BaseLayer, overlays, {
+            .layers(Map_BaseLayer, overlay, {
                 collapsed: false,
             })
             .addTo(map);
