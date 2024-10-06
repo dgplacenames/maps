@@ -44,21 +44,21 @@
         });
 
         //Map Image(s)
-        const mapimage1 = new L.tileLayer('https://allmaps.xyz/maps/2c9e537cd29d5c8e/{z}/{x}/{y}.png', {
+        const mapimage1 = new L.tileLayer('https://allmaps.xyz/{z}/{x}/{y}.png?url=https://annotations.allmaps.org/images/a931c26cc8250c66@b265afa2feeb05d3', {
             attribution:
                 "<a href='https://maps.nls.uk/joins/9097.html' target='_blank'>NLS</a>",
         });
 
-        const mapimage2 = new L.tileLayer('https://allmaps.xyz/maps/753d7679ecadaca2/{z}/{x}/{y}.png', {
+        const mapimage2 = new L.tileLayer('https://allmaps.xyz/{z}/{x}/{y}.png?url=https://annotations.allmaps.org/images/e9eccd38c75a260e@61d411c3a9b70cee', {
             attribution:
                 "<a href='https://maps.nls.uk/joins/9097.html' target='_blank'>NLS</a>",
         });
         
-        const mapimage3 = new L.tileLayer('https://allmaps.xyz/maps/1c17544af55bc9c5/{z}/{x}/{y}.png', {
+        const mapimage3 = new L.tileLayer('https://allmaps.xyz/{z}/{x}/{y}.png?url=https://annotations.allmaps.org/images/612bf97487f0afb6@9f7b99a927b45ee8', {
             attribution:
                 "<a href='https://maps.nls.uk/joins/9097.html' target='_blank'>NLS</a>",
         });
-
+        
         //Map Images Group
         const mapimage = L.layerGroup([mapimage1, mapimage2, mapimage3]);
 
