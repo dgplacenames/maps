@@ -61,11 +61,8 @@
 
         // Custom function to set opacity for Allmaps layers (warpedMapLayer)
         function setAllmapsLayerOpacity(layer, opacity) {
-            warpedMapLayer1.setOpacity(opacity);
-            warpedMapLayer2.setOpacity(opacity);
-            warpedMapLayer3.setOpacity(opacity);
+            layer.setOpacity(opacity);
         }
-
 
         //Map Images Group
         const mapimage = L.layerGroup([warpedMapLayer1, warpedMapLayer2, warpedMapLayer3]);
@@ -82,7 +79,6 @@
         });
 
         //Hash
-
         var hash = new L.Hash(map)
 
         //BaseLayers
