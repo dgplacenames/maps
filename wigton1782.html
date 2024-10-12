@@ -64,6 +64,7 @@
             attribution: '<a href="https://maps.nls.uk/os/6inch-2nd-and-later/">NLS</a>',
         });
 
+        //Warped layer
         var annotationUrl =
             'https://annotations.allmaps.org/images/23966239b4e6797d'
 
@@ -75,6 +76,7 @@
             warpedMapLayer.setOpacity(opacity);
         }
 
+        //Map
         const map = L.map('map', {
             center: [54.8470, -4.7269],
             zoom: 10,
@@ -84,6 +86,9 @@
             layers: [osm, warpedMapLayer]
         })
 
+        //Hash
+        var hash = new L.Hash(map)
+        //BaseLayers
         const Map_BaseLayer = {
             'OS 1st ed.': os1,
             'OS 2nd ed.': os2,
@@ -91,6 +96,7 @@
             'Satellite': sat
         };
 
+        //Overlay
         var overlay = { "Wigtown": warpedMapLayer };
 
         //LayerControl
