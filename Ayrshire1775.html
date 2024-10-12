@@ -10,8 +10,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@allmaps/leaflet/dist/bundled/allmaps-leaflet-1.9.umd.js"></script>
 
-    <script src="plugin/Leaflet.Control.Opacity/dist/L.Control.Opacity.js"></script>
-    <link href="plugin/Leaflet.Control.Opacity/dist/L.Control.Opacity.css" rel="stylesheet" />
+    <script src="plugin/Leaflet.Control.Opacity/src/L.Control.Opacity.js"></script>
+    <link href="plugin/Leaflet.Control.Opacity/src/L.Control.Opacity.css" rel="stylesheet" />
 
     <link href="css/style.css" rel="stylesheet" />
 
@@ -44,68 +44,77 @@
         });
 
         //Map Image(s)
-        const mapimage1 = new L.tileLayer('https://allmaps.xyz/{z}/{x}/{y}.png?url=https://annotations.allmaps.org/images/a931c26cc8250c66@b265afa2feeb05d3', {
-            attribution:
-                "<a href='https://maps.nls.uk/joins/9097.html' target='_blank'>NLS</a>",
-        });
+        var annotationUrl1 =
+            'https://annotations.allmaps.org/images/a931c26cc8250c66@b265afa2feeb05d3'
 
-        const mapimage2 = new L.tileLayer('https://allmaps.xyz/{z}/{x}/{y}.png?url=https://annotations.allmaps.org/images/e9eccd38c75a260e@61d411c3a9b70cee', {
-            attribution:
-                "<a href='https://maps.nls.uk/joins/9097.html' target='_blank'>NLS</a>",
-        });
-        
-        const mapimage3 = new L.tileLayer('https://allmaps.xyz/{z}/{x}/{y}.png?url=https://annotations.allmaps.org/images/612bf97487f0afb6@9f7b99a927b45ee8', {
-            attribution:
-                "<a href='https://maps.nls.uk/joins/9097.html' target='_blank'>NLS</a>",
-        });
-        
-        //Map Images Group
-        const mapimage = L.layerGroup([mapimage1, mapimage2, mapimage3]);
+        var warpedMapLayer1 = new Allmaps.WarpedMapLayer(annotationUrl1)
 
-        //Map Name
-        const mapname = 'Armstrong 1775'
+        var annotationUrl2 =
+            'https://annotations.allmaps.org/images/e9eccd38c75a260e@61d411c3a9b70cee'
 
-        //MAP
-        const map = L.map('map', {
-            center: [55.4126,-4.4907],
-            zoom: 9,
-            zoomControl: true,
-            layers: [osm, mapimage],
-        });
+        var warpedMapLayer2 = new Allmaps.WarpedMapLayer(annotationUrl2)
 
-        //Hash
+        var annotationUrl3 =
+            'https://annotations.allmaps.org/images/612bf97487f0afb6@9f7b99a927b45ee8'
 
-        var hash = new L.Hash(map)
+        var warpedMapLayer3 = new Allmaps.WarpedMapLayer(annotationUrl3)
 
-        //BaseLayers
-        const Map_BaseLayer = {
-            'OS 1st ed.': os1,
-            'OS 2nd ed.': os2,
-            'OpenStreetMap': osm,
-            'Satellite': sat
-        };
+        // Custom function to set opacity for Allmaps layers (warpedMapLayer)
+        function setAllmapsLayerOpacity(layer, opacity) {
+            warpedMapLayer1.setOpacity(opacity);
+            warpedMapLayer2.setOpacity(opacity);
+            warpedMapLayer3.setOpacity(opacity);
+        }
 
-        //Overlay
-        const overlay = {
-            'Top Sheet': mapimage1,
-            'Middle Sheet': mapimage2,
-            'Bottom Sheet': mapimage3,
-        };
 
-        //LayerControl
-        L.control
-            .layers(Map_BaseLayer, overlay, {
-                collapsed: false,
-            })
-            .addTo(map);
+            //Map Images Group
+            const mapimage = L.layerGroup([warpedMapLayer1, warpedMapLayer2, warpedMapLayer3]);
 
-        //OpacityControl
-        L.control
-            .opacity(overlay, {
-                label: 'Layer Transparency',
-                collapsed: false,
-            })
-            .addTo(map);
+            //Map Name
+            const mapname = 'Armstrong 1775'
+
+            //MAP
+            const map = L.map('map', {
+                center: [55.4126, -4.4907],
+                zoom: 9,
+                zoomControl: true,
+                layers: [osm, mapimage],
+            });
+
+            //Hash
+
+            var hash = new L.Hash(map)
+
+            //BaseLayers
+            const Map_BaseLayer = {
+                'OS 1st ed.': os1,
+                'OS 2nd ed.': os2,
+                'OpenStreetMap': osm,
+                'Satellite': sat
+            };
+
+            //Overlay
+            const overlay = {
+                'Top sheet': warpedMapLayer1,
+                'Middle sheet':warpedMapLayer2,
+                'Bottom sheet':warpedMapLayer3
+
+            };
+
+            //LayerControl
+            L.control
+                .layers(Map_BaseLayer, overlay, {
+                    collapsed: false,
+                })
+                .addTo(map);
+
+            //OpacityControl
+            L.control
+                .opacity(overlay, {
+                    label: 'Layer Transparency',
+                    collapsed: false,
+                })
+                .addTo(map);
 
     </script>
 </body>

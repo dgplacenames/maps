@@ -124,7 +124,8 @@ L.Control.Opacity = L.Control.extend({
             // スライドバー追加
             input.type = 'range';
             input.className = 'leaflet-control-layers-range';
-            input.min = 0;
+            // Set min to 1 as map opacity resets on 0 using AllMaps plugin
+            input.min = 1;
             input.max = 100;
             input.value = obj.layer.options.opacity * 100;
         } else {
@@ -136,10 +137,10 @@ L.Control.Opacity = L.Control.extend({
         input.addEventListener('input', (event) => {
             const rgValue = event.target.value;
             const layer = this._getLayer(input.layerId).layer;
-            // 背景ラスタのみ対象
-            if (typeof layer._url === 'undefined') {
-            } else {
-                // 透過度設定
+            // Check if the layer is an Allmaps.WarpedMapLayer and apply custom opacity logic
+            if (layer instanceof Allmaps.WarpedMapLayer) {
+                setAllmapsLayerOpacity(layer, Number(rgValue / 100));
+            } else if (typeof layer.setOpacity === 'function') {
                 layer.setOpacity(Number(rgValue / 100));
             }
         });
