@@ -67,54 +67,54 @@
         }
 
 
-            //Map Images Group
-            const mapimage = L.layerGroup([warpedMapLayer1, warpedMapLayer2, warpedMapLayer3]);
+        //Map Images Group
+        const mapimage = L.layerGroup([warpedMapLayer1, warpedMapLayer2, warpedMapLayer3]);
 
-            //Map Name
-            const mapname = 'Armstrong 1775'
+        //Map Name
+        const mapname = 'Armstrong 1775'
 
-            //MAP
-            const map = L.map('map', {
-                center: [55.4126, -4.4907],
-                zoom: 9,
-                zoomControl: true,
-                layers: [osm, mapimage],
-            });
+        //MAP
+        const map = L.map('map', {
+            center: [55.4126, -4.4907],
+            zoom: 9,
+            zoomControl: true,
+            layers: [osm, mapimage],
+        });
 
-            //Hash
+        //Hash
 
-            var hash = new L.Hash(map)
+        var hash = new L.Hash(map)
 
-            //BaseLayers
-            const Map_BaseLayer = {
-                'OS 1st ed.': os1,
-                'OS 2nd ed.': os2,
-                'OpenStreetMap': osm,
-                'Satellite': sat
-            };
+        //BaseLayers
+        const Map_BaseLayer = {
+            'OS 1st ed.': os1,
+            'OS 2nd ed.': os2,
+            'OpenStreetMap': osm,
+            'Satellite': sat
+        };
 
-            //Overlay
-            const overlay = {
-                'Top sheet': warpedMapLayer1,
-                'Middle sheet':warpedMapLayer2,
-                'Bottom sheet':warpedMapLayer3
+        //Overlay
+        const overlay = {
+            'Top sheet': warpedMapLayer1,
+            'Middle sheet': warpedMapLayer2,
+            'Bottom sheet': warpedMapLayer3
 
-            };
+        };
 
-            //LayerControl
-            L.control
-                .layers(Map_BaseLayer, overlay, {
-                    collapsed: false,
-                })
-                .addTo(map);
+        //LayerControl
+        L.control
+            .layers(Map_BaseLayer, overlay, {
+                collapsed: false,
+            })
+            .addTo(map);
 
-            //OpacityControl
-            L.control
-                .opacity(overlay, {
-                    label: 'Layer Transparency',
-                    collapsed: false,
-                })
-                .addTo(map);
+        //OpacityControl
+        L.control
+            .opacity(overlay, {
+                label: 'Layer Transparency',
+                collapsed: false,
+            })
+            .addTo(map);
 
     </script>
 </body>
