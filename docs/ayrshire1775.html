@@ -6,19 +6,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" />
-    <link href="css\leaflet-search.css" rel="stylesheet" />
-    <link href="css\L.Control.Opacity.css" rel="stylesheet" />
-    <link href="css\style.css" rel="stylesheet" />
+    <link href="\css\leaflet-search.css" rel="stylesheet" />
+    <link href="\css\L.Control.Opacity.css" rel="stylesheet" />
+    <link href="\css\style.css" rel="stylesheet" />
 </head>
 
 <body>
     <div id="map"></div>
-    <script src="geoJSON\Armstrong_1775.js"></script>
+    <script src="\geoJSON\ayrshire_1775.js"></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@allmaps/leaflet/dist/bundled/allmaps-leaflet-1.9.umd.js"></script>
-    <script src="js\leaflet-search.js"></script>
-    <script src="js\L.Control.Opacity.js"></script>
-    <script src="js\leaflet-hash.js"></script>
+    <script src="\js\leaflet-search.js"></script>
+    <script src="\js\L.Control.Opacity.js"></script>
+    <script src="\js\leaflet-hash.js"></script>
     <script>
 
         //OpenStreetMap
@@ -80,7 +80,7 @@
         var hash = new L.Hash(map)
 
         //JSON Data
-        const searchLayer = L.geoJSON(Armstrong_1775, {
+        const searchLayer = L.geoJSON(ayrshire_1775, {
             fillOpacity: 0,
             weight: 0,
             onEachFeature: function (feature, layer) {
