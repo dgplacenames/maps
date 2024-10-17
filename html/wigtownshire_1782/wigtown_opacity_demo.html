@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base target="_top">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>A map of the county of Wigton, 1782</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@allmaps/leaflet/dist/bundled/allmaps-leaflet-1.9.umd.js"></script>
+
+    <script src="plugin/Leaflet.Control.Opacity/dist/L.Control.Opacity.js"></script>
+    <link href="plugin/Leaflet.Control.Opacity/dist/L.Control.Opacity.css" rel="stylesheet" />
+
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        #map {
+            height: 100%;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+
+    <div id="map"></div>
+    <script>
+
+        var annotationUrl =
+            'https://annotations.allmaps.org/images/23966239b4e6797d'
+
+        var warpedMapLayer = new Allmaps.WarpedMapLayer(annotationUrl)
+
+
+        var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution:
+                '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        })
+
+        var xyz = L.tileLayer('https://allmaps.xyz/maps/6e3ec97c4b237bda/{z}/{x}/{y}.png', {
+
+        })
+
+        const map = L.map('map', {
+            center: [54.8470,-4.7269],
+            zoom: 10,
+            // Zoom animations for more than one zoom level are
+            // currently not supported by the Allmaps plugin for Leafet
+            zoomAnimationThreshold: 1,
+            layers: [osm, warpedMapLayer]
+        })
+
+        var baseMaps = { "OpenStreetMap": osm };
+
+        var overlayMaps = { warpedMapLayer,
+xyz
+         };
+
+        var layerControl = L.control.layers(baseMaps, overlayMaps, { collapsed: false }).addTo(map);
+
+        L.control
+            .opacity(overlayMaps, {
+                label: 'Layer Transparency',
+                collapsed: false,
+            })
+            .addTo(map);
+
+    </script>
+
+</body>
+
+</html>
