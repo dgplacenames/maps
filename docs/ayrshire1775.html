@@ -127,6 +127,30 @@
             })
             .addTo(map);
 
+        //Abstract
+
+        var abstract = new L.Control({ 'position': 'bottomleft' });
+        abstract.onAdd = function (map) {
+            this._div = L.DomUtil.create('div',
+                'leaflet-control abstract');
+            this._div.id = 'abstract'
+            this._div.setAttribute("onmouseenter", "abstract.show()");
+            this._div.setAttribute("onmouseleave", "abstract.hide()");
+            this.hide();
+            return this._div;
+        };
+        abstract.hide = function () {
+            this._div.classList.remove("abstractUncollapsed");
+            this._div.classList.add("abstract");
+            this._div.innerHTML = 'i'
+        }
+        abstract.show = function () {
+            this._div.classList.remove("abstract");
+            this._div.classList.add("abstractUncollapsed");
+            this._div.innerHTML = "The text of the Carrick portion of Armstrong's (1775) <i><a href='https://maps.nls.uk/joins/9097.html'>A New Map of Ayrshire</a></i> has been transcribed as part of <a href='https://carricknames.scot/'>Ainmean Charraige/Carrick Names</a>'s data collection. The entries can be viewed as an alphabetical list <a href=https://dgplacenames.github.io/maps/ayrshire1775_gazetteer>here</a>. We hope to add the text from Kyle, Cunningham and the surrounding areas in the not too distant future.";
+        };
+        abstract.addTo(map);
+        
     </script>
 </body>
 
