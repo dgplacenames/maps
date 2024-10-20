@@ -5,7 +5,7 @@ fetch('https://dgplacenames.github.io/maps/geoJSON/Armstrong_0.js')
         const data = text.features.map((item) => ({
             Text: item.properties.Text,
             Area: item.properties.Area,
-            Link: item.properties.Hyperlink
+            Link: item.properties.Hyperlink.replace('Ayrshire1775', 'Ayrshire1775'.toLowerCase())
         }));
 
         new gridjs.Grid({
