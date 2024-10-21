@@ -9,9 +9,9 @@ var text = {
         fid: "1",
         Text: "Glaik",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0073/-5.045>Glaik</a>",
+          "<a id=Glaik href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0073/-5.045>Glaik</a>",
       },
       geometry: {
         type: "Polygon",
@@ -32,9 +32,9 @@ var text = {
         fid: "2",
         Text: "Harbour",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0138/-5.072>Harbour</a>",
+          "<a id=Harbour href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0138/-5.072>Harbour</a>",
       },
       geometry: {
         type: "Polygon",
@@ -55,9 +55,9 @@ var text = {
         fid: "3",
         Text: "Finnard",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0227/-5.0391>Finnard</a>",
+          "<a id=Finnard href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0227/-5.0391>Finnard</a>",
       },
       geometry: {
         type: "Polygon",
@@ -78,9 +78,9 @@ var text = {
         fid: "4",
         Text: "Blackhill",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0281/-5.0549>Blackhill</a>",
+          "<a id=Blackhill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0281/-5.0549>Blackhill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -101,9 +101,9 @@ var text = {
         fid: "5",
         Text: "Glendrishock",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0436/-5.0437>Glendrishock</a>",
+          "<a id=Glendrishock href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0436/-5.0437>Glendrishock</a>",
       },
       geometry: {
         type: "Polygon",
@@ -124,9 +124,9 @@ var text = {
         fid: "6",
         Text: "L. Shalloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0544/-5.0317>L. Shalloch</a>",
+          "<a id=L. Shalloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0544/-5.0317>L. Shalloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -147,9 +147,9 @@ var text = {
         fid: "7",
         Text: "H. Shalloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0605/-5.038>H. Shalloch</a>",
+          "<a id=H. Shalloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0605/-5.038>H. Shalloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -170,9 +170,9 @@ var text = {
         fid: "8",
         Text: "Tummack",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0166/-5.0103>Tummack</a>",
+          "<a id=Tummack href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0166/-5.0103>Tummack</a>",
       },
       geometry: {
         type: "Polygon",
@@ -193,9 +193,9 @@ var text = {
         fid: "9",
         Text: "Highmark",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0193/-5.0015>Highmark</a>",
+          "<a id=Highmark href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0193/-5.0015>Highmark</a>",
       },
       geometry: {
         type: "Polygon",
@@ -216,9 +216,9 @@ var text = {
         fid: "10",
         Text: "Craiglee",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0234/-5.0179>Craiglee</a>",
+          "<a id=Craiglee href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0234/-5.0179>Craiglee</a>",
       },
       geometry: {
         type: "Polygon",
@@ -239,9 +239,9 @@ var text = {
         fid: "11",
         Text: "Milbain",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0225/-4.9946>Milbain</a>",
+          "<a id=Milbain href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0225/-4.9946>Milbain</a>",
       },
       geometry: {
         type: "Polygon",
@@ -262,9 +262,9 @@ var text = {
         fid: "12",
         Text: "Mickeroch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0258/-5.0106>Mickeroch</a>",
+          "<a id=Mickeroch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0258/-5.0106>Mickeroch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -285,9 +285,9 @@ var text = {
         fid: "13",
         Text: "Dupin",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0253/-4.9899>Dupin</a>",
+          "<a id=Dupin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0253/-4.9899>Dupin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -308,9 +308,9 @@ var text = {
         fid: "14",
         Text: "Shennows",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0028/-4.929>Shennows</a>",
+          "<a id=Shennows href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0028/-4.929>Shennows</a>",
       },
       geometry: {
         type: "Polygon",
@@ -331,9 +331,9 @@ var text = {
         fid: "15",
         Text: "Barnvannoch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0203/-4.9002>Barnvannoch</a>",
+          "<a id=Barnvannoch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0203/-4.9002>Barnvannoch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -354,9 +354,9 @@ var text = {
         fid: "16",
         Text: "Laganbasty",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.026/-4.9073>Laganbasty</a>",
+          "<a id=Laganbasty href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.026/-4.9073>Laganbasty</a>",
       },
       geometry: {
         type: "Polygon",
@@ -377,9 +377,9 @@ var text = {
         fid: "17",
         Text: "Arccleoch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0333/-4.9043>Arccleoch</a>",
+          "<a id=Arccleoch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0333/-4.9043>Arccleoch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -400,9 +400,9 @@ var text = {
         fid: "18",
         Text: "Carloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.041/-4.9931>Carloch</a>",
+          "<a id=Carloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.041/-4.9931>Carloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -423,9 +423,9 @@ var text = {
         fid: "19",
         Text: "Glen App",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0444/-5.0052>Glen App</a>",
+          "<a id=Glen App href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0444/-5.0052>Glen App</a>",
       },
       geometry: {
         type: "Polygon",
@@ -446,9 +446,9 @@ var text = {
         fid: "20",
         Text: "Lagifalter",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0395/-4.9077>Lagifalter</a>",
+          "<a id=Lagifalter href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0395/-4.9077>Lagifalter</a>",
       },
       geometry: {
         type: "Polygon",
@@ -469,9 +469,9 @@ var text = {
         fid: "21",
         Text: "Altimegg",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0466/-4.9676>Altimegg</a>",
+          "<a id=Altimegg href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0466/-4.9676>Altimegg</a>",
       },
       geometry: {
         type: "Polygon",
@@ -492,9 +492,9 @@ var text = {
         fid: "22",
         Text: "Strabraken",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0436/-4.891>Strabraken</a>",
+          "<a id=Strabraken href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0436/-4.891>Strabraken</a>",
       },
       geometry: {
         type: "Polygon",
@@ -515,9 +515,9 @@ var text = {
         fid: "23",
         Text: "Mill John",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0504/-4.9379>Mill John</a>",
+          "<a id=Mill John href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0504/-4.9379>Mill John</a>",
       },
       geometry: {
         type: "Polygon",
@@ -538,9 +538,9 @@ var text = {
         fid: "24",
         Text: "Carloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.058/-4.9871>Carloch</a>",
+          "<a id=Carloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.058/-4.9871>Carloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -561,9 +561,9 @@ var text = {
         fid: "25",
         Text: "Knocktool",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0571/-4.9649>Knocktool</a>",
+          "<a id=Knocktool href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0571/-4.9649>Knocktool</a>",
       },
       geometry: {
         type: "Polygon",
@@ -584,9 +584,9 @@ var text = {
         fid: "26",
         Text: "Craigends",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0606/-5.016>Craigends</a>",
+          "<a id=Craigends href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0606/-5.016>Craigends</a>",
       },
       geometry: {
         type: "Polygon",
@@ -607,9 +607,9 @@ var text = {
         fid: "27",
         Text: "Craig",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0611/-4.962>Craig</a>",
+          "<a id=Craig href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0611/-4.962>Craig</a>",
       },
       geometry: {
         type: "Polygon",
@@ -630,9 +630,9 @@ var text = {
         fid: "28",
         Text: "Balmenoch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.065/-4.9966>Balmenoch</a>",
+          "<a id=Balmenoch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.065/-4.9966>Balmenoch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -653,9 +653,9 @@ var text = {
         fid: "29",
         Text: "Curry",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0701/-5.0106>Curry</a>",
+          "<a id=Curry href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0701/-5.0106>Curry</a>",
       },
       geometry: {
         type: "Polygon",
@@ -676,9 +676,9 @@ var text = {
         fid: "30",
         Text: "Beniard",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.066/-4.9104>Beniard</a>",
+          "<a id=Beniard href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.066/-4.9104>Beniard</a>",
       },
       geometry: {
         type: "Polygon",
@@ -699,9 +699,9 @@ var text = {
         fid: "31",
         Text: "Benzyraird",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.071/-4.9258>Benzyraird</a>",
+          "<a id=Benzyraird href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.071/-4.9258>Benzyraird</a>",
       },
       geometry: {
         type: "Polygon",
@@ -722,9 +722,9 @@ var text = {
         fid: "32",
         Text: "Windyhill",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0746/-4.9765>Windyhill</a>",
+          "<a id=Windyhill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0746/-4.9765>Windyhill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -745,9 +745,9 @@ var text = {
         fid: "33",
         Text: "Balochdoon",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0769/-5.0022>Balochdoon</a>",
+          "<a id=Balochdoon href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0769/-5.0022>Balochdoon</a>",
       },
       geometry: {
         type: "Polygon",
@@ -768,9 +768,9 @@ var text = {
         fid: "34",
         Text: "H. Smeton",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0786/-4.938>H. Smeton</a>",
+          "<a id=H. Smeton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0786/-4.938>H. Smeton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -791,9 +791,9 @@ var text = {
         fid: "35",
         Text: "Craiglea",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0757/-4.8825>Craiglea</a>",
+          "<a id=Craiglea href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0757/-4.8825>Craiglea</a>",
       },
       geometry: {
         type: "Polygon",
@@ -814,9 +814,9 @@ var text = {
         fid: "36",
         Text: "Kilwhinnel",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0819/-4.9354>Kilwhinnel</a>",
+          "<a id=Kilwhinnel href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0819/-4.9354>Kilwhinnel</a>",
       },
       geometry: {
         type: "Polygon",
@@ -837,9 +837,9 @@ var text = {
         fid: "37",
         Text: "Auchencross",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0838/-4.9721>Auchencross</a>",
+          "<a id=Auchencross href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0838/-4.9721>Auchencross</a>",
       },
       geometry: {
         type: "Polygon",
@@ -860,9 +860,9 @@ var text = {
         fid: "38",
         Text: "Windyhall",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0874/-4.9796>Windyhall</a>",
+          "<a id=Windyhall href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0874/-4.9796>Windyhall</a>",
       },
       geometry: {
         type: "Polygon",
@@ -883,9 +883,9 @@ var text = {
         fid: "39",
         Text: "Donan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0892/-5.0063>Donan</a>",
+          "<a id=Donan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0892/-5.0063>Donan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -906,9 +906,9 @@ var text = {
         fid: "40",
         Text: "Barhallan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0809/-4.8815>Barhallan</a>",
+          "<a id=Barhallan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0809/-4.8815>Barhallan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -929,9 +929,9 @@ var text = {
         fid: "41",
         Text: "Shalloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0829/-4.8938>Shalloch</a>",
+          "<a id=Shalloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0829/-4.8938>Shalloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -952,9 +952,9 @@ var text = {
         fid: "42",
         Text: "Auchairn",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.088/-4.9527>Auchairn</a>",
+          "<a id=Auchairn href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.088/-4.9527>Auchairn</a>",
       },
       geometry: {
         type: "Polygon",
@@ -975,9 +975,9 @@ var text = {
         fid: "43",
         Text: "Moile",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0487/-4.8507>Moile</a>",
+          "<a id=Moile href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0487/-4.8507>Moile</a>",
       },
       geometry: {
         type: "Polygon",
@@ -998,9 +998,9 @@ var text = {
         fid: "44",
         Text: "Chermery",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0578/-4.7891>Chermery</a>",
+          "<a id=Chermery href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0578/-4.7891>Chermery</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1021,9 +1021,9 @@ var text = {
         fid: "45",
         Text: "Dirmanaugh",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0458/-4.7355>Dirmanaugh</a>",
+          "<a id=Dirmanaugh href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0458/-4.7355>Dirmanaugh</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1044,9 +1044,9 @@ var text = {
         fid: "46",
         Text: "Almark",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0434/-4.718>Almark</a>",
+          "<a id=Almark href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0434/-4.718>Almark</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1067,9 +1067,9 @@ var text = {
         fid: "47",
         Text: "Castle in ruins",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0354/-4.6946>Castle in ruins</a>",
+          "<a id=Castle in ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0354/-4.6946>Castle in ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1090,9 +1090,9 @@ var text = {
         fid: "48",
         Text: "Carrick Mill",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.047/-4.6676>Carrick Mill</a>",
+          "<a id=Carrick Mill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.047/-4.6676>Carrick Mill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1113,9 +1113,9 @@ var text = {
         fid: "49",
         Text: "Amshean",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0536/-4.6995>Amshean</a>",
+          "<a id=Amshean href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0536/-4.6995>Amshean</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1136,9 +1136,9 @@ var text = {
         fid: "50",
         Text: "Darnel",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0545/-4.6727>Darnel</a>",
+          "<a id=Darnel href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0545/-4.6727>Darnel</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1159,9 +1159,9 @@ var text = {
         fid: "51",
         Text: "Kilgressan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0614/-4.8184>Kilgressan</a>",
+          "<a id=Kilgressan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0614/-4.8184>Kilgressan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1182,9 +1182,9 @@ var text = {
         fid: "52",
         Text: "Ericklaw",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0693/-4.8311>Ericklaw</a>",
+          "<a id=Ericklaw href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0693/-4.8311>Ericklaw</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1205,9 +1205,9 @@ var text = {
         fid: "53",
         Text: "Knockbrake",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0757/-4.8368>Knockbrake</a>",
+          "<a id=Knockbrake href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0757/-4.8368>Knockbrake</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1228,9 +1228,9 @@ var text = {
         fid: "54",
         Text: "Byne",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0784/-4.8631>Byne</a>",
+          "<a id=Byne href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0784/-4.8631>Byne</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1251,9 +1251,9 @@ var text = {
         fid: "55",
         Text: "Drumlamford",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0602/-4.6856>Drumlamford</a>",
+          "<a id=Drumlamford href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0602/-4.6856>Drumlamford</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1274,9 +1274,9 @@ var text = {
         fid: "56",
         Text: "Balnahoin",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0578/-4.6446>Balnahoin</a>",
+          "<a id=Balnahoin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0578/-4.6446>Balnahoin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1297,9 +1297,9 @@ var text = {
         fid: "57",
         Text: "Barjerock",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0653/-4.6369>Barjerock</a>",
+          "<a id=Barjerock href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0653/-4.6369>Barjerock</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1320,9 +1320,9 @@ var text = {
         fid: "58",
         Text: "Corwar",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0683/-4.6836>Corwar</a>",
+          "<a id=Corwar href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0683/-4.6836>Corwar</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1343,9 +1343,9 @@ var text = {
         fid: "59",
         Text: "Barwinnock",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0692/-4.6647>Barwinnock</a>",
+          "<a id=Barwinnock href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0692/-4.6647>Barwinnock</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1366,9 +1366,9 @@ var text = {
         fid: "60",
         Text: "Loughton",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0739/-4.7065>Loughton</a>",
+          "<a id=Loughton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0739/-4.7065>Loughton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1389,9 +1389,9 @@ var text = {
         fid: "61",
         Text: "Carlochin",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0927/-4.9798>Carlochin</a>",
+          "<a id=Carlochin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0927/-4.9798>Carlochin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1412,9 +1412,9 @@ var text = {
         fid: "62",
         Text: "Softlagan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0945/-4.9742>Softlagan</a>",
+          "<a id=Softlagan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0945/-4.9742>Softlagan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1435,9 +1435,9 @@ var text = {
         fid: "63",
         Text: "Hardlagan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0965/-4.9594>Hardlagan</a>",
+          "<a id=Hardlagan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0965/-4.9594>Hardlagan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1458,9 +1458,9 @@ var text = {
         fid: "64",
         Text: "Balrasey",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0884/-4.9222>Balrasey</a>",
+          "<a id=Balrasey href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0884/-4.9222>Balrasey</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1481,9 +1481,9 @@ var text = {
         fid: "65",
         Text: "Belkessock",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0915/-4.9055>Belkessock</a>",
+          "<a id=Belkessock href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0915/-4.9055>Belkessock</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1504,9 +1504,9 @@ var text = {
         fid: "66",
         Text: "Leffindonald",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0935/-4.8946>Leffindonald</a>",
+          "<a id=Leffindonald href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0935/-4.8946>Leffindonald</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1527,9 +1527,9 @@ var text = {
         fid: "67",
         Text: "Roukle",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0884/-4.8688>Roukle</a>",
+          "<a id=Roukle href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0884/-4.8688>Roukle</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1550,9 +1550,9 @@ var text = {
         fid: "68",
         Text: "Balantrae",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1041/-5.0068>Balantrae</a>",
+          "<a id=Balantrae href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1041/-5.0068>Balantrae</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1573,9 +1573,9 @@ var text = {
         fid: "69",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1047/-4.9697>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1047/-4.9697>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1596,9 +1596,9 @@ var text = {
         fid: "70",
         Text: "Auchenfloor",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1001/-4.9329>Auchenfloor</a>",
+          "<a id=Auchenfloor href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1001/-4.9329>Auchenfloor</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1619,9 +1619,9 @@ var text = {
         fid: "71",
         Text: "Tigg",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0972/-4.91>Tigg</a>",
+          "<a id=Tigg href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0972/-4.91>Tigg</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1642,9 +1642,9 @@ var text = {
         fid: "72",
         Text: "Ballimore",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0999/-4.8947>Ballimore</a>",
+          "<a id=Ballimore href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0999/-4.8947>Ballimore</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1665,9 +1665,9 @@ var text = {
         fid: "73",
         Text: "Ballimore",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0978/-4.8786>Ballimore</a>",
+          "<a id=Ballimore href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0978/-4.8786>Ballimore</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1688,9 +1688,9 @@ var text = {
         fid: "74",
         Text: "Drumsheigh",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0952/-4.8657>Drumsheigh</a>",
+          "<a id=Drumsheigh href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0952/-4.8657>Drumsheigh</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1711,9 +1711,9 @@ var text = {
         fid: "75",
         Text: "Knockdow",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1049/-4.9039>Knockdow</a>",
+          "<a id=Knockdow href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1049/-4.9039>Knockdow</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1734,9 +1734,9 @@ var text = {
         fid: "76",
         Text: "Pins",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1032/-4.9431>Pins</a>",
+          "<a id=Pins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1032/-4.9431>Pins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1757,9 +1757,9 @@ var text = {
         fid: "77",
         Text: "Stincher R.",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1076/-4.9571>Stincher R.</a>",
+          "<a id=Stincher R. href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1076/-4.9571>Stincher R.</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1780,9 +1780,9 @@ var text = {
         fid: "78",
         Text: "Garfar",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1077/-4.9375>Garfar</a>",
+          "<a id=Garfar href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1077/-4.9375>Garfar</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1803,9 +1803,9 @@ var text = {
         fid: "79",
         Text: "Wind Mill",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1122/-4.9655>Wind Mill</a>",
+          "<a id=Wind Mill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1122/-4.9655>Wind Mill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1826,9 +1826,9 @@ var text = {
         fid: "80",
         Text: "Sallachan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1084/-4.9177>Sallachan</a>",
+          "<a id=Sallachan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1084/-4.9177>Sallachan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1849,9 +1849,9 @@ var text = {
         fid: "81",
         Text: "Mains",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.111/-4.9261>Mains</a>",
+          "<a id=Mains href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.111/-4.9261>Mains</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1872,9 +1872,9 @@ var text = {
         fid: "82",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1132/-4.928>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1132/-4.928>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1895,9 +1895,9 @@ var text = {
         fid: "83",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1172/-4.9157>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1172/-4.9157>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1918,9 +1918,9 @@ var text = {
         fid: "84",
         Text: "Kirkudbright",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1146/-4.945>Kirkudbright</a>",
+          "<a id=Kirkudbright href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1146/-4.945>Kirkudbright</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1941,9 +1941,9 @@ var text = {
         fid: "85",
         Text: "Knockdolian",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1204/-4.9488>Knockdolian</a>",
+          "<a id=Knockdolian href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1204/-4.9488>Knockdolian</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1964,9 +1964,9 @@ var text = {
         fid: "86",
         Text: "Knock",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1282/-4.9458>Knock</a>",
+          "<a id=Knock href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1282/-4.9458>Knock</a>",
       },
       geometry: {
         type: "Polygon",
@@ -1987,9 +1987,9 @@ var text = {
         fid: "87",
         Text: "Colmonel",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1261/-4.9189>Colmonel</a>",
+          "<a id=Colmonel href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1261/-4.9189>Colmonel</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2010,9 +2010,9 @@ var text = {
         fid: "88",
         Text: "Manse",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.132/-4.914>Manse</a>",
+          "<a id=Manse href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.132/-4.914>Manse</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2033,9 +2033,9 @@ var text = {
         fid: "89",
         Text: "Bardrought",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1277/-4.8794>Bardrought</a>",
+          "<a id=Bardrought href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1277/-4.8794>Bardrought</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2056,9 +2056,9 @@ var text = {
         fid: "90",
         Text: "Mains",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1342/-4.8935>Mains</a>",
+          "<a id=Mains href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1342/-4.8935>Mains</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2079,9 +2079,9 @@ var text = {
         fid: "91",
         Text: "Dalreoch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1337/-4.862>Dalreoch</a>",
+          "<a id=Dalreoch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1337/-4.862>Dalreoch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2102,9 +2102,9 @@ var text = {
         fid: "92",
         Text: "Pengarnock",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1395/-4.9423>Pengarnock</a>",
+          "<a id=Pengarnock href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1395/-4.9423>Pengarnock</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2125,9 +2125,9 @@ var text = {
         fid: "93",
         Text: "Bennan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1414/-4.9585>Bennan</a>",
+          "<a id=Bennan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1414/-4.9585>Bennan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2148,9 +2148,9 @@ var text = {
         fid: "94",
         Text: "Bennan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.144/-4.975>Bennan</a>",
+          "<a id=Bennan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.144/-4.975>Bennan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2171,9 +2171,9 @@ var text = {
         fid: "95",
         Text: "Balanaughen",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1441/-4.9422>Balanaughen</a>",
+          "<a id=Balanaughen href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1441/-4.9422>Balanaughen</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2194,9 +2194,9 @@ var text = {
         fid: "96",
         Text: "Auchencliry",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.145/-4.9266>Auchencliry</a>",
+          "<a id=Auchencliry href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.145/-4.9266>Auchencliry</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2217,9 +2217,9 @@ var text = {
         fid: "97",
         Text: "Preston",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1443/-4.8804>Preston</a>",
+          "<a id=Preston href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1443/-4.8804>Preston</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2240,9 +2240,9 @@ var text = {
         fid: "98",
         Text: "Craig",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1482/-4.864>Craig</a>",
+          "<a id=Craig href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1482/-4.864>Craig</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2263,9 +2263,9 @@ var text = {
         fid: "99",
         Text: "Pinbrake",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1474/-4.8863>Pinbrake</a>",
+          "<a id=Pinbrake href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1474/-4.8863>Pinbrake</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2286,9 +2286,9 @@ var text = {
         fid: "100",
         Text: "Troaks",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.152/-4.9369>Troaks</a>",
+          "<a id=Troaks href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.152/-4.9369>Troaks</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2309,9 +2309,9 @@ var text = {
         fid: "101",
         Text: "Belairds",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1535/-4.9218>Belairds</a>",
+          "<a id=Belairds href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1535/-4.9218>Belairds</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2332,9 +2332,9 @@ var text = {
         fid: "102",
         Text: "Craighead",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1557/-4.8573>Craighead</a>",
+          "<a id=Craighead href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1557/-4.8573>Craighead</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2355,9 +2355,9 @@ var text = {
         fid: "103",
         Text: "Kernnell",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1666/-4.9013>Kernnell</a>",
+          "<a id=Kernnell href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1666/-4.9013>Kernnell</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2378,9 +2378,9 @@ var text = {
         fid: "104",
         Text: "Knockdaw",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1679/-4.8877>Knockdaw</a>",
+          "<a id=Knockdaw href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1679/-4.8877>Knockdaw</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2401,9 +2401,9 @@ var text = {
         fid: "105",
         Text: "Carlton",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1711/-4.9089>Carlton</a>",
+          "<a id=Carlton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1711/-4.9089>Carlton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2424,9 +2424,9 @@ var text = {
         fid: "106",
         Text: "Mains",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1749/-4.9067>Mains</a>",
+          "<a id=Mains href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1749/-4.9067>Mains</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2447,9 +2447,9 @@ var text = {
         fid: "107",
         Text: "Knockbain",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1751/-4.8851>Knockbain</a>",
+          "<a id=Knockbain href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1751/-4.8851>Knockbain</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2470,9 +2470,9 @@ var text = {
         fid: "108",
         Text: "Landels",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1782/-4.8694>Landels</a>",
+          "<a id=Landels href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1782/-4.8694>Landels</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2493,9 +2493,9 @@ var text = {
         fid: "109",
         Text: "Strad",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1842/-4.9094>Strad</a>",
+          "<a id=Strad href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1842/-4.9094>Strad</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2516,9 +2516,9 @@ var text = {
         fid: "110",
         Text: "Falla",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1837/-4.8977>Falla</a>",
+          "<a id=Falla href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1837/-4.8977>Falla</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2539,9 +2539,9 @@ var text = {
         fid: "111",
         Text: "Farden",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0923/-4.8493>Farden</a>",
+          "<a id=Farden href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0923/-4.8493>Farden</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2562,9 +2562,9 @@ var text = {
         fid: "112",
         Text: "Straton",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0943/-4.8429>Straton</a>",
+          "<a id=Straton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0943/-4.8429>Straton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2585,9 +2585,9 @@ var text = {
         fid: "113",
         Text: "Altikennet",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0803/-4.7381>Altikennet</a>",
+          "<a id=Altikennet href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0803/-4.7381>Altikennet</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2608,9 +2608,9 @@ var text = {
         fid: "114",
         Text: "Meeting House belonging to Commonel",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0856/-4.7648>Meeting House belonging to Commonel</a>",
+          "<a id=Meeting House belonging to Commonel href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0856/-4.7648>Meeting House belonging to Commonel</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2631,9 +2631,9 @@ var text = {
         fid: "115",
         Text: "Scarhead",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.089/-4.7858>Scarhead</a>",
+          "<a id=Scarhead href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.089/-4.7858>Scarhead</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2654,9 +2654,9 @@ var text = {
         fid: "116",
         Text: "Barr Hill",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0912/-4.7714>Barr Hill</a>",
+          "<a id=Barr Hill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0912/-4.7714>Barr Hill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2677,9 +2677,9 @@ var text = {
         fid: "117",
         Text: "Dillangan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0941/-4.7859>Dillangan</a>",
+          "<a id=Dillangan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0941/-4.7859>Dillangan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2700,9 +2700,9 @@ var text = {
         fid: "118",
         Text: "Barbaer",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0994/-4.7903>Barbaer</a>",
+          "<a id=Barbaer href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0994/-4.7903>Barbaer</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2723,9 +2723,9 @@ var text = {
         fid: "119",
         Text: "Dusk",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0947/-4.7676>Dusk</a>",
+          "<a id=Dusk href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0947/-4.7676>Dusk</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2746,9 +2746,9 @@ var text = {
         fid: "120",
         Text: "Blair",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0978/-4.7538>Blair</a>",
+          "<a id=Blair href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0978/-4.7538>Blair</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2769,9 +2769,9 @@ var text = {
         fid: "121",
         Text: "Kilintringin",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0972/-4.7326>Kilintringin</a>",
+          "<a id=Kilintringin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0972/-4.7326>Kilintringin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2792,9 +2792,9 @@ var text = {
         fid: "122",
         Text: "Dam",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1042/-4.7258>Dam</a>",
+          "<a id=Dam href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1042/-4.7258>Dam</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2815,9 +2815,9 @@ var text = {
         fid: "123",
         Text: "Loughton",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1039/-4.8262>Loughton</a>",
+          "<a id=Loughton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1039/-4.8262>Loughton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2838,9 +2838,9 @@ var text = {
         fid: "124",
         Text: "Bellimarry",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1079/-4.8144>Bellimarry</a>",
+          "<a id=Bellimarry href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1079/-4.8144>Bellimarry</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2861,9 +2861,9 @@ var text = {
         fid: "125",
         Text: "Leig",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1116/-4.8271>Leig</a>",
+          "<a id=Leig href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1116/-4.8271>Leig</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2884,9 +2884,9 @@ var text = {
         fid: "126",
         Text: "Kildonan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1084/-4.7885>Kildonan</a>",
+          "<a id=Kildonan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1084/-4.7885>Kildonan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2907,9 +2907,9 @@ var text = {
         fid: "127",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1079/-4.7767>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1079/-4.7767>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2930,9 +2930,9 @@ var text = {
         fid: "128",
         Text: "Dusk R.",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1123/-4.8082>Dusk R.</a>",
+          "<a id=Dusk R. href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1123/-4.8082>Dusk R.</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2953,9 +2953,9 @@ var text = {
         fid: "129",
         Text: "Belhamage",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1111/-4.7929>Belhamage</a>",
+          "<a id=Belhamage href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1111/-4.7929>Belhamage</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2976,9 +2976,9 @@ var text = {
         fid: "130",
         Text: "Shillwood",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1169/-4.8048>Shillwood</a>",
+          "<a id=Shillwood href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1169/-4.8048>Shillwood</a>",
       },
       geometry: {
         type: "Polygon",
@@ -2999,9 +2999,9 @@ var text = {
         fid: "131",
         Text: "Dusk",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1239/-4.8232>Dusk</a>",
+          "<a id=Dusk href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1239/-4.8232>Dusk</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3022,9 +3022,9 @@ var text = {
         fid: "132",
         Text: "Coofs",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1284/-4.8231>Coofs</a>",
+          "<a id=Coofs href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1284/-4.8231>Coofs</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3045,9 +3045,9 @@ var text = {
         fid: "133",
         Text: "Glendusk",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1284/-4.8084>Glendusk</a>",
+          "<a id=Glendusk href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1284/-4.8084>Glendusk</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3068,9 +3068,9 @@ var text = {
         fid: "134",
         Text: "Barby",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1308/-4.7943>Barby</a>",
+          "<a id=Barby href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1308/-4.7943>Barby</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3091,9 +3091,9 @@ var text = {
         fid: "135",
         Text: "Dawhine",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1251/-4.7315>Dawhine</a>",
+          "<a id=Dawhine href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1251/-4.7315>Dawhine</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3114,9 +3114,9 @@ var text = {
         fid: "136",
         Text: "Belmulloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1237/-4.711>Belmulloch</a>",
+          "<a id=Belmulloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1237/-4.711>Belmulloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3137,9 +3137,9 @@ var text = {
         fid: "137",
         Text: "Spay Well Much frequented in Summer",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.135/-4.712>Spay Well Much frequented in Summer</a>",
+          "<a id=Spay Well Much frequented in Summer href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.135/-4.712>Spay Well Much frequented in Summer</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3160,9 +3160,9 @@ var text = {
         fid: "138",
         Text: "Altikean",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1356/-4.8459>Altikean</a>",
+          "<a id=Altikean href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1356/-4.8459>Altikean</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3183,9 +3183,9 @@ var text = {
         fid: "139",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1375/-4.8413>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1375/-4.8413>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3206,9 +3206,9 @@ var text = {
         fid: "140",
         Text: "Dangart",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1389/-4.8524>Dangart</a>",
+          "<a id=Dangart href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1389/-4.8524>Dangart</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3229,9 +3229,9 @@ var text = {
         fid: "141",
         Text: "Penwhirn",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1397/-4.8415>Penwhirn</a>",
+          "<a id=Penwhirn href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1397/-4.8415>Penwhirn</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3252,9 +3252,9 @@ var text = {
         fid: "142",
         Text: "Leglatry",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1343/-4.8271>Leglatry</a>",
+          "<a id=Leglatry href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1343/-4.8271>Leglatry</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3275,9 +3275,9 @@ var text = {
         fid: "143",
         Text: "Farden",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.139/-4.8241>Farden</a>",
+          "<a id=Farden href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.139/-4.8241>Farden</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3298,9 +3298,9 @@ var text = {
         fid: "144",
         Text: "Conachy",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1339/-4.7897>Conachy</a>",
+          "<a id=Conachy href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1339/-4.7897>Conachy</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3321,9 +3321,9 @@ var text = {
         fid: "145",
         Text: "Hallow Chapel",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1427/-4.8126>Hallow Chapel</a>",
+          "<a id=Hallow Chapel href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1427/-4.8126>Hallow Chapel</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3344,9 +3344,9 @@ var text = {
         fid: "146",
         Text: "Almont",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1516/-4.8418>Almont</a>",
+          "<a id=Almont href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1516/-4.8418>Almont</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3367,9 +3367,9 @@ var text = {
         fid: "147",
         Text: "Lump",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1403/-4.7681>Lump</a>",
+          "<a id=Lump href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1403/-4.7681>Lump</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3390,9 +3390,9 @@ var text = {
         fid: "148",
         Text: "Ballimore",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1495/-4.7871>Ballimore</a>",
+          "<a id=Ballimore href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1495/-4.7871>Ballimore</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3413,9 +3413,9 @@ var text = {
         fid: "149",
         Text: "Garlathan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.15/-4.7673>Garlathan</a>",
+          "<a id=Garlathan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.15/-4.7673>Garlathan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3436,9 +3436,9 @@ var text = {
         fid: "150",
         Text: "Cawan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1543/-4.7534>Cawan</a>",
+          "<a id=Cawan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1543/-4.7534>Cawan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3459,9 +3459,9 @@ var text = {
         fid: "151",
         Text: "G. Shilloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1426/-4.7232>G. Shilloch</a>",
+          "<a id=G. Shilloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1426/-4.7232>G. Shilloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3482,9 +3482,9 @@ var text = {
         fid: "152",
         Text: "Muck R.",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1537/-4.7737>Muck R.</a>",
+          "<a id=Muck R. href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1537/-4.7737>Muck R.</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3505,9 +3505,9 @@ var text = {
         fid: "153",
         Text: "Doughraniel",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1578/-4.7955>Doughraniel</a>",
+          "<a id=Doughraniel href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1578/-4.7955>Doughraniel</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3528,9 +3528,9 @@ var text = {
         fid: "154",
         Text: "Kilbride",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1593/-4.7604>Kilbride</a>",
+          "<a id=Kilbride href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1593/-4.7604>Kilbride</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3551,9 +3551,9 @@ var text = {
         fid: "155",
         Text: "Daljerick",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1616/-4.8369>Daljerick</a>",
+          "<a id=Daljerick href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1616/-4.8369>Daljerick</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3574,9 +3574,9 @@ var text = {
         fid: "156",
         Text: "L. Shalloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.162/-4.7329>L. Shalloch</a>",
+          "<a id=L. Shalloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.162/-4.7329>L. Shalloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3597,9 +3597,9 @@ var text = {
         fid: "157",
         Text: "Merk",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1717/-4.7446>Merk</a>",
+          "<a id=Merk href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1717/-4.7446>Merk</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3620,9 +3620,9 @@ var text = {
         fid: "158",
         Text: "Pinmore",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1735/-4.7926>Pinmore</a>",
+          "<a id=Pinmore href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1735/-4.7926>Pinmore</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3643,9 +3643,9 @@ var text = {
         fid: "159",
         Text: "At the Nick of Darlae & half a Mile West, the Road leads on the Side of a very steep Hill, its not above two feet broad and if you stumble you must fall almost Perpendicular six or seven Hundred Feet.",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1613/-4.6955>At the Nick of Darlae & half a Mile West, the Road leads on the Side of a very steep Hill, its not above two feet broad and if you stumble you must fall almost Perpendicular six or seven Hundred Feet.</a>",
+          "<a id=At the Nick of Darlae & half a Mile West, the Road leads on the Side of a very steep Hill, its not above two feet broad and if you stumble you must fall almost Perpendicular six or seven Hundred Feet. href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1613/-4.6955>At the Nick of Darlae & half a Mile West, the Road leads on the Side of a very steep Hill, its not above two feet broad and if you stumble you must fall almost Perpendicular six or seven Hundred Feet.</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3666,9 +3666,9 @@ var text = {
         fid: "160",
         Text: "Lambdoughty",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1748/-4.7497>Lambdoughty</a>",
+          "<a id=Lambdoughty href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1748/-4.7497>Lambdoughty</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3689,9 +3689,9 @@ var text = {
         fid: "161",
         Text: "L. Dusk",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0833/-4.7113>L. Dusk</a>",
+          "<a id=L. Dusk href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0833/-4.7113>L. Dusk</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3712,9 +3712,9 @@ var text = {
         fid: "162",
         Text: "Knockcoid",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0806/-4.696>Knockcoid</a>",
+          "<a id=Knockcoid href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0806/-4.696>Knockcoid</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3735,9 +3735,9 @@ var text = {
         fid: "163",
         Text: "Barwinnock",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0771/-4.6491>Barwinnock</a>",
+          "<a id=Barwinnock href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.0771/-4.6491>Barwinnock</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3758,9 +3758,9 @@ var text = {
         fid: "164",
         Text: "Crangrish",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.104/-4.7118>Crangrish</a>",
+          "<a id=Crangrish href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.104/-4.7118>Crangrish</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3781,9 +3781,9 @@ var text = {
         fid: "165",
         Text: "Halfmark",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1072/-4.6973>Halfmark</a>",
+          "<a id=Halfmark href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1072/-4.6973>Halfmark</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3804,9 +3804,9 @@ var text = {
         fid: "166",
         Text: "Arnimachen",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1078/-4.6781>Arnimachen</a>",
+          "<a id=Arnimachen href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1078/-4.6781>Arnimachen</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3827,9 +3827,9 @@ var text = {
         fid: "167",
         Text: "Knockglass",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1126/-4.6659>Knockglass</a>",
+          "<a id=Knockglass href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1126/-4.6659>Knockglass</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3850,9 +3850,9 @@ var text = {
         fid: "168",
         Text: "B. Clackrie",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1262/-4.6531>B. Clackrie</a>",
+          "<a id=B. Clackrie href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1262/-4.6531>B. Clackrie</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3873,9 +3873,9 @@ var text = {
         fid: "169",
         Text: "Loch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1288/-4.6787>Loch</a>",
+          "<a id=Loch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1288/-4.6787>Loch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3896,9 +3896,9 @@ var text = {
         fid: "170",
         Text: "W. Clachrie",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1357/-4.6546>W. Clachrie</a>",
+          "<a id=W. Clachrie href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1357/-4.6546>W. Clachrie</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3919,9 +3919,9 @@ var text = {
         fid: "171",
         Text: "Halfmark",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1395/-4.6949>Halfmark</a>",
+          "<a id=Halfmark href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1395/-4.6949>Halfmark</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3942,9 +3942,9 @@ var text = {
         fid: "172",
         Text: "Tyfoil",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.14/-4.6778>Tyfoil</a>",
+          "<a id=Tyfoil href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.14/-4.6778>Tyfoil</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3965,9 +3965,9 @@ var text = {
         fid: "173",
         Text: "Lochmoan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1412/-4.6161>Lochmoan</a>",
+          "<a id=Lochmoan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1412/-4.6161>Lochmoan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -3988,9 +3988,9 @@ var text = {
         fid: "174",
         Text: "Farden",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1444/-4.6264>Farden</a>",
+          "<a id=Farden href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1444/-4.6264>Farden</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4011,9 +4011,9 @@ var text = {
         fid: "175",
         Text: "Cairnfore",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1487/-4.6129>Cairnfore</a>",
+          "<a id=Cairnfore href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1487/-4.6129>Cairnfore</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4034,9 +4034,9 @@ var text = {
         fid: "176",
         Text: "Terrefesoch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1509/-4.5821>Terrefesoch</a>",
+          "<a id=Terrefesoch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1509/-4.5821>Terrefesoch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4057,9 +4057,9 @@ var text = {
         fid: "177",
         Text: "Craigenrae",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1581/-4.6098>Craigenrae</a>",
+          "<a id=Craigenrae href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1581/-4.6098>Craigenrae</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4080,9 +4080,9 @@ var text = {
         fid: "178",
         Text: "Shalloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1664/-4.5713>Shalloch</a>",
+          "<a id=Shalloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1664/-4.5713>Shalloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4103,9 +4103,9 @@ var text = {
         fid: "179",
         Text: "Darlae",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1697/-4.6854>Darlae</a>",
+          "<a id=Darlae href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1697/-4.6854>Darlae</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4126,9 +4126,9 @@ var text = {
         fid: "180",
         Text: "Brough",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1838/-4.8771>Brough</a>",
+          "<a id=Brough href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1838/-4.8771>Brough</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4149,9 +4149,9 @@ var text = {
         fid: "181",
         Text: "Craig",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1857/-4.888>Craig</a>",
+          "<a id=Craig href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1857/-4.888>Craig</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4172,9 +4172,9 @@ var text = {
         fid: "182",
         Text: "Laights",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1842/-4.8553>Laights</a>",
+          "<a id=Laights href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1842/-4.8553>Laights</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4195,9 +4195,9 @@ var text = {
         fid: "183",
         Text: "Panjarra",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1838/-4.8406>Panjarra</a>",
+          "<a id=Panjarra href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1838/-4.8406>Panjarra</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4218,9 +4218,9 @@ var text = {
         fid: "184",
         Text: "Ardmillan Hills",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1935/-4.8688>Ardmillan Hills</a>",
+          "<a id=Ardmillan Hills href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1935/-4.8688>Ardmillan Hills</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4241,9 +4241,9 @@ var text = {
         fid: "185",
         Text: "Drumfern",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2103/-4.8644>Drumfern</a>",
+          "<a id=Drumfern href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2103/-4.8644>Drumfern</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4264,9 +4264,9 @@ var text = {
         fid: "186",
         Text: "Ardmillan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2136/-4.893>Ardmillan</a>",
+          "<a id=Ardmillan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2136/-4.893>Ardmillan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4287,9 +4287,9 @@ var text = {
         fid: "187",
         Text: "Shalloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2164/-4.875>Shalloch</a>",
+          "<a id=Shalloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2164/-4.875>Shalloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4310,9 +4310,9 @@ var text = {
         fid: "188",
         Text: "Glendryshock",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2215/-4.8612>Glendryshock</a>",
+          "<a id=Glendryshock href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2215/-4.8612>Glendryshock</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4333,9 +4333,9 @@ var text = {
         fid: "189",
         Text: "Pymont",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2259/-4.8689>Pymont</a>",
+          "<a id=Pymont href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2259/-4.8689>Pymont</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4356,9 +4356,9 @@ var text = {
         fid: "190",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2279/-4.8628>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2279/-4.8628>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4379,9 +4379,9 @@ var text = {
         fid: "191",
         Text: "Camp",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2329/-4.8701>Camp</a>",
+          "<a id=Camp href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2329/-4.8701>Camp</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4402,9 +4402,9 @@ var text = {
         fid: "192",
         Text: "Girvan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2387/-4.8671>Girvan</a>",
+          "<a id=Girvan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2387/-4.8671>Girvan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4425,9 +4425,9 @@ var text = {
         fid: "193",
         Text: "Knockbrakie",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2392/-4.8464>Knockbrakie</a>",
+          "<a id=Knockbrakie href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2392/-4.8464>Knockbrakie</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4448,9 +4448,9 @@ var text = {
         fid: "194",
         Text: "Side",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2446/-4.8498>Side</a>",
+          "<a id=Side href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2446/-4.8498>Side</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4471,9 +4471,9 @@ var text = {
         fid: "195",
         Text: "Park",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2533/-4.8757>Park</a>",
+          "<a id=Park href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2533/-4.8757>Park</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4494,9 +4494,9 @@ var text = {
         fid: "196",
         Text: "Side",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2543/-4.8448>Side</a>",
+          "<a id=Side href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2543/-4.8448>Side</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4517,9 +4517,9 @@ var text = {
         fid: "197",
         Text: "Mains",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.256/-4.8559>Mains</a>",
+          "<a id=Mains href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.256/-4.8559>Mains</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4540,9 +4540,9 @@ var text = {
         fid: "198",
         Text: "Camp",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2615/-4.8581>Camp</a>",
+          "<a id=Camp href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2615/-4.8581>Camp</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4563,9 +4563,9 @@ var text = {
         fid: "199",
         Text: "Chappel",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2606/-4.8437>Chappel</a>",
+          "<a id=Chappel href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2606/-4.8437>Chappel</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4586,9 +4586,9 @@ var text = {
         fid: "200",
         Text: "Hill",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2581/-4.8472>Hill</a>",
+          "<a id=Hill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2581/-4.8472>Hill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4609,9 +4609,9 @@ var text = {
         fid: "201",
         Text: "Penclanty",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.178/-4.7719>Penclanty</a>",
+          "<a id=Penclanty href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.178/-4.7719>Penclanty</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4632,9 +4632,9 @@ var text = {
         fid: "202",
         Text: "Balloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1808/-4.7737>Balloch</a>",
+          "<a id=Balloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1808/-4.7737>Balloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4655,9 +4655,9 @@ var text = {
         fid: "203",
         Text: "Kilpatrick",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1838/-4.7896>Kilpatrick</a>",
+          "<a id=Kilpatrick href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1838/-4.7896>Kilpatrick</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4678,9 +4678,9 @@ var text = {
         fid: "204",
         Text: "Terboick",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1807/-4.7471>Terboick</a>",
+          "<a id=Terboick href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1807/-4.7471>Terboick</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4701,9 +4701,9 @@ var text = {
         fid: "205",
         Text: "Cairn",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1839/-4.769>Cairn</a>",
+          "<a id=Cairn href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1839/-4.769>Cairn</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4724,9 +4724,9 @@ var text = {
         fid: "206",
         Text: "Holms",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1881/-4.7581>Holms</a>",
+          "<a id=Holms href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1881/-4.7581>Holms</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4747,9 +4747,9 @@ var text = {
         fid: "207",
         Text: "Kirklands",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1905/-4.7727>Kirklands</a>",
+          "<a id=Kirklands href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1905/-4.7727>Kirklands</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4770,9 +4770,9 @@ var text = {
         fid: "208",
         Text: "Dowlar",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1888/-4.7354>Dowlar</a>",
+          "<a id=Dowlar href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1888/-4.7354>Dowlar</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4793,9 +4793,9 @@ var text = {
         fid: "209",
         Text: "Kirkdominie",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1946/-4.7642>Kirkdominie</a>",
+          "<a id=Kirkdominie href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1946/-4.7642>Kirkdominie</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4816,9 +4816,9 @@ var text = {
         fid: "210",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1928/-4.7612>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1928/-4.7612>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4839,9 +4839,9 @@ var text = {
         fid: "211",
         Text: "Auchensoule",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1964/-4.7529>Auchensoule</a>",
+          "<a id=Auchensoule href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1964/-4.7529>Auchensoule</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4862,9 +4862,9 @@ var text = {
         fid: "212",
         Text: "Albany",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1952/-4.7171>Albany</a>",
+          "<a id=Albany href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1952/-4.7171>Albany</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4885,9 +4885,9 @@ var text = {
         fid: "213",
         Text: "Dinmurchie",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1874/-4.7004>Dinmurchie</a>",
+          "<a id=Dinmurchie href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1874/-4.7004>Dinmurchie</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4908,9 +4908,9 @@ var text = {
         fid: "214",
         Text: "Barr",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1962/-4.6994>Barr</a>",
+          "<a id=Barr href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1962/-4.6994>Barr</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4931,9 +4931,9 @@ var text = {
         fid: "215",
         Text: "As Hills",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1979/-4.7821>As Hills</a>",
+          "<a id=As Hills href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1979/-4.7821>As Hills</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4954,9 +4954,9 @@ var text = {
         fid: "216",
         Text: "Letterpin",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2004/-4.808>Letterpin</a>",
+          "<a id=Letterpin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2004/-4.808>Letterpin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -4977,9 +4977,9 @@ var text = {
         fid: "217",
         Text: "Bilcarby",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2079/-4.8475>Bilcarby</a>",
+          "<a id=Bilcarby href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2079/-4.8475>Bilcarby</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5000,9 +5000,9 @@ var text = {
         fid: "218",
         Text: "Drumfern",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2078/-4.8241>Drumfern</a>",
+          "<a id=Drumfern href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2078/-4.8241>Drumfern</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5023,9 +5023,9 @@ var text = {
         fid: "219",
         Text: "Delfask",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2067/-4.7758>Delfask</a>",
+          "<a id=Delfask href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2067/-4.7758>Delfask</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5046,9 +5046,9 @@ var text = {
         fid: "220",
         Text: "Auchenmoody",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2086/-4.7465>Auchenmoody</a>",
+          "<a id=Auchenmoody href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2086/-4.7465>Auchenmoody</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5069,9 +5069,9 @@ var text = {
         fid: "221",
         Text: "Benmaughrie",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2193/-4.841>Benmaughrie</a>",
+          "<a id=Benmaughrie href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2193/-4.841>Benmaughrie</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5092,9 +5092,9 @@ var text = {
         fid: "222",
         Text: "Camp",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2183/-4.8218>Camp</a>",
+          "<a id=Camp href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2183/-4.8218>Camp</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5115,9 +5115,9 @@ var text = {
         fid: "223",
         Text: "Tirmichael",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2158/-4.783>Tirmichael</a>",
+          "<a id=Tirmichael href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2158/-4.783>Tirmichael</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5138,9 +5138,9 @@ var text = {
         fid: "224",
         Text: "Belcletchie",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2207/-4.7574>Belcletchie</a>",
+          "<a id=Belcletchie href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2207/-4.7574>Belcletchie</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5161,9 +5161,9 @@ var text = {
         fid: "225",
         Text: "Pengerroch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2146/-4.7141>Pengerroch</a>",
+          "<a id=Pengerroch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2146/-4.7141>Pengerroch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5184,9 +5184,9 @@ var text = {
         fid: "226",
         Text: "Littleton",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2263/-4.7868>Littleton</a>",
+          "<a id=Littleton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2263/-4.7868>Littleton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5207,9 +5207,9 @@ var text = {
         fid: "227",
         Text: "Bilgarvy",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.228/-4.7647>Bilgarvy</a>",
+          "<a id=Bilgarvy href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.228/-4.7647>Bilgarvy</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5230,9 +5230,9 @@ var text = {
         fid: "228",
         Text: "Brae",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2408/-4.8272>Brae</a>",
+          "<a id=Brae href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2408/-4.8272>Brae</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5253,9 +5253,9 @@ var text = {
         fid: "229",
         Text: "Camragan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.238/-4.8162>Camragan</a>",
+          "<a id=Camragan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.238/-4.8162>Camragan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5276,9 +5276,9 @@ var text = {
         fid: "230",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2399/-4.8118>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2399/-4.8118>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5299,9 +5299,9 @@ var text = {
         fid: "231",
         Text: "Pinkill",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2386/-4.7967>Pinkill</a>",
+          "<a id=Pinkill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2386/-4.7967>Pinkill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5322,9 +5322,9 @@ var text = {
         fid: "232",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2381/-4.7871>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2381/-4.7871>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5345,9 +5345,9 @@ var text = {
         fid: "233",
         Text: "Killoup",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2439/-4.8148>Killoup</a>",
+          "<a id=Killoup href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2439/-4.8148>Killoup</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5368,9 +5368,9 @@ var text = {
         fid: "234",
         Text: "Hawkhill",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2441/-4.7955>Hawkhill</a>",
+          "<a id=Hawkhill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2441/-4.7955>Hawkhill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5391,9 +5391,9 @@ var text = {
         fid: "235",
         Text: "Old Daily",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2476/-4.8093>Old Daily</a>",
+          "<a id=Old Daily href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2476/-4.8093>Old Daily</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5414,9 +5414,9 @@ var text = {
         fid: "236",
         Text: "Dalwhir",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.25/-4.8077>Dalwhir</a>",
+          "<a id=Dalwhir href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.25/-4.8077>Dalwhir</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5437,9 +5437,9 @@ var text = {
         fid: "237",
         Text: "Enoch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2504/-4.8357>Enoch</a>",
+          "<a id=Enoch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2504/-4.8357>Enoch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5460,9 +5460,9 @@ var text = {
         fid: "238",
         Text: "Brakenbrae",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2427/-4.759>Brakenbrae</a>",
+          "<a id=Brakenbrae href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2427/-4.759>Brakenbrae</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5483,9 +5483,9 @@ var text = {
         fid: "239",
         Text: "Hadyad",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2439/-4.7362>Hadyad</a>",
+          "<a id=Hadyad href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2439/-4.7362>Hadyad</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5506,9 +5506,9 @@ var text = {
         fid: "240",
         Text: "Dumlamford",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2476/-4.7141>Dumlamford</a>",
+          "<a id=Dumlamford href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2476/-4.7141>Dumlamford</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5529,9 +5529,9 @@ var text = {
         fid: "241",
         Text: "Grindstone",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2558/-4.8356>Grindstone</a>",
+          "<a id=Grindstone href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2558/-4.8356>Grindstone</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5552,9 +5552,9 @@ var text = {
         fid: "242",
         Text: "Boyd's Hall",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2548/-4.8149>Boyd's Hall</a>",
+          "<a id=Boyd's Hall href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2548/-4.8149>Boyd's Hall</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5575,9 +5575,9 @@ var text = {
         fid: "243",
         Text: "Lovestoun",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2501/-4.7665>Lovestoun</a>",
+          "<a id=Lovestoun href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2501/-4.7665>Lovestoun</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5598,9 +5598,9 @@ var text = {
         fid: "244",
         Text: "Gallenston",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2499/-4.7502>Gallenston</a>",
+          "<a id=Gallenston href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2499/-4.7502>Gallenston</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5621,9 +5621,9 @@ var text = {
         fid: "245",
         Text: "Caraw",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2542/-4.7359>Caraw</a>",
+          "<a id=Caraw href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2542/-4.7359>Caraw</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5644,9 +5644,9 @@ var text = {
         fid: "246",
         Text: "Craig",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2538/-4.7081>Craig</a>",
+          "<a id=Craig href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2538/-4.7081>Craig</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5667,9 +5667,9 @@ var text = {
         fid: "247",
         Text: "Girvan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2568/-4.7794>Girvan</a>",
+          "<a id=Girvan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2568/-4.7794>Girvan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5690,9 +5690,9 @@ var text = {
         fid: "248",
         Text: "Kilochah",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2612/-4.8022>Kilochah</a>",
+          "<a id=Kilochah href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2612/-4.8022>Kilochah</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5713,9 +5713,9 @@ var text = {
         fid: "249",
         Text: "Trochrig",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2667/-4.8253>Trochrig</a>",
+          "<a id=Trochrig href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2667/-4.8253>Trochrig</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5736,9 +5736,9 @@ var text = {
         fid: "250",
         Text: "Woodside",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2667/-4.8029>Woodside</a>",
+          "<a id=Woodside href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2667/-4.8029>Woodside</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5759,9 +5759,9 @@ var text = {
         fid: "251",
         Text: "Sandbed",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2619/-4.7728>Sandbed</a>",
+          "<a id=Sandbed href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2619/-4.7728>Sandbed</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5782,9 +5782,9 @@ var text = {
         fid: "252",
         Text: "Belcamy",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2584/-4.7004>Belcamy</a>",
+          "<a id=Belcamy href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2584/-4.7004>Belcamy</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5805,9 +5805,9 @@ var text = {
         fid: "253",
         Text: "Park",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2617/-4.7167>Park</a>",
+          "<a id=Park href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2617/-4.7167>Park</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5828,9 +5828,9 @@ var text = {
         fid: "254",
         Text: "Daily",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2642/-4.7163>Daily</a>",
+          "<a id=Daily href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2642/-4.7163>Daily</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5851,9 +5851,9 @@ var text = {
         fid: "255",
         Text: "Bargeny",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2681/-4.7629>Bargeny</a>",
+          "<a id=Bargeny href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2681/-4.7629>Bargeny</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5874,9 +5874,9 @@ var text = {
         fid: "256",
         Text: "Lime Kilns",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2724/-4.7687>Lime Kilns</a>",
+          "<a id=Lime Kilns href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2724/-4.7687>Lime Kilns</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5901,9 +5901,9 @@ var text = {
         fid: "257",
         Text: "Craig",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2737/-4.7798>Craig</a>",
+          "<a id=Craig href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2737/-4.7798>Craig</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5924,9 +5924,9 @@ var text = {
         fid: "258",
         Text: "Blair",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2763/-4.7728>Blair</a>",
+          "<a id=Blair href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2763/-4.7728>Blair</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5947,9 +5947,9 @@ var text = {
         fid: "259",
         Text: "Drongan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2627/-4.7307>Drongan</a>",
+          "<a id=Drongan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2627/-4.7307>Drongan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5970,9 +5970,9 @@ var text = {
         fid: "260",
         Text: "Carrough",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2729/-4.8338>Carrough</a>",
+          "<a id=Carrough href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2729/-4.8338>Carrough</a>",
       },
       geometry: {
         type: "Polygon",
@@ -5993,9 +5993,9 @@ var text = {
         fid: "261",
         Text: "Woodhead",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2733/-4.8007>Woodhead</a>",
+          "<a id=Woodhead href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2733/-4.8007>Woodhead</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6016,9 +6016,9 @@ var text = {
         fid: "262",
         Text: "Sned",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.277/-4.8119>Sned</a>",
+          "<a id=Sned href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.277/-4.8119>Sned</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6039,9 +6039,9 @@ var text = {
         fid: "263",
         Text: "Blair",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2774/-4.7985>Blair</a>",
+          "<a id=Blair href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2774/-4.7985>Blair</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6062,9 +6062,9 @@ var text = {
         fid: "264",
         Text: "Manse",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2702/-4.7174>Manse</a>",
+          "<a id=Manse href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2702/-4.7174>Manse</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6085,9 +6085,9 @@ var text = {
         fid: "265",
         Text: "Roan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2698/-4.7047>Roan</a>",
+          "<a id=Roan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2698/-4.7047>Roan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6108,9 +6108,9 @@ var text = {
         fid: "266",
         Text: "Lochstone",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1846/-4.6927>Lochstone</a>",
+          "<a id=Lochstone href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1846/-4.6927>Lochstone</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6131,9 +6131,9 @@ var text = {
         fid: "267",
         Text: "Gregg",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.185/-4.6783>Gregg</a>",
+          "<a id=Gregg href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.185/-4.6783>Gregg</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6154,9 +6154,9 @@ var text = {
         fid: "268",
         Text: "Rowentree",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1703/-4.5945>Rowentree</a>",
+          "<a id=Rowentree href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1703/-4.5945>Rowentree</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6177,9 +6177,9 @@ var text = {
         fid: "269",
         Text: "Dalgarvan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1907/-4.6934>Dalgarvan</a>",
+          "<a id=Dalgarvan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1907/-4.6934>Dalgarvan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6200,9 +6200,9 @@ var text = {
         fid: "270",
         Text: "Shang",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1923/-4.6793>Shang</a>",
+          "<a id=Shang href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1923/-4.6793>Shang</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6223,9 +6223,9 @@ var text = {
         fid: "271",
         Text: "Mill",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2025/-4.6854>Mill</a>",
+          "<a id=Mill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2025/-4.6854>Mill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6246,9 +6246,9 @@ var text = {
         fid: "272",
         Text: "Barr",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.206/-4.6757>Barr</a>",
+          "<a id=Barr href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.206/-4.6757>Barr</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6269,9 +6269,9 @@ var text = {
         fid: "273",
         Text: "Knockine",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2085/-4.6352>Knockine</a>",
+          "<a id=Knockine href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2085/-4.6352>Knockine</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6292,9 +6292,9 @@ var text = {
         fid: "274",
         Text: "Balskaig",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2083/-4.6148>Balskaig</a>",
+          "<a id=Balskaig href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2083/-4.6148>Balskaig</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6315,9 +6315,9 @@ var text = {
         fid: "275",
         Text: "Clasgulloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2086/-4.5949>Clasgulloch</a>",
+          "<a id=Clasgulloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2086/-4.5949>Clasgulloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6338,9 +6338,9 @@ var text = {
         fid: "276",
         Text: "S. Balloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2124/-4.5901>S. Balloch</a>",
+          "<a id=S. Balloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2124/-4.5901>S. Balloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6361,9 +6361,9 @@ var text = {
         fid: "277",
         Text: "Glengenet",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2128/-4.689>Glengenet</a>",
+          "<a id=Glengenet href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2128/-4.689>Glengenet</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6384,9 +6384,9 @@ var text = {
         fid: "278",
         Text: "Milton",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2135/-4.6652>Milton</a>",
+          "<a id=Milton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2135/-4.6652>Milton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6407,9 +6407,9 @@ var text = {
         fid: "279",
         Text: "Stincher R.",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.215/-4.652>Stincher R.</a>",
+          "<a id=Stincher R. href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.215/-4.652>Stincher R.</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6430,9 +6430,9 @@ var text = {
         fid: "280",
         Text: "Miljoan",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2153/-4.6792>Miljoan</a>",
+          "<a id=Miljoan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2153/-4.6792>Miljoan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6453,9 +6453,9 @@ var text = {
         fid: "281",
         Text: "Penhanet",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2149/-4.6339>Penhanet</a>",
+          "<a id=Penhanet href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2149/-4.6339>Penhanet</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6476,9 +6476,9 @@ var text = {
         fid: "282",
         Text: "Markland",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2194/-4.6373>Markland</a>",
+          "<a id=Markland href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2194/-4.6373>Markland</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6499,9 +6499,9 @@ var text = {
         fid: "283",
         Text: "Penvally",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2158/-4.5624>Penvally</a>",
+          "<a id=Penvally href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2158/-4.5624>Penvally</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6522,9 +6522,9 @@ var text = {
         fid: "284",
         Text: "Balloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2184/-4.5843>Balloch</a>",
+          "<a id=Balloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2184/-4.5843>Balloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6545,9 +6545,9 @@ var text = {
         fid: "285",
         Text: "Cairnscult",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2208/-4.605>Cairnscult</a>",
+          "<a id=Cairnscult href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2208/-4.605>Cairnscult</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6568,9 +6568,9 @@ var text = {
         fid: "286",
         Text: "Jerburgh",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.224/-4.6209>Jerburgh</a>",
+          "<a id=Jerburgh href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.224/-4.6209>Jerburgh</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6591,9 +6591,9 @@ var text = {
         fid: "287",
         Text: "Corfin",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.222/-4.671>Corfin</a>",
+          "<a id=Corfin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.222/-4.671>Corfin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6614,9 +6614,9 @@ var text = {
         fid: "288",
         Text: "Glengenet",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.225/-4.6723>Glengenet</a>",
+          "<a id=Glengenet href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.225/-4.6723>Glengenet</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6637,9 +6637,9 @@ var text = {
         fid: "289",
         Text: "Dalwharn",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2296/-4.6021>Dalwharn</a>",
+          "<a id=Dalwharn href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2296/-4.6021>Dalwharn</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6660,9 +6660,9 @@ var text = {
         fid: "290",
         Text: "Dalwyne",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2372/-4.5703>Dalwyne</a>",
+          "<a id=Dalwyne href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2372/-4.5703>Dalwyne</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6683,9 +6683,9 @@ var text = {
         fid: "291",
         Text: "Pinblaith",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2386/-4.673>Pinblaith</a>",
+          "<a id=Pinblaith href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2386/-4.673>Pinblaith</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6706,9 +6706,9 @@ var text = {
         fid: "292",
         Text: "Drumbain",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2494/-4.6705>Drumbain</a>",
+          "<a id=Drumbain href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2494/-4.6705>Drumbain</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6729,9 +6729,9 @@ var text = {
         fid: "293",
         Text: "Lindsaytoun",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2511/-4.6916>Lindsaytoun</a>",
+          "<a id=Lindsaytoun href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2511/-4.6916>Lindsaytoun</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6752,9 +6752,9 @@ var text = {
         fid: "294",
         Text: "Dobinstoun",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2489/-4.6421>Dobinstoun</a>",
+          "<a id=Dobinstoun href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2489/-4.6421>Dobinstoun</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6775,9 +6775,9 @@ var text = {
         fid: "295",
         Text: "Doughty",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.248/-4.6>Doughty</a>",
+          "<a id=Doughty href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.248/-4.6>Doughty</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6798,9 +6798,9 @@ var text = {
         fid: "296",
         Text: "Auchengrain",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2478/-4.569>Auchengrain</a>",
+          "<a id=Auchengrain href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2478/-4.569>Auchengrain</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6821,9 +6821,9 @@ var text = {
         fid: "297",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2519/-4.6729>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2519/-4.6729>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6844,9 +6844,9 @@ var text = {
         fid: "298",
         Text: "Kilkerran",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2537/-4.6632>Kilkerran</a>",
+          "<a id=Kilkerran href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2537/-4.6632>Kilkerran</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6867,9 +6867,9 @@ var text = {
         fid: "299",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2573/-4.677>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2573/-4.677>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6890,9 +6890,9 @@ var text = {
         fid: "300",
         Text: "Knockrocker",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2582/-4.6575>Knockrocker</a>",
+          "<a id=Knockrocker href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2582/-4.6575>Knockrocker</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6913,9 +6913,9 @@ var text = {
         fid: "301",
         Text: "Mauchrikill",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2609/-4.6827>Mauchrikill</a>",
+          "<a id=Mauchrikill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2609/-4.6827>Mauchrikill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6936,9 +6936,9 @@ var text = {
         fid: "302",
         Text: "Smithston",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2633/-4.673>Smithston</a>",
+          "<a id=Smithston href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2633/-4.673>Smithston</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6959,9 +6959,9 @@ var text = {
         fid: "303",
         Text: "Palliack",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2613/-4.6025>Palliack</a>",
+          "<a id=Palliack href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2613/-4.6025>Palliack</a>",
       },
       geometry: {
         type: "Polygon",
@@ -6982,9 +6982,9 @@ var text = {
         fid: "304",
         Text: "Merkland",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2675/-4.6616>Merkland</a>",
+          "<a id=Merkland href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2675/-4.6616>Merkland</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7005,9 +7005,9 @@ var text = {
         fid: "305",
         Text: "Langside",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2691/-4.6565>Langside</a>",
+          "<a id=Langside href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2691/-4.6565>Langside</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7028,9 +7028,9 @@ var text = {
         fid: "306",
         Text: "Muirstoun",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2706/-4.6796>Muirstoun</a>",
+          "<a id=Muirstoun href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2706/-4.6796>Muirstoun</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7051,9 +7051,9 @@ var text = {
         fid: "307",
         Text: "The Cairn of the Shalloch & the three Hills South of that, are exceeding barren & rocky, on them are found the beautiful white Moor Fowl called the Termagant, and no where else South of Stirling.",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1978/-4.5439>The Cairn of the Shalloch & the three Hills South of that, are exceeding barren & rocky, on them are found the beautiful white Moor Fowl called the Termagant, and no where else South of Stirling.</a>",
+          "<a id=The Cairn of the Shalloch & the three Hills South of that, are exceeding barren & rocky, on them are found the beautiful white Moor Fowl called the Termagant, and no where else South of Stirling. href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1978/-4.5439>The Cairn of the Shalloch & the three Hills South of that, are exceeding barren & rocky, on them are found the beautiful white Moor Fowl called the Termagant, and no where else South of Stirling.</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7074,9 +7074,9 @@ var text = {
         fid: "308",
         Text: "Shalloch Cairn",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1839/-4.527>Shalloch Cairn</a>",
+          "<a id=Shalloch Cairn href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1839/-4.527>Shalloch Cairn</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7097,9 +7097,9 @@ var text = {
         fid: "309",
         Text: "Tonskin",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.171/-4.4942>Tonskin</a>",
+          "<a id=Tonskin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.171/-4.4942>Tonskin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7120,9 +7120,9 @@ var text = {
         fid: "310",
         Text: "Milquarhar",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1701/-4.4374>Milquarhar</a>",
+          "<a id=Milquarhar href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1701/-4.4374>Milquarhar</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7143,9 +7143,9 @@ var text = {
         fid: "311",
         Text: "Carrick Lane",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1747/-4.4713>Carrick Lane</a>",
+          "<a id=Carrick Lane href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1747/-4.4713>Carrick Lane</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7166,9 +7166,9 @@ var text = {
         fid: "312",
         Text: "Craiginnie",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1817/-4.4352>Craiginnie</a>",
+          "<a id=Craiginnie href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1817/-4.4352>Craiginnie</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7189,9 +7189,9 @@ var text = {
         fid: "313",
         Text: "Slothornrig",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1822/-4.4969>Slothornrig</a>",
+          "<a id=Slothornrig href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1822/-4.4969>Slothornrig</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7212,9 +7212,9 @@ var text = {
         fid: "314",
         Text: "Exceeding deep Mosses & barren Rocks & not capable of improvement, the whole Farm of the Starr containing upwards of 6000 Acres, brings a trifling Rent.",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1886/-4.4683>Exceeding deep Mosses & barren Rocks & not capable of improvement, the whole Farm of the Starr containing upwards of 6000 Acres, brings a trifling Rent.</a>",
+          "<a id=Exceeding deep Mosses & barren Rocks & not capable of improvement, the whole Farm of the Starr containing upwards of 6000 Acres, brings a trifling Rent. href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1886/-4.4683>Exceeding deep Mosses & barren Rocks & not capable of improvement, the whole Farm of the Starr containing upwards of 6000 Acres, brings a trifling Rent.</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7235,9 +7235,9 @@ var text = {
         fid: "315",
         Text: "Cashnaw",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1999/-4.4806>Cashnaw</a>",
+          "<a id=Cashnaw href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1999/-4.4806>Cashnaw</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7258,9 +7258,9 @@ var text = {
         fid: "316",
         Text: "Craigcough",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2026/-4.4953>Craigcough</a>",
+          "<a id=Craigcough href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2026/-4.4953>Craigcough</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7281,9 +7281,9 @@ var text = {
         fid: "317",
         Text: "Caterick",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2023/-4.4665>Caterick</a>",
+          "<a id=Caterick href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2023/-4.4665>Caterick</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7304,9 +7304,9 @@ var text = {
         fid: "318",
         Text: "Macwhirter",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2008/-4.4125>Macwhirter</a>",
+          "<a id=Macwhirter href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2008/-4.4125>Macwhirter</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7327,9 +7327,9 @@ var text = {
         fid: "319",
         Text: "A Hunting Lodge lately built by the E.rl of Cassillis",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2067/-4.4243>A Hunting Lodge lately built by the E.rl of Cassillis</a>",
+          "<a id=A Hunting Lodge lately built by the E.rl of Cassillis href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2067/-4.4243>A Hunting Lodge lately built by the E.rl of Cassillis</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7350,9 +7350,9 @@ var text = {
         fid: "320",
         Text: "Star",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2129/-4.4594>Star</a>",
+          "<a id=Star href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2129/-4.4594>Star</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7373,9 +7373,9 @@ var text = {
         fid: "321",
         Text: "Carrick Lane",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2166/-4.4271>Carrick Lane</a>",
+          "<a id=Carrick Lane href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2166/-4.4271>Carrick Lane</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7396,9 +7396,9 @@ var text = {
         fid: "322",
         Text: "Riccar",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2198/-4.4557>Riccar</a>",
+          "<a id=Riccar href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2198/-4.4557>Riccar</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7419,9 +7419,9 @@ var text = {
         fid: "323",
         Text: "Starr",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2297/-4.404>Starr</a>",
+          "<a id=Starr href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2297/-4.404>Starr</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7442,9 +7442,9 @@ var text = {
         fid: "324",
         Text: "Loch Goose",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2308/-4.4699>Loch Goose</a>",
+          "<a id=Loch Goose href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2308/-4.4699>Loch Goose</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7465,9 +7465,9 @@ var text = {
         fid: "325",
         Text: "Aldiny",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2246/-4.5475>Aldiny</a>",
+          "<a id=Aldiny href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2246/-4.5475>Aldiny</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7488,9 +7488,9 @@ var text = {
         fid: "326",
         Text: "Whiterow",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2341/-4.524>Whiterow</a>",
+          "<a id=Whiterow href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2341/-4.524>Whiterow</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7511,9 +7511,9 @@ var text = {
         fid: "327",
         Text: "Balloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2368/-4.4279>Balloch</a>",
+          "<a id=Balloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2368/-4.4279>Balloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7534,9 +7534,9 @@ var text = {
         fid: "328",
         Text: "Mulloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2386/-4.4074>Mulloch</a>",
+          "<a id=Mulloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2386/-4.4074>Mulloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7557,9 +7557,9 @@ var text = {
         fid: "329",
         Text: "Craiglee",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2445/-4.4115>Craiglee</a>",
+          "<a id=Craiglee href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2445/-4.4115>Craiglee</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7580,9 +7580,9 @@ var text = {
         fid: "330",
         Text: "Balloch Betties",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2414/-4.4895>Balloch Betties</a>",
+          "<a id=Balloch Betties href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2414/-4.4895>Balloch Betties</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7603,9 +7603,9 @@ var text = {
         fid: "331",
         Text: "L Spaig",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2444/-4.515>L Spaig</a>",
+          "<a id=L Spaig href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2444/-4.515>L Spaig</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7626,9 +7626,9 @@ var text = {
         fid: "332",
         Text: "Castle Brady, in an Island a large Old Ruin.",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2523/-4.4756>Castle Brady, in an Island a large Old Ruin.</a>",
+          "<a id=Castle Brady, in an Island a large Old Ruin. href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2523/-4.4756>Castle Brady, in an Island a large Old Ruin.</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7649,9 +7649,9 @@ var text = {
         fid: "333",
         Text: "Loup",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2498/-4.4078>Loup</a>",
+          "<a id=Loup href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2498/-4.4078>Loup</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7672,9 +7672,9 @@ var text = {
         fid: "334",
         Text: "Lambdoughty",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2547/-4.4025>Lambdoughty</a>",
+          "<a id=Lambdoughty href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2547/-4.4025>Lambdoughty</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7695,9 +7695,9 @@ var text = {
         fid: "335",
         Text: "a large Stone",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2615/-4.4773>a large Stone</a>",
+          "<a id=a large Stone href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2615/-4.4773>a large Stone</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7718,9 +7718,9 @@ var text = {
         fid: "336",
         Text: "Cairn Whaple",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2645/-4.4798>Cairn Whaple</a>",
+          "<a id=Cairn Whaple href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2645/-4.4798>Cairn Whaple</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7741,9 +7741,9 @@ var text = {
         fid: "337",
         Text: "Water Head",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2701/-4.4566>Water Head</a>",
+          "<a id=Water Head href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2701/-4.4566>Water Head</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7764,9 +7764,9 @@ var text = {
         fid: "338",
         Text: "At this Point between the Road & the Sea are two remarkable Rocks in the shape of Men and called the Old Laird & the Young, and for some Miles South the Road leads through sharp pointed Pyramids of Rocks standing on end and may be called a Forest of Stones instead of Trees.",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1975/-4.9622>At this Point between the Road & the Sea are two remarkable Rocks in the shape of Men and called the Old Laird & the Young, and for some Miles South the Road leads through sharp pointed Pyramids of Rocks standing on end and may be called a Forest of Stones instead of Trees.</a>",
+          "<a id=At this Point between the Road & the Sea are two remarkable Rocks in the shape of Men and called the Old Laird & the Young, and for some Miles South the Road leads through sharp pointed Pyramids of Rocks standing on end and may be called a Forest of Stones instead of Trees. href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1975/-4.9622>At this Point between the Road & the Sea are two remarkable Rocks in the shape of Men and called the Old Laird & the Young, and for some Miles South the Road leads through sharp pointed Pyramids of Rocks standing on end and may be called a Forest of Stones instead of Trees.</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7787,9 +7787,9 @@ var text = {
         fid: "339",
         Text: "Lewis",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2905/-4.8335>Lewis</a>",
+          "<a id=Lewis href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2905/-4.8335>Lewis</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7810,9 +7810,9 @@ var text = {
         fid: "340",
         Text: "Camp Hill",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2908/-4.8033>Camp Hill</a>",
+          "<a id=Camp Hill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2908/-4.8033>Camp Hill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7833,9 +7833,9 @@ var text = {
         fid: "341",
         Text: "Dinnimacks",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2817/-4.7845>Dinnimacks</a>",
+          "<a id=Dinnimacks href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2817/-4.7845>Dinnimacks</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7856,9 +7856,9 @@ var text = {
         fid: "342",
         Text: "Drumshean",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2783/-4.7601>Drumshean</a>",
+          "<a id=Drumshean href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2783/-4.7601>Drumshean</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7879,9 +7879,9 @@ var text = {
         fid: "343",
         Text: "Burntstone",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2771/-4.7368>Burntstone</a>",
+          "<a id=Burntstone href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2771/-4.7368>Burntstone</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7902,9 +7902,9 @@ var text = {
         fid: "344",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2854/-4.7292>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2854/-4.7292>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7925,9 +7925,9 @@ var text = {
         fid: "345",
         Text: "Mains",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2853/-4.7073>Mains</a>",
+          "<a id=Mains href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2853/-4.7073>Mains</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7948,9 +7948,9 @@ var text = {
         fid: "346",
         Text: "Dalquharran",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.282/-4.6944>Dalquharran</a>",
+          "<a id=Dalquharran href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.282/-4.6944>Dalquharran</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7971,9 +7971,9 @@ var text = {
         fid: "347",
         Text: "Wallaceton",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2852/-4.6911>Wallaceton</a>",
+          "<a id=Wallaceton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2852/-4.6911>Wallaceton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -7994,9 +7994,9 @@ var text = {
         fid: "348",
         Text: "Drumochreen",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2851/-4.6738>Drumochreen</a>",
+          "<a id=Drumochreen href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2851/-4.6738>Drumochreen</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8017,9 +8017,9 @@ var text = {
         fid: "349",
         Text: "Balibeg",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.279/-4.6746>Balibeg</a>",
+          "<a id=Balibeg href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.279/-4.6746>Balibeg</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8040,9 +8040,9 @@ var text = {
         fid: "350",
         Text: "Maitland",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2759/-4.6621>Maitland</a>",
+          "<a id=Maitland href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2759/-4.6621>Maitland</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8063,9 +8063,9 @@ var text = {
         fid: "351",
         Text: "Poundland",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2724/-4.6474>Poundland</a>",
+          "<a id=Poundland href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2724/-4.6474>Poundland</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8086,9 +8086,9 @@ var text = {
         fid: "352",
         Text: "Kilkerran",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2823/-4.6335>Kilkerran</a>",
+          "<a id=Kilkerran href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2823/-4.6335>Kilkerran</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8109,9 +8109,9 @@ var text = {
         fid: "353",
         Text: "Foggy Road",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2695/-4.5902>Foggy Road</a>",
+          "<a id=Foggy Road href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2695/-4.5902>Foggy Road</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8132,9 +8132,9 @@ var text = {
         fid: "354",
         Text: "Knockingulloch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2674/-4.5585>Knockingulloch</a>",
+          "<a id=Knockingulloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2674/-4.5585>Knockingulloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8155,9 +8155,9 @@ var text = {
         fid: "355",
         Text: "Glenalla",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2709/-4.5422>Glenalla</a>",
+          "<a id=Glenalla href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2709/-4.5422>Glenalla</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8178,9 +8178,9 @@ var text = {
         fid: "356",
         Text: "Tarlaw",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.275/-4.5083>Tarlaw</a>",
+          "<a id=Tarlaw href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.275/-4.5083>Tarlaw</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8201,9 +8201,9 @@ var text = {
         fid: "357",
         Text: "Finless",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.266/-4.4149>Finless</a>",
+          "<a id=Finless href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.266/-4.4149>Finless</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8224,9 +8224,9 @@ var text = {
         fid: "358",
         Text: "Garpel",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2702/-4.3921>Garpel</a>",
+          "<a id=Garpel href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2702/-4.3921>Garpel</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8247,9 +8247,9 @@ var text = {
         fid: "359",
         Text: "Knockdon",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2741/-4.4504>Knockdon</a>",
+          "<a id=Knockdon href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2741/-4.4504>Knockdon</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8270,9 +8270,9 @@ var text = {
         fid: "360",
         Text: "Glentharge",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2753/-4.4793>Glentharge</a>",
+          "<a id=Glentharge href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2753/-4.4793>Glentharge</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8293,9 +8293,9 @@ var text = {
         fid: "361",
         Text: "Ottar",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2999/-4.8585>Ottar</a>",
+          "<a id=Ottar href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2999/-4.8585>Ottar</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8316,9 +8316,9 @@ var text = {
         fid: "362",
         Text: "Drumgurloch",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2961/-4.8076>Drumgurloch</a>",
+          "<a id=Drumgurloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2961/-4.8076>Drumgurloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8339,9 +8339,9 @@ var text = {
         fid: "363",
         Text: "Drumbain",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2973/-4.7976>Drumbain</a>",
+          "<a id=Drumbain href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2973/-4.7976>Drumbain</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8362,9 +8362,9 @@ var text = {
         fid: "364",
         Text: "Glenlochin",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2973/-4.7817>Glenlochin</a>",
+          "<a id=Glenlochin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2973/-4.7817>Glenlochin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8385,9 +8385,9 @@ var text = {
         fid: "365",
         Text: "Drum",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3009/-4.7822>Drum</a>",
+          "<a id=Drum href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3009/-4.7822>Drum</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8408,9 +8408,9 @@ var text = {
         fid: "366",
         Text: "Belhemmy",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3006/-4.8312>Belhemmy</a>",
+          "<a id=Belhemmy href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3006/-4.8312>Belhemmy</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8431,9 +8431,9 @@ var text = {
         fid: "367",
         Text: "Littleton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3026/-4.8019>Littleton</a>",
+          "<a id=Littleton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3026/-4.8019>Littleton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8454,9 +8454,9 @@ var text = {
         fid: "368",
         Text: "Coral Hill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3003/-4.7602>Coral Hill</a>",
+          "<a id=Coral Hill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3003/-4.7602>Coral Hill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8477,9 +8477,9 @@ var text = {
         fid: "369",
         Text: "Mullox",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3014/-4.7381>Mullox</a>",
+          "<a id=Mullox href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3014/-4.7381>Mullox</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8500,9 +8500,9 @@ var text = {
         fid: "370",
         Text: "Craighead",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2981/-4.7209>Craighead</a>",
+          "<a id=Craighead href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2981/-4.7209>Craighead</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8523,9 +8523,9 @@ var text = {
         fid: "371",
         Text: "Mailston",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3061/-4.8133>Mailston</a>",
+          "<a id=Mailston href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3061/-4.8133>Mailston</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8546,9 +8546,9 @@ var text = {
         fid: "372",
         Text: "Gowan",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3051/-4.7903>Gowan</a>",
+          "<a id=Gowan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3051/-4.7903>Gowan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8569,9 +8569,9 @@ var text = {
         fid: "373",
         Text: "Thrave",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3064/-4.7754>Thrave</a>",
+          "<a id=Thrave href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3064/-4.7754>Thrave</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8592,9 +8592,9 @@ var text = {
         fid: "374",
         Text: "Braken",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.308/-4.7867>Braken</a>",
+          "<a id=Braken href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.308/-4.7867>Braken</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8615,9 +8615,9 @@ var text = {
         fid: "375",
         Text: "Drumsegg",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3077/-4.8233>Drumsegg</a>",
+          "<a id=Drumsegg href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3077/-4.8233>Drumsegg</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8638,9 +8638,9 @@ var text = {
         fid: "376",
         Text: "Milton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3125/-4.8313>Milton</a>",
+          "<a id=Milton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3125/-4.8313>Milton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8661,9 +8661,9 @@ var text = {
         fid: "377",
         Text: "Brest",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3154/-4.8538>Brest</a>",
+          "<a id=Brest href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3154/-4.8538>Brest</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8684,9 +8684,9 @@ var text = {
         fid: "378",
         Text: "Dalwhat",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3128/-4.8155>Dalwhat</a>",
+          "<a id=Dalwhat href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3128/-4.8155>Dalwhat</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8707,9 +8707,9 @@ var text = {
         fid: "379",
         Text: "Drumdow",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3121/-4.7988>Drumdow</a>",
+          "<a id=Drumdow href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3121/-4.7988>Drumdow</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8730,9 +8730,9 @@ var text = {
         fid: "380",
         Text: "Glentice",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3141/-4.7888>Glentice</a>",
+          "<a id=Glentice href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3141/-4.7888>Glentice</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8753,9 +8753,9 @@ var text = {
         fid: "381",
         Text: "Kirkhill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3059/-4.7314>Kirkhill</a>",
+          "<a id=Kirkhill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3059/-4.7314>Kirkhill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8776,9 +8776,9 @@ var text = {
         fid: "382",
         Text: "Lodge",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3183/-4.8364>Lodge</a>",
+          "<a id=Lodge href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3183/-4.8364>Lodge</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8799,9 +8799,9 @@ var text = {
         fid: "383",
         Text: "Park",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3164/-4.7918>Park</a>",
+          "<a id=Park href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3164/-4.7918>Park</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8822,9 +8822,9 @@ var text = {
         fid: "384",
         Text: "Houston",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3194/-4.7698>Houston</a>",
+          "<a id=Houston href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3194/-4.7698>Houston</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8845,9 +8845,9 @@ var text = {
         fid: "385",
         Text: "Daltamy",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3191/-4.7318>Daltamy</a>",
+          "<a id=Daltamy href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3191/-4.7318>Daltamy</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8868,9 +8868,9 @@ var text = {
         fid: "386",
         Text: "Near this a Colliery was lost by taking Fire & has continued burning above Eighty Years, at times rages and the Water that runs from it is scalding hot",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3136/-4.7073>Near this a Colliery was lost by taking Fire & has continued burning above Eighty Years, at times rages and the Water that runs from it is scalding hot</a>",
+          "<a id=Near this a Colliery was lost by taking Fire & has continued burning above Eighty Years, at times rages and the Water that runs from it is scalding hot href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3136/-4.7073>Near this a Colliery was lost by taking Fire & has continued burning above Eighty Years, at times rages and the Water that runs from it is scalding hot</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8891,9 +8891,9 @@ var text = {
         fid: "387",
         Text: "Rew",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3253/-4.8576>Rew</a>",
+          "<a id=Rew href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3253/-4.8576>Rew</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8914,9 +8914,9 @@ var text = {
         fid: "388",
         Text: "Turnberry ruins or K. Robert's Castle",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3252/-4.8355>Turnberry ruins or K. Robert's Castle</a>",
+          "<a id=Turnberry ruins or K. Robert's Castle href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3252/-4.8355>Turnberry ruins or K. Robert's Castle</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8937,9 +8937,9 @@ var text = {
         fid: "389",
         Text: "Balloch",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3232/-4.7882>Balloch</a>",
+          "<a id=Balloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3232/-4.7882>Balloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8960,9 +8960,9 @@ var text = {
         fid: "390",
         Text: "Dalwhat",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3264/-4.7961>Dalwhat</a>",
+          "<a id=Dalwhat href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3264/-4.7961>Dalwhat</a>",
       },
       geometry: {
         type: "Polygon",
@@ -8983,9 +8983,9 @@ var text = {
         fid: "391",
         Text: "Crofton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3265/-4.777>Crofton</a>",
+          "<a id=Crofton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3265/-4.777>Crofton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9006,9 +9006,9 @@ var text = {
         fid: "392",
         Text: "Merkland",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3277/-4.7583>Merkland</a>",
+          "<a id=Merkland href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3277/-4.7583>Merkland</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9029,9 +9029,9 @@ var text = {
         fid: "393",
         Text: "Corryston",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3288/-4.7754>Corryston</a>",
+          "<a id=Corryston href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3288/-4.7754>Corryston</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9052,9 +9052,9 @@ var text = {
         fid: "394",
         Text: "Craigdow",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3292/-4.7192>Craigdow</a>",
+          "<a id=Craigdow href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3292/-4.7192>Craigdow</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9075,9 +9075,9 @@ var text = {
         fid: "395",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3335/-4.8306>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3335/-4.8306>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9098,9 +9098,9 @@ var text = {
         fid: "396",
         Text: "Douglaston Moat",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3312/-4.8125>Douglaston Moat</a>",
+          "<a id=Douglaston Moat href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3312/-4.8125>Douglaston Moat</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9121,9 +9121,9 @@ var text = {
         fid: "397",
         Text: "Manse",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3318/-4.7729>Manse</a>",
+          "<a id=Manse href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3318/-4.7729>Manse</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9144,9 +9144,9 @@ var text = {
         fid: "398",
         Text: "Cellar",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3357/-4.8114>Cellar</a>",
+          "<a id=Cellar href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3357/-4.8114>Cellar</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9167,9 +9167,9 @@ var text = {
         fid: "399",
         Text: "Law",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3361/-4.796>Law</a>",
+          "<a id=Law href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3361/-4.796>Law</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9190,9 +9190,9 @@ var text = {
         fid: "400",
         Text: "Kirk Oswalds",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3379/-4.7808>Kirk Oswalds</a>",
+          "<a id=Kirk Oswalds href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3379/-4.7808>Kirk Oswalds</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9213,9 +9213,9 @@ var text = {
         fid: "401",
         Text: "Burnfoot",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3344/-4.747>Burnfoot</a>",
+          "<a id=Burnfoot href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3344/-4.747>Burnfoot</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9236,9 +9236,9 @@ var text = {
         fid: "402",
         Text: "Leffenwind",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3353/-4.7172>Leffenwind</a>",
+          "<a id=Leffenwind href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3353/-4.7172>Leffenwind</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9259,9 +9259,9 @@ var text = {
         fid: "403",
         Text: "Ardlochan",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.341/-4.7932>Ardlochan</a>",
+          "<a id=Ardlochan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.341/-4.7932>Ardlochan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9282,9 +9282,9 @@ var text = {
         fid: "404",
         Text: "Mill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3442/-4.8047>Mill</a>",
+          "<a id=Mill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3442/-4.8047>Mill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9305,9 +9305,9 @@ var text = {
         fid: "405",
         Text: "Kirkland",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3413/-4.7704>Kirkland</a>",
+          "<a id=Kirkland href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3413/-4.7704>Kirkland</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9328,9 +9328,9 @@ var text = {
         fid: "406",
         Text: "Belvainds",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3447/-4.783>Belvainds</a>",
+          "<a id=Belvainds href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3447/-4.783>Belvainds</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9351,9 +9351,9 @@ var text = {
         fid: "407",
         Text: "Post Road to Girvan",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3409/-4.7304>Post Road to Girvan</a>",
+          "<a id=Post Road to Girvan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3409/-4.7304>Post Road to Girvan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9378,9 +9378,9 @@ var text = {
         fid: "408",
         Text: "Skipperknow",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3426/-4.7421>Skipperknow</a>",
+          "<a id=Skipperknow href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3426/-4.7421>Skipperknow</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9401,9 +9401,9 @@ var text = {
         fid: "409",
         Text: "Hogsburn",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3468/-4.7999>Hogsburn</a>",
+          "<a id=Hogsburn href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3468/-4.7999>Hogsburn</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9424,9 +9424,9 @@ var text = {
         fid: "410",
         Text: "Hogston",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3502/-4.7879>Hogston</a>",
+          "<a id=Hogston href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3502/-4.7879>Hogston</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9447,9 +9447,9 @@ var text = {
         fid: "411",
         Text: "Auchenblain",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3507/-4.7357>Auchenblain</a>",
+          "<a id=Auchenblain href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3507/-4.7357>Auchenblain</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9470,9 +9470,9 @@ var text = {
         fid: "412",
         Text: "Shean",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3539/-4.7605>Shean</a>",
+          "<a id=Shean href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3539/-4.7605>Shean</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9493,9 +9493,9 @@ var text = {
         fid: "413",
         Text: "Mains",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3502/-4.7187>Mains</a>",
+          "<a id=Mains href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3502/-4.7187>Mains</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9516,9 +9516,9 @@ var text = {
         fid: "414",
         Text: "Loch",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3533/-4.7202>Loch</a>",
+          "<a id=Loch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3533/-4.7202>Loch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9539,9 +9539,9 @@ var text = {
         fid: "415",
         Text: "Mauchrin",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3563/-4.7397>Mauchrin</a>",
+          "<a id=Mauchrin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3563/-4.7397>Mauchrin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9562,9 +9562,9 @@ var text = {
         fid: "416",
         Text: "Bavin",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3548/-4.8233>Bavin</a>",
+          "<a id=Bavin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3548/-4.8233>Bavin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9585,9 +9585,9 @@ var text = {
         fid: "417",
         Text: "Drumslach",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3627/-4.8037>Drumslach</a>",
+          "<a id=Drumslach href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3627/-4.8037>Drumslach</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9608,9 +9608,9 @@ var text = {
         fid: "418",
         Text: "Cullean",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3673/-4.7952>Cullean</a>",
+          "<a id=Cullean href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3673/-4.7952>Cullean</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9631,9 +9631,9 @@ var text = {
         fid: "419",
         Text: "Mauchrin",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3651/-4.7412>Mauchrin</a>",
+          "<a id=Mauchrin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3651/-4.7412>Mauchrin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9654,9 +9654,9 @@ var text = {
         fid: "420",
         Text: "Enoch",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3645/-4.7188>Enoch</a>",
+          "<a id=Enoch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3645/-4.7188>Enoch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9677,9 +9677,9 @@ var text = {
         fid: "421",
         Text: "Midtoun",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2951/-4.7069>Midtoun</a>",
+          "<a id=Midtoun href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2951/-4.7069>Midtoun</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9700,9 +9700,9 @@ var text = {
         fid: "422",
         Text: "Chapletoun",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2931/-4.6574>Chapletoun</a>",
+          "<a id=Chapletoun href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2931/-4.6574>Chapletoun</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9723,9 +9723,9 @@ var text = {
         fid: "423",
         Text: "Blair",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2921/-4.6361>Blair</a>",
+          "<a id=Blair href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2921/-4.6361>Blair</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9746,9 +9746,9 @@ var text = {
         fid: "424",
         Text: "Glenala",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2951/-4.5738>Glenala</a>",
+          "<a id=Glenala href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2951/-4.5738>Glenala</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9769,9 +9769,9 @@ var text = {
         fid: "425",
         Text: "Drumillan",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2988/-4.6967>Drumillan</a>",
+          "<a id=Drumillan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2988/-4.6967>Drumillan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9792,9 +9792,9 @@ var text = {
         fid: "426",
         Text: "Beggars Bush",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2963/-4.6681>Beggars Bush</a>",
+          "<a id=Beggars Bush href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2963/-4.6681>Beggars Bush</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9815,9 +9815,9 @@ var text = {
         fid: "427",
         Text: "Balsaggirth",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2957/-4.6362>Balsaggirth</a>",
+          "<a id=Balsaggirth href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2957/-4.6362>Balsaggirth</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9838,9 +9838,9 @@ var text = {
         fid: "428",
         Text: "Achalton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2977/-4.6241>Achalton</a>",
+          "<a id=Achalton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2977/-4.6241>Achalton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9861,9 +9861,9 @@ var text = {
         fid: "429",
         Text: "Broomford",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2972/-4.5971>Broomford</a>",
+          "<a id=Broomford href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2972/-4.5971>Broomford</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9884,9 +9884,9 @@ var text = {
         fid: "430",
         Text: "Newlands",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3024/-4.7032>Newlands</a>",
+          "<a id=Newlands href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3024/-4.7032>Newlands</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9907,9 +9907,9 @@ var text = {
         fid: "431",
         Text: "Airds",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3021/-4.6883>Airds</a>",
+          "<a id=Airds href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3021/-4.6883>Airds</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9930,9 +9930,9 @@ var text = {
         fid: "432",
         Text: "from Kilkerran and Daily",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3079/-4.6636>from Kilkerran and Daily</a>",
+          "<a id=from Kilkerran and Daily href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3079/-4.6636>from Kilkerran and Daily</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9959,9 +9959,9 @@ var text = {
         fid: "433",
         Text: "Ladyburn",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2988/-4.6543>Ladyburn</a>",
+          "<a id=Ladyburn href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2988/-4.6543>Ladyburn</a>",
       },
       geometry: {
         type: "Polygon",
@@ -9982,9 +9982,9 @@ var text = {
         fid: "434",
         Text: "Burnfoot",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3017/-4.6528>Burnfoot</a>",
+          "<a id=Burnfoot href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3017/-4.6528>Burnfoot</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10005,9 +10005,9 @@ var text = {
         fid: "435",
         Text: "Balwhirn",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3018/-4.6319>Balwhirn</a>",
+          "<a id=Balwhirn href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3018/-4.6319>Balwhirn</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10028,9 +10028,9 @@ var text = {
         fid: "436",
         Text: "Scarhead",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3018/-4.6075>Scarhead</a>",
+          "<a id=Scarhead href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3018/-4.6075>Scarhead</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10051,9 +10051,9 @@ var text = {
         fid: "437",
         Text: "Kirkbride",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3042/-4.6057>Kirkbride</a>",
+          "<a id=Kirkbride href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3042/-4.6057>Kirkbride</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10074,9 +10074,9 @@ var text = {
         fid: "438",
         Text: "Clenclaugh",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3062/-4.5906>Clenclaugh</a>",
+          "<a id=Clenclaugh href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3062/-4.5906>Clenclaugh</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10097,9 +10097,9 @@ var text = {
         fid: "439",
         Text: "Glenshalloch",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3049/-4.69>Glenshalloch</a>",
+          "<a id=Glenshalloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3049/-4.69>Glenshalloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10120,9 +10120,9 @@ var text = {
         fid: "440",
         Text: "Drumgrinan",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3042/-4.6741>Drumgrinan</a>",
+          "<a id=Drumgrinan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3042/-4.6741>Drumgrinan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10143,9 +10143,9 @@ var text = {
         fid: "441",
         Text: "Tradonnaugh",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3069/-4.6867>Tradonnaugh</a>",
+          "<a id=Tradonnaugh href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3069/-4.6867>Tradonnaugh</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10166,9 +10166,9 @@ var text = {
         fid: "442",
         Text: "Coal Pitts",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3094/-4.6808>Coal Pitts</a>",
+          "<a id=Coal Pitts href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3094/-4.6808>Coal Pitts</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10189,9 +10189,9 @@ var text = {
         fid: "443",
         Text: "Linshaw",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3067/-4.655>Linshaw</a>",
+          "<a id=Linshaw href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3067/-4.655>Linshaw</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10212,9 +10212,9 @@ var text = {
         fid: "444",
         Text: "Bardonna",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3059/-4.6414>Bardonna</a>",
+          "<a id=Bardonna href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3059/-4.6414>Bardonna</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10235,9 +10235,9 @@ var text = {
         fid: "445",
         Text: "Drumwhill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3091/-4.6144>Drumwhill</a>",
+          "<a id=Drumwhill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3091/-4.6144>Drumwhill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10258,9 +10258,9 @@ var text = {
         fid: "446",
         Text: "Knockjardine",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3086/-4.5682>Knockjardine</a>",
+          "<a id=Knockjardine href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3086/-4.5682>Knockjardine</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10281,9 +10281,9 @@ var text = {
         fid: "447",
         Text: "Belgregan",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3126/-4.6018>Belgregan</a>",
+          "<a id=Belgregan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3126/-4.6018>Belgregan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10304,9 +10304,9 @@ var text = {
         fid: "448",
         Text: "Barcully",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3098/-4.6529>Barcully</a>",
+          "<a id=Barcully href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3098/-4.6529>Barcully</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10327,9 +10327,9 @@ var text = {
         fid: "449",
         Text: "Rowanston",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.315/-4.65>Rowanston</a>",
+          "<a id=Rowanston href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.315/-4.65>Rowanston</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10350,9 +10350,9 @@ var text = {
         fid: "450",
         Text: "to the Balloch",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3149/-4.6323>to the Balloch</a>",
+          "<a id=to the Balloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3149/-4.6323>to the Balloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10373,9 +10373,9 @@ var text = {
         fid: "451",
         Text: "to Straiton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3184/-4.6183>to Straiton</a>",
+          "<a id=to Straiton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3184/-4.6183>to Straiton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10396,9 +10396,9 @@ var text = {
         fid: "452",
         Text: "Thrave",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3191/-4.5998>Thrave</a>",
+          "<a id=Thrave href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3191/-4.5998>Thrave</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10419,9 +10419,9 @@ var text = {
         fid: "453",
         Text: "Whitefoord",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3179/-4.5854>Whitefoord</a>",
+          "<a id=Whitefoord href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3179/-4.5854>Whitefoord</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10442,9 +10442,9 @@ var text = {
         fid: "454",
         Text: "Girvan R.",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3219/-4.6559>Girvan R.</a>",
+          "<a id=Girvan R. href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3219/-4.6559>Girvan R.</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10465,9 +10465,9 @@ var text = {
         fid: "455",
         Text: "Killeches",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3211/-4.6487>Killeches</a>",
+          "<a id=Killeches href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3211/-4.6487>Killeches</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10488,9 +10488,9 @@ var text = {
         fid: "456",
         Text: "Carslaw",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3207/-4.6662>Carslaw</a>",
+          "<a id=Carslaw href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3207/-4.6662>Carslaw</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10511,9 +10511,9 @@ var text = {
         fid: "457",
         Text: "Craigfin",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.322/-4.6803>Craigfin</a>",
+          "<a id=Craigfin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.322/-4.6803>Craigfin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10534,9 +10534,9 @@ var text = {
         fid: "458",
         Text: "Glengoland",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.324/-4.693>Glengoland</a>",
+          "<a id=Glengoland href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.324/-4.693>Glengoland</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10557,9 +10557,9 @@ var text = {
         fid: "459",
         Text: "Causton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3248/-4.6704>Causton</a>",
+          "<a id=Causton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3248/-4.6704>Causton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10580,9 +10580,9 @@ var text = {
         fid: "460",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3264/-4.6572>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3264/-4.6572>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10603,9 +10603,9 @@ var text = {
         fid: "461",
         Text: "Dilduf",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3282/-4.658>Dilduf</a>",
+          "<a id=Dilduf href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3282/-4.658>Dilduf</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10626,9 +10626,9 @@ var text = {
         fid: "462",
         Text: "Crosshill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3233/-4.6339>Crosshill</a>",
+          "<a id=Crosshill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3233/-4.6339>Crosshill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10649,9 +10649,9 @@ var text = {
         fid: "463",
         Text: "Barshelly",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3221/-4.6112>Barshelly</a>",
+          "<a id=Barshelly href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3221/-4.6112>Barshelly</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10672,9 +10672,9 @@ var text = {
         fid: "464",
         Text: "Garfur",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3236/-4.5849>Garfur</a>",
+          "<a id=Garfur href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3236/-4.5849>Garfur</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10695,9 +10695,9 @@ var text = {
         fid: "465",
         Text: "Bishopland",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3261/-4.5658>Bishopland</a>",
+          "<a id=Bishopland href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3261/-4.5658>Bishopland</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10718,9 +10718,9 @@ var text = {
         fid: "466",
         Text: "Muirhead",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3333/-4.6971>Muirhead</a>",
+          "<a id=Muirhead href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3333/-4.6971>Muirhead</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10741,9 +10741,9 @@ var text = {
         fid: "467",
         Text: "Burncrook",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3322/-4.683>Burncrook</a>",
+          "<a id=Burncrook href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3322/-4.683>Burncrook</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10764,9 +10764,9 @@ var text = {
         fid: "468",
         Text: "Kilhinzie",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3331/-4.659>Kilhinzie</a>",
+          "<a id=Kilhinzie href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3331/-4.659>Kilhinzie</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10787,9 +10787,9 @@ var text = {
         fid: "469",
         Text: "Garpin",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3301/-4.6458>Garpin</a>",
+          "<a id=Garpin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3301/-4.6458>Garpin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10810,9 +10810,9 @@ var text = {
         fid: "470",
         Text: "Mc.Alstoun",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3287/-4.6312>Mc.Alstoun</a>",
+          "<a id=Mc.Alstoun href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3287/-4.6312>Mc.Alstoun</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10833,9 +10833,9 @@ var text = {
         fid: "471",
         Text: "Barbradin",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3273/-4.6131>Barbradin</a>",
+          "<a id=Barbradin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3273/-4.6131>Barbradin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10856,9 +10856,9 @@ var text = {
         fid: "472",
         Text: "Bridge",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3295/-4.6073>Bridge</a>",
+          "<a id=Bridge href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3295/-4.6073>Bridge</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10879,9 +10879,9 @@ var text = {
         fid: "473",
         Text: "Cloncard",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3287/-4.5788>Cloncard</a>",
+          "<a id=Cloncard href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3287/-4.5788>Cloncard</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10902,9 +10902,9 @@ var text = {
         fid: "474",
         Text: "Barns",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3322/-4.5819>Barns</a>",
+          "<a id=Barns href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3322/-4.5819>Barns</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10925,9 +10925,9 @@ var text = {
         fid: "475",
         Text: "Hill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3336/-4.5593>Hill</a>",
+          "<a id=Hill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3336/-4.5593>Hill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10948,9 +10948,9 @@ var text = {
         fid: "476",
         Text: "Drumillan",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3375/-4.6808>Drumillan</a>",
+          "<a id=Drumillan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3375/-4.6808>Drumillan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10971,9 +10971,9 @@ var text = {
         fid: "477",
         Text: "Bogston",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3396/-4.6656>Bogston</a>",
+          "<a id=Bogston href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3396/-4.6656>Bogston</a>",
       },
       geometry: {
         type: "Polygon",
@@ -10994,9 +10994,9 @@ var text = {
         fid: "478",
         Text: "Burlewin",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3362/-4.6501>Burlewin</a>",
+          "<a id=Burlewin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3362/-4.6501>Burlewin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11017,9 +11017,9 @@ var text = {
         fid: "479",
         Text: "Thornhill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.334/-4.5963>Thornhill</a>",
+          "<a id=Thornhill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.334/-4.5963>Thornhill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11040,9 +11040,9 @@ var text = {
         fid: "480",
         Text: "Akinhead",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3356/-4.6092>Akinhead</a>",
+          "<a id=Akinhead href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3356/-4.6092>Akinhead</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11063,9 +11063,9 @@ var text = {
         fid: "481",
         Text: "Dovecoat",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.339/-4.5895>Dovecoat</a>",
+          "<a id=Dovecoat href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.339/-4.5895>Dovecoat</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11086,9 +11086,9 @@ var text = {
         fid: "482",
         Text: "Drumfad",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3413/-4.5874>Drumfad</a>",
+          "<a id=Drumfad href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3413/-4.5874>Drumfad</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11109,9 +11109,9 @@ var text = {
         fid: "483",
         Text: "Berclay",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3407/-4.6424>Berclay</a>",
+          "<a id=Berclay href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3407/-4.6424>Berclay</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11132,9 +11132,9 @@ var text = {
         fid: "484",
         Text: "Crossraguel",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.347/-4.7094>Crossraguel</a>",
+          "<a id=Crossraguel href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.347/-4.7094>Crossraguel</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11155,9 +11155,9 @@ var text = {
         fid: "485",
         Text: "Auchenwin",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3454/-4.6749>Auchenwin</a>",
+          "<a id=Auchenwin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3454/-4.6749>Auchenwin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11178,9 +11178,9 @@ var text = {
         fid: "486",
         Text: "Adiguin",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3441/-4.651>Adiguin</a>",
+          "<a id=Adiguin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3441/-4.651>Adiguin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11201,9 +11201,9 @@ var text = {
         fid: "487",
         Text: "Barganock",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3417/-4.6091>Barganock</a>",
+          "<a id=Barganock href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3417/-4.6091>Barganock</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11224,9 +11224,9 @@ var text = {
         fid: "488",
         Text: "Woods",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3459/-4.5937>Woods</a>",
+          "<a id=Woods href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3459/-4.5937>Woods</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11247,9 +11247,9 @@ var text = {
         fid: "489",
         Text: "Glenside",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3452/-4.5684>Glenside</a>",
+          "<a id=Glenside href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3452/-4.5684>Glenside</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11270,9 +11270,9 @@ var text = {
         fid: "490",
         Text: "Kirkmichael",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3467/-4.6187>Kirkmichael</a>",
+          "<a id=Kirkmichael href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3467/-4.6187>Kirkmichael</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11293,9 +11293,9 @@ var text = {
         fid: "491",
         Text: "Chaple",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3481/-4.6444>Chaple</a>",
+          "<a id=Chaple href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3481/-4.6444>Chaple</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11316,9 +11316,9 @@ var text = {
         fid: "492",
         Text: "Barniel",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3499/-4.5876>Barniel</a>",
+          "<a id=Barniel href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3499/-4.5876>Barniel</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11339,9 +11339,9 @@ var text = {
         fid: "493",
         Text: "Baltarsan",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3514/-4.6957>Baltarsan</a>",
+          "<a id=Baltarsan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3514/-4.6957>Baltarsan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11362,9 +11362,9 @@ var text = {
         fid: "494",
         Text: "Balony",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3479/-4.6761>Balony</a>",
+          "<a id=Balony href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3479/-4.6761>Balony</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11385,9 +11385,9 @@ var text = {
         fid: "495",
         Text: "Loch Hart",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3536/-4.6643>Loch Hart</a>",
+          "<a id=Loch Hart href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3536/-4.6643>Loch Hart</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11408,9 +11408,9 @@ var text = {
         fid: "496",
         Text: "Bogend",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.355/-4.6555>Bogend</a>",
+          "<a id=Bogend href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.355/-4.6555>Bogend</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11431,9 +11431,9 @@ var text = {
         fid: "497",
         Text: "Berlaugh",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3542/-4.6376>Berlaugh</a>",
+          "<a id=Berlaugh href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3542/-4.6376>Berlaugh</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11454,9 +11454,9 @@ var text = {
         fid: "498",
         Text: "Dalreoch",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3544/-4.6005>Dalreoch</a>",
+          "<a id=Dalreoch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3544/-4.6005>Dalreoch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11477,9 +11477,9 @@ var text = {
         fid: "499",
         Text: "Cairnhill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3539/-4.5788>Cairnhill</a>",
+          "<a id=Cairnhill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3539/-4.5788>Cairnhill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11500,9 +11500,9 @@ var text = {
         fid: "500",
         Text: "Dalvennan",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3595/-4.5644>Dalvennan</a>",
+          "<a id=Dalvennan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3595/-4.5644>Dalvennan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11523,9 +11523,9 @@ var text = {
         fid: "501",
         Text: "Gil Tree Hill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3612/-4.611>Gil Tree Hill</a>",
+          "<a id=Gil Tree Hill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3612/-4.611>Gil Tree Hill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11546,9 +11546,9 @@ var text = {
         fid: "502",
         Text: "Capentoun",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3628/-4.5906>Capentoun</a>",
+          "<a id=Capentoun href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3628/-4.5906>Capentoun</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11569,9 +11569,9 @@ var text = {
         fid: "503",
         Text: "from Cullean",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3598/-4.7063>from Cullean</a>",
+          "<a id=from Cullean href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3598/-4.7063>from Cullean</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11592,9 +11592,9 @@ var text = {
         fid: "504",
         Text: "Thorn",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3566/-4.7013>Thorn</a>",
+          "<a id=Thorn href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3566/-4.7013>Thorn</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11615,9 +11615,9 @@ var text = {
         fid: "505",
         Text: "Maybole",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.36/-4.6821>Maybole</a>",
+          "<a id=Maybole href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.36/-4.6821>Maybole</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11638,9 +11638,9 @@ var text = {
         fid: "506",
         Text: "Bogside",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3628/-4.7015>Bogside</a>",
+          "<a id=Bogside href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3628/-4.7015>Bogside</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11661,9 +11661,9 @@ var text = {
         fid: "507",
         Text: "Crawford",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.358/-4.6369>Crawford</a>",
+          "<a id=Crawford href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.358/-4.6369>Crawford</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11684,9 +11684,9 @@ var text = {
         fid: "508",
         Text: "Mauchremore",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3605/-4.6388>Mauchremore</a>",
+          "<a id=Mauchremore href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3605/-4.6388>Mauchremore</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11707,9 +11707,9 @@ var text = {
         fid: "509",
         Text: "Knockskae",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2919/-4.5359>Knockskae</a>",
+          "<a id=Knockskae href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2919/-4.5359>Knockskae</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11730,9 +11730,9 @@ var text = {
         fid: "510",
         Text: "Slacks",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2901/-4.47>Slacks</a>",
+          "<a id=Slacks href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2901/-4.47>Slacks</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11753,9 +11753,9 @@ var text = {
         fid: "511",
         Text: "Glenmeade",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.291/-4.434>Glenmeade</a>",
+          "<a id=Glenmeade href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.291/-4.434>Glenmeade</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11776,9 +11776,9 @@ var text = {
         fid: "512",
         Text: "Beoch",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2925/-4.408>Beoch</a>",
+          "<a id=Beoch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2925/-4.408>Beoch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11799,9 +11799,9 @@ var text = {
         fid: "513",
         Text: "Glengill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2976/-4.5222>Glengill</a>",
+          "<a id=Glengill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2976/-4.5222>Glengill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11822,9 +11822,9 @@ var text = {
         fid: "514",
         Text: "Glenachy",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2934/-4.4824>Glenachy</a>",
+          "<a id=Glenachy href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2934/-4.4824>Glenachy</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11845,9 +11845,9 @@ var text = {
         fid: "515",
         Text: "Byne",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2963/-4.4959>Byne</a>",
+          "<a id=Byne href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2963/-4.4959>Byne</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11868,9 +11868,9 @@ var text = {
         fid: "516",
         Text: "Dalmorton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2995/-4.5389>Dalmorton</a>",
+          "<a id=Dalmorton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2995/-4.5389>Dalmorton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11891,9 +11891,9 @@ var text = {
         fid: "517",
         Text: "Chapel",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3018/-4.4907>Chapel</a>",
+          "<a id=Chapel href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3018/-4.4907>Chapel</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11914,9 +11914,9 @@ var text = {
         fid: "518",
         Text: "Byne",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2992/-4.4649>Byne</a>",
+          "<a id=Byne href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2992/-4.4649>Byne</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11937,9 +11937,9 @@ var text = {
         fid: "519",
         Text: "Glenmule",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2984/-4.4293>Glenmule</a>",
+          "<a id=Glenmule href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2984/-4.4293>Glenmule</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11960,9 +11960,9 @@ var text = {
         fid: "520",
         Text: "Mc.Nabbs",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.299/-4.4107>Mc.Nabbs</a>",
+          "<a id=Mc.Nabbs href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.299/-4.4107>Mc.Nabbs</a>",
       },
       geometry: {
         type: "Polygon",
@@ -11983,9 +11983,9 @@ var text = {
         fid: "521",
         Text: "Glashills",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3016/-4.4108>Glashills</a>",
+          "<a id=Glashills href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3016/-4.4108>Glashills</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12006,9 +12006,9 @@ var text = {
         fid: "522",
         Text: "Whitside",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3021/-4.428>Whitside</a>",
+          "<a id=Whitside href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3021/-4.428>Whitside</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12029,9 +12029,9 @@ var text = {
         fid: "523",
         Text: "Craig",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3031/-4.5243>Craig</a>",
+          "<a id=Craig href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3031/-4.5243>Craig</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12052,9 +12052,9 @@ var text = {
         fid: "524",
         Text: "Obelisk",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3059/-4.5501>Obelisk</a>",
+          "<a id=Obelisk href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3059/-4.5501>Obelisk</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12075,9 +12075,9 @@ var text = {
         fid: "525",
         Text: "Benan",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3092/-4.5505>Benan</a>",
+          "<a id=Benan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3092/-4.5505>Benan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12098,9 +12098,9 @@ var text = {
         fid: "526",
         Text: "Culloch",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3072/-4.5251>Culloch</a>",
+          "<a id=Culloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3072/-4.5251>Culloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12121,9 +12121,9 @@ var text = {
         fid: "527",
         Text: "Raw",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3091/-4.5334>Raw</a>",
+          "<a id=Raw href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3091/-4.5334>Raw</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12144,9 +12144,9 @@ var text = {
         fid: "528",
         Text: "Straiton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3108/-4.5415>Straiton</a>",
+          "<a id=Straiton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3108/-4.5415>Straiton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12167,9 +12167,9 @@ var text = {
         fid: "529",
         Text: "Milton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3199/-4.5466>Milton</a>",
+          "<a id=Milton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3199/-4.5466>Milton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12190,9 +12190,9 @@ var text = {
         fid: "530",
         Text: "Shalloch",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3056/-4.4488>Shalloch</a>",
+          "<a id=Shalloch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3056/-4.4488>Shalloch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12213,9 +12213,9 @@ var text = {
         fid: "531",
         Text: "Craig",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3049/-4.417>Craig</a>",
+          "<a id=Craig href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3049/-4.417>Craig</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12236,9 +12236,9 @@ var text = {
         fid: "532",
         Text: "Barbeth",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3087/-4.4287>Barbeth</a>",
+          "<a id=Barbeth href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3087/-4.4287>Barbeth</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12259,9 +12259,9 @@ var text = {
         fid: "533",
         Text: "Manse",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3133/-4.528>Manse</a>",
+          "<a id=Manse href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3133/-4.528>Manse</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12282,9 +12282,9 @@ var text = {
         fid: "534",
         Text: "Largs",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3164/-4.5164>Largs</a>",
+          "<a id=Largs href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3164/-4.5164>Largs</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12305,9 +12305,9 @@ var text = {
         fid: "535",
         Text: "Knocklevy",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3165/-4.4737>Knocklevy</a>",
+          "<a id=Knocklevy href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3165/-4.4737>Knocklevy</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12328,9 +12328,9 @@ var text = {
         fid: "536",
         Text: "Montenough",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3203/-4.4607>Montenough</a>",
+          "<a id=Montenough href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3203/-4.4607>Montenough</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12351,9 +12351,9 @@ var text = {
         fid: "537",
         Text: "Dalreoch",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3232/-4.4334>Dalreoch</a>",
+          "<a id=Dalreoch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3232/-4.4334>Dalreoch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12374,9 +12374,9 @@ var text = {
         fid: "538",
         Text: "Shank",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3206/-4.5279>Shank</a>",
+          "<a id=Shank href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3206/-4.5279>Shank</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12397,9 +12397,9 @@ var text = {
         fid: "539",
         Text: "Kemmure",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3252/-4.5471>Kemmure</a>",
+          "<a id=Kemmure href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3252/-4.5471>Kemmure</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12420,9 +12420,9 @@ var text = {
         fid: "540",
         Text: "Lamdoughty",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3271/-4.5392>Lamdoughty</a>",
+          "<a id=Lamdoughty href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3271/-4.5392>Lamdoughty</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12443,9 +12443,9 @@ var text = {
         fid: "541",
         Text: "Littleton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3329/-4.5386>Littleton</a>",
+          "<a id=Littleton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3329/-4.5386>Littleton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12466,9 +12466,9 @@ var text = {
         fid: "542",
         Text: "Kilbride",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3309/-4.5169>Kilbride</a>",
+          "<a id=Kilbride href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3309/-4.5169>Kilbride</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12489,9 +12489,9 @@ var text = {
         fid: "543",
         Text: "Auchenroy",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3311/-4.46>Auchenroy</a>",
+          "<a id=Auchenroy href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3311/-4.46>Auchenroy</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12512,9 +12512,9 @@ var text = {
         fid: "544",
         Text: "Glenhead",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3292/-4.4343>Glenhead</a>",
+          "<a id=Glenhead href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3292/-4.4343>Glenhead</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12535,9 +12535,9 @@ var text = {
         fid: "545",
         Text: "Grimmet",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3436/-4.4589>Grimmet</a>",
+          "<a id=Grimmet href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3436/-4.4589>Grimmet</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12558,9 +12558,9 @@ var text = {
         fid: "546",
         Text: "a large Tree",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3431/-4.4763>a large Tree</a>",
+          "<a id=a large Tree href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3431/-4.4763>a large Tree</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12581,9 +12581,9 @@ var text = {
         fid: "547",
         Text: "Grimmethill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3466/-4.4629>Grimmethill</a>",
+          "<a id=Grimmethill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3466/-4.4629>Grimmethill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12604,9 +12604,9 @@ var text = {
         fid: "548",
         Text: "Keirs",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.351/-4.4891>Keirs</a>",
+          "<a id=Keirs href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.351/-4.4891>Keirs</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12627,9 +12627,9 @@ var text = {
         fid: "549",
         Text: "Keirshaugh",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3556/-4.515>Keirshaugh</a>",
+          "<a id=Keirshaugh href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3556/-4.515>Keirshaugh</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12650,9 +12650,9 @@ var text = {
         fid: "550",
         Text: "Cairn",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3611/-4.5125>Cairn</a>",
+          "<a id=Cairn href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3611/-4.5125>Cairn</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12673,9 +12673,9 @@ var text = {
         fid: "551",
         Text: "NB. The Rock of Ilesay is placed here five Miles East of its due Situation, being ten Miles due West of the Bank a little North of the Kirk of Girvan.",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2803/-4.9938>NB. The Rock of Ilesay is placed here five Miles East of its due Situation, being ten Miles due West of the Bank a little North of the Kirk of Girvan.</a>",
+          "<a id=NB. The Rock of Ilesay is placed here five Miles East of its due Situation, being ten Miles due West of the Bank a little North of the Kirk of Girvan. href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.2803/-4.9938>NB. The Rock of Ilesay is placed here five Miles East of its due Situation, being ten Miles due West of the Bank a little North of the Kirk of Girvan.</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12696,9 +12696,9 @@ var text = {
         fid: "552",
         Text: "Gilcriston",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3703/-4.7523>Gilcriston</a>",
+          "<a id=Gilcriston href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3703/-4.7523>Gilcriston</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12719,9 +12719,9 @@ var text = {
         fid: "553",
         Text: "Cullean",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.373/-4.7552>Cullean</a>",
+          "<a id=Cullean href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.373/-4.7552>Cullean</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12742,9 +12742,9 @@ var text = {
         fid: "554",
         Text: "Homeston",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3737/-4.7395>Homeston</a>",
+          "<a id=Homeston href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3737/-4.7395>Homeston</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12765,9 +12765,9 @@ var text = {
         fid: "555",
         Text: "Trees",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3709/-4.7206>Trees</a>",
+          "<a id=Trees href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3709/-4.7206>Trees</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12788,9 +12788,9 @@ var text = {
         fid: "556",
         Text: "Rannoch",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3757/-4.7592>Rannoch</a>",
+          "<a id=Rannoch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3757/-4.7592>Rannoch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12811,9 +12811,9 @@ var text = {
         fid: "557",
         Text: "From Cullean House to Bavin Point are high Rocks and prodigious Caverns opening to the Sea, the House stands on a very remarkable one of great extent divided into several Apartments and sometimes used as a Cellar.",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3775/-4.8187>From Cullean House to Bavin Point are high Rocks and prodigious Caverns opening to the Sea, the House stands on a very remarkable one of great extent divided into several Apartments and sometimes used as a Cellar.</a>",
+          "<a id=From Cullean House to Bavin Point are high Rocks and prodigious Caverns opening to the Sea, the House stands on a very remarkable one of great extent divided into several Apartments and sometimes used as a Cellar. href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3775/-4.8187>From Cullean House to Bavin Point are high Rocks and prodigious Caverns opening to the Sea, the House stands on a very remarkable one of great extent divided into several Apartments and sometimes used as a Cellar.</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12834,9 +12834,9 @@ var text = {
         fid: "558",
         Text: "Brae",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3791/-4.7613>Brae</a>",
+          "<a id=Brae href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3791/-4.7613>Brae</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12857,9 +12857,9 @@ var text = {
         fid: "559",
         Text: "Hilton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3828/-4.7533>Hilton</a>",
+          "<a id=Hilton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3828/-4.7533>Hilton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12880,9 +12880,9 @@ var text = {
         fid: "560",
         Text: "Know Side",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3849/-4.7274>Know Side</a>",
+          "<a id=Know Side href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3849/-4.7274>Know Side</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12903,9 +12903,9 @@ var text = {
         fid: "561",
         Text: "Brock",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3866/-4.7146>Brock</a>",
+          "<a id=Brock href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3866/-4.7146>Brock</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12926,9 +12926,9 @@ var text = {
         fid: "562",
         Text: "Ardoughty",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3869/-4.7425>Ardoughty</a>",
+          "<a id=Ardoughty href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3869/-4.7425>Ardoughty</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12949,9 +12949,9 @@ var text = {
         fid: "563",
         Text: "Croy",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3895/-4.7509>Croy</a>",
+          "<a id=Croy href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3895/-4.7509>Croy</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12972,9 +12972,9 @@ var text = {
         fid: "564",
         Text: "Cullean Bay",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3882/-4.787>Cullean Bay</a>",
+          "<a id=Cullean Bay href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3882/-4.787>Cullean Bay</a>",
       },
       geometry: {
         type: "Polygon",
@@ -12995,9 +12995,9 @@ var text = {
         fid: "565",
         Text: "Tindergree",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3928/-4.7558>Tindergree</a>",
+          "<a id=Tindergree href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3928/-4.7558>Tindergree</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13018,9 +13018,9 @@ var text = {
         fid: "566",
         Text: "Drumshang",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3969/-4.7435>Drumshang</a>",
+          "<a id=Drumshang href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3969/-4.7435>Drumshang</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13041,9 +13041,9 @@ var text = {
         fid: "567",
         Text: "Dunure Point",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4008/-4.7836>Dunure Point</a>",
+          "<a id=Dunure Point href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4008/-4.7836>Dunure Point</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13064,9 +13064,9 @@ var text = {
         fid: "568",
         Text: "Weddas",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4032/-4.7802>Weddas</a>",
+          "<a id=Weddas href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4032/-4.7802>Weddas</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13087,9 +13087,9 @@ var text = {
         fid: "569",
         Text: "Crofts",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4023/-4.7638>Crofts</a>",
+          "<a id=Crofts href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4023/-4.7638>Crofts</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13110,9 +13110,9 @@ var text = {
         fid: "570",
         Text: "Mains",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4029/-4.7534>Mains</a>",
+          "<a id=Mains href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4029/-4.7534>Mains</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13133,9 +13133,9 @@ var text = {
         fid: "571",
         Text: "Auchaninch",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4014/-4.7391>Auchaninch</a>",
+          "<a id=Auchaninch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4014/-4.7391>Auchaninch</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13156,9 +13156,9 @@ var text = {
         fid: "572",
         Text: "Kirkbride",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4066/-4.7502>Kirkbride</a>",
+          "<a id=Kirkbride href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4066/-4.7502>Kirkbride</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13179,9 +13179,9 @@ var text = {
         fid: "573",
         Text: "Lady Cross",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4083/-4.7486>Lady Cross</a>",
+          "<a id=Lady Cross href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4083/-4.7486>Lady Cross</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13202,9 +13202,9 @@ var text = {
         fid: "574",
         Text: "Saltrings",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4108/-4.773>Saltrings</a>",
+          "<a id=Saltrings href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4108/-4.773>Saltrings</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13225,9 +13225,9 @@ var text = {
         fid: "575",
         Text: "Liffin",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4109/-4.735>Liffin</a>",
+          "<a id=Liffin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4109/-4.735>Liffin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13248,9 +13248,9 @@ var text = {
         fid: "576",
         Text: "Acres",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.415/-4.7563>Acres</a>",
+          "<a id=Acres href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.415/-4.7563>Acres</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13271,9 +13271,9 @@ var text = {
         fid: "577",
         Text: "Dunduff",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4165/-4.7378>Dunduff</a>",
+          "<a id=Dunduff href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4165/-4.7378>Dunduff</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13294,9 +13294,9 @@ var text = {
         fid: "578",
         Text: "ruin",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4193/-4.7333>ruin</a>",
+          "<a id=ruin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4193/-4.7333>ruin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13317,9 +13317,9 @@ var text = {
         fid: "579",
         Text: "ruin",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4046/-4.7627>ruin</a>",
+          "<a id=ruin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4046/-4.7627>ruin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13340,9 +13340,9 @@ var text = {
         fid: "580",
         Text: "Dunure",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4057/-4.7616>Dunure</a>",
+          "<a id=Dunure href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4057/-4.7616>Dunure</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13363,9 +13363,9 @@ var text = {
         fid: "581",
         Text: "Knockdon",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4192/-4.7526>Knockdon</a>",
+          "<a id=Knockdon href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4192/-4.7526>Knockdon</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13386,9 +13386,9 @@ var text = {
         fid: "582",
         Text: "Drumbains",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4221/-4.7446>Drumbains</a>",
+          "<a id=Drumbains href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4221/-4.7446>Drumbains</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13409,9 +13409,9 @@ var text = {
         fid: "583",
         Text: "Knockdaw",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4184/-4.7067>Knockdaw</a>",
+          "<a id=Knockdaw href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4184/-4.7067>Knockdaw</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13432,9 +13432,9 @@ var text = {
         fid: "584",
         Text: "Fisherton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.421/-4.7197>Fisherton</a>",
+          "<a id=Fisherton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.421/-4.7197>Fisherton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13455,9 +13455,9 @@ var text = {
         fid: "585",
         Text: "Mill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.426/-4.7268>Mill</a>",
+          "<a id=Mill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.426/-4.7268>Mill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13478,9 +13478,9 @@ var text = {
         fid: "586",
         Text: "Gateside",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4275/-4.7147>Gateside</a>",
+          "<a id=Gateside href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4275/-4.7147>Gateside</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13501,9 +13501,9 @@ var text = {
         fid: "587",
         Text: "Largs",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4283/-4.7051>Largs</a>",
+          "<a id=Largs href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4283/-4.7051>Largs</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13524,9 +13524,9 @@ var text = {
         fid: "588",
         Text: "Grange",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3665/-4.6553>Grange</a>",
+          "<a id=Grange href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3665/-4.6553>Grange</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13547,9 +13547,9 @@ var text = {
         fid: "589",
         Text: "Wood",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.365/-4.6164>Wood</a>",
+          "<a id=Wood href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.365/-4.6164>Wood</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13570,9 +13570,9 @@ var text = {
         fid: "590",
         Text: "Toris Hill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3683/-4.6107>Toris Hill</a>",
+          "<a id=Toris Hill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3683/-4.6107>Toris Hill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13593,9 +13593,9 @@ var text = {
         fid: "591",
         Text: "Drumbeg",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3684/-4.5789>Drumbeg</a>",
+          "<a id=Drumbeg href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3684/-4.5789>Drumbeg</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13616,9 +13616,9 @@ var text = {
         fid: "592",
         Text: "Kerstoun",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3678/-4.552>Kerstoun</a>",
+          "<a id=Kerstoun href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3678/-4.552>Kerstoun</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13639,9 +13639,9 @@ var text = {
         fid: "593",
         Text: "Cullean",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3701/-4.6386>Cullean</a>",
+          "<a id=Cullean href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3701/-4.6386>Cullean</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13662,9 +13662,9 @@ var text = {
         fid: "594",
         Text: "Garryhorn",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3741/-4.6926>Garryhorn</a>",
+          "<a id=Garryhorn href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3741/-4.6926>Garryhorn</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13685,9 +13685,9 @@ var text = {
         fid: "595",
         Text: "ruins",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3785/-4.7002>ruins</a>",
+          "<a id=ruins href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3785/-4.7002>ruins</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13708,9 +13708,9 @@ var text = {
         fid: "596",
         Text: "Maitland",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.374/-4.651>Maitland</a>",
+          "<a id=Maitland href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.374/-4.651>Maitland</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13731,9 +13731,9 @@ var text = {
         fid: "597",
         Text: "Barnshean",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3752/-4.5649>Barnshean</a>",
+          "<a id=Barnshean href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3752/-4.5649>Barnshean</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13754,9 +13754,9 @@ var text = {
         fid: "598",
         Text: "Northbrae",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3781/-4.5519>Northbrae</a>",
+          "<a id=Northbrae href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3781/-4.5519>Northbrae</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13777,9 +13777,9 @@ var text = {
         fid: "599",
         Text: "Knockdon",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3775/-4.6727>Knockdon</a>",
+          "<a id=Knockdon href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3775/-4.6727>Knockdon</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13800,9 +13800,9 @@ var text = {
         fid: "600",
         Text: "Culroy",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3784/-4.6514>Culroy</a>",
+          "<a id=Culroy href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3784/-4.6514>Culroy</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13823,9 +13823,9 @@ var text = {
         fid: "601",
         Text: "Midtoun",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.379/-4.6311>Midtoun</a>",
+          "<a id=Midtoun href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.379/-4.6311>Midtoun</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13846,9 +13846,9 @@ var text = {
         fid: "602",
         Text: "Milton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3818/-4.6197>Milton</a>",
+          "<a id=Milton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3818/-4.6197>Milton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13869,9 +13869,9 @@ var text = {
         fid: "603",
         Text: "Ballycoats",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3772/-4.5879>Ballycoats</a>",
+          "<a id=Ballycoats href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3772/-4.5879>Ballycoats</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13892,9 +13892,9 @@ var text = {
         fid: "604",
         Text: "Comon",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3813/-4.5713>Comon</a>",
+          "<a id=Comon href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3813/-4.5713>Comon</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13915,9 +13915,9 @@ var text = {
         fid: "605",
         Text: "Mountgomerystoun",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3821/-4.5501>Mountgomerystoun</a>",
+          "<a id=Mountgomerystoun href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3821/-4.5501>Mountgomerystoun</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13938,9 +13938,9 @@ var text = {
         fid: "606",
         Text: "Carnakan",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3739/-4.5102>Carnakan</a>",
+          "<a id=Carnakan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3739/-4.5102>Carnakan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13961,9 +13961,9 @@ var text = {
         fid: "607",
         Text: "Woodstoun",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3825/-4.5234>Woodstoun</a>",
+          "<a id=Woodstoun href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3825/-4.5234>Woodstoun</a>",
       },
       geometry: {
         type: "Polygon",
@@ -13984,9 +13984,9 @@ var text = {
         fid: "608",
         Text: "Edwardston",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3859/-4.5306>Edwardston</a>",
+          "<a id=Edwardston href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3859/-4.5306>Edwardston</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14007,9 +14007,9 @@ var text = {
         fid: "609",
         Text: "Torr",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3882/-4.5411>Torr</a>",
+          "<a id=Torr href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3882/-4.5411>Torr</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14030,9 +14030,9 @@ var text = {
         fid: "610",
         Text: "Hatton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3914/-4.525>Hatton</a>",
+          "<a id=Hatton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3914/-4.525>Hatton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14053,9 +14053,9 @@ var text = {
         fid: "611",
         Text: "Doon R.",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3924/-4.5334>Doon R.</a>",
+          "<a id=Doon R. href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3924/-4.5334>Doon R.</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14080,9 +14080,9 @@ var text = {
         fid: "612",
         Text: "Barnford",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3885/-4.574>Barnford</a>",
+          "<a id=Barnford href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3885/-4.574>Barnford</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14103,9 +14103,9 @@ var text = {
         fid: "613",
         Text: "Cassillis",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3858/-4.5932>Cassillis</a>",
+          "<a id=Cassillis href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3858/-4.5932>Cassillis</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14126,9 +14126,9 @@ var text = {
         fid: "614",
         Text: "Monkwood",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3911/-4.6033>Monkwood</a>",
+          "<a id=Monkwood href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3911/-4.6033>Monkwood</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14149,9 +14149,9 @@ var text = {
         fid: "615",
         Text: "ruin",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.386/-4.624>ruin</a>",
+          "<a id=ruin href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.386/-4.624>ruin</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14172,9 +14172,9 @@ var text = {
         fid: "616",
         Text: "Auchendrain",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3872/-4.6239>Auchendrain</a>",
+          "<a id=Auchendrain href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3872/-4.6239>Auchendrain</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14195,9 +14195,9 @@ var text = {
         fid: "617",
         Text: "a Curious Ash Tree",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3892/-4.6376>a Curious Ash Tree</a>",
+          "<a id=a Curious Ash Tree href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3892/-4.6376>a Curious Ash Tree</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14218,9 +14218,9 @@ var text = {
         fid: "618",
         Text: "Mains",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3931/-4.6295>Mains</a>",
+          "<a id=Mains href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3931/-4.6295>Mains</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14241,9 +14241,9 @@ var text = {
         fid: "619",
         Text: "Pinmore",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3894/-4.6717>Pinmore</a>",
+          "<a id=Pinmore href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3894/-4.6717>Pinmore</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14264,9 +14264,9 @@ var text = {
         fid: "620",
         Text: "Saughry",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3898/-4.693>Saughry</a>",
+          "<a id=Saughry href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3898/-4.693>Saughry</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14287,9 +14287,9 @@ var text = {
         fid: "621",
         Text: "Craigshield",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3937/-4.6949>Craigshield</a>",
+          "<a id=Craigshield href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3937/-4.6949>Craigshield</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14310,9 +14310,9 @@ var text = {
         fid: "622",
         Text: "Whitlees",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3999/-4.6401>Whitlees</a>",
+          "<a id=Whitlees href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.3999/-4.6401>Whitlees</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14333,9 +14333,9 @@ var text = {
         fid: "623",
         Text: "Milburn",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4017/-4.6658>Milburn</a>",
+          "<a id=Milburn href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4017/-4.6658>Milburn</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14356,9 +14356,9 @@ var text = {
         fid: "624",
         Text: "Mains",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4069/-4.6365>Mains</a>",
+          "<a id=Mains href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4069/-4.6365>Mains</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14379,9 +14379,9 @@ var text = {
         fid: "625",
         Text: "Brown Carrick Hills",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4066/-4.6893>Brown Carrick Hills</a>",
+          "<a id=Brown Carrick Hills href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4066/-4.6893>Brown Carrick Hills</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14408,9 +14408,9 @@ var text = {
         fid: "626",
         Text: "Carwinshaws",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4171/-4.6769>Carwinshaws</a>",
+          "<a id=Carwinshaws href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4171/-4.6769>Carwinshaws</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14431,9 +14431,9 @@ var text = {
         fid: "627",
         Text: "Burnton",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4186/-4.6654>Burnton</a>",
+          "<a id=Burnton href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4186/-4.6654>Burnton</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14454,9 +14454,9 @@ var text = {
         fid: "628",
         Text: "Kilipstoun",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4169/-4.6439>Kilipstoun</a>",
+          "<a id=Kilipstoun href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4169/-4.6439>Kilipstoun</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14477,9 +14477,9 @@ var text = {
         fid: "629",
         Text: "Blairston",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4197/-4.6302>Blairston</a>",
+          "<a id=Blairston href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4197/-4.6302>Blairston</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14500,9 +14500,9 @@ var text = {
         fid: "630",
         Text: "Geneese",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4224/-4.7006>Geneese</a>",
+          "<a id=Geneese href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4224/-4.7006>Geneese</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14523,9 +14523,9 @@ var text = {
         fid: "631",
         Text: "Largs",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4221/-4.6741>Largs</a>",
+          "<a id=Largs href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4221/-4.6741>Largs</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14546,9 +14546,9 @@ var text = {
         fid: "632",
         Text: "Killish",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.424/-4.6668>Killish</a>",
+          "<a id=Killish href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.424/-4.6668>Killish</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14569,9 +14569,9 @@ var text = {
         fid: "633",
         Text: "Newark",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4256/-4.6619>Newark</a>",
+          "<a id=Newark href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4256/-4.6619>Newark</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14592,9 +14592,9 @@ var text = {
         fid: "634",
         Text: "Ginnock",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4259/-4.6919>Ginnock</a>",
+          "<a id=Ginnock href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4259/-4.6919>Ginnock</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14615,9 +14615,9 @@ var text = {
         fid: "635",
         Text: "Monkland",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4293/-4.6729>Monkland</a>",
+          "<a id=Monkland href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4293/-4.6729>Monkland</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14638,9 +14638,9 @@ var text = {
         fid: "636",
         Text: "Chapelhill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4311/-4.7012>Chapelhill</a>",
+          "<a id=Chapelhill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4311/-4.7012>Chapelhill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14661,9 +14661,9 @@ var text = {
         fid: "637",
         Text: "Mains",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4322/-4.6542>Mains</a>",
+          "<a id=Mains href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4322/-4.6542>Mains</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14684,9 +14684,9 @@ var text = {
         fid: "638",
         Text: "Waterside",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4335/-4.6456>Waterside</a>",
+          "<a id=Waterside href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4335/-4.6456>Waterside</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14707,9 +14707,9 @@ var text = {
         fid: "639",
         Text: "Mill",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4347/-4.6804>Mill</a>",
+          "<a id=Mill href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4347/-4.6804>Mill</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14730,9 +14730,9 @@ var text = {
         fid: "640",
         Text: "Mains",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4363/-4.6675>Mains</a>",
+          "<a id=Mains href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4363/-4.6675>Mains</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14753,9 +14753,9 @@ var text = {
         fid: "641",
         Text: "Heads of Ayr",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4449/-4.6969>Heads of Ayr</a>",
+          "<a id=Heads of Ayr href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4449/-4.6969>Heads of Ayr</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14776,9 +14776,9 @@ var text = {
         fid: "642",
         Text: "Greenan",
         Area: "Carrick",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4408/-4.66>Greenan</a>",
+          "<a id=Greenan href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4408/-4.66>Greenan</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14799,9 +14799,9 @@ var text = {
         fid: "643",
         Text: "Doon-Mouth",
         Area: "Carrick/Kyle",
-        Sheet: "Middle Sheet",
+        Sheet: "Middle",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4505/-4.6638>Doon-Mouth</a>",
+          "<a id=Doon-Mouth href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.4505/-4.6638>Doon-Mouth</a>",
       },
       geometry: {
         type: "Polygon",
@@ -14822,9 +14822,9 @@ var text = {
         fid: "644",
         Text: "Bermannoch",
         Area: "Carrick",
-        Sheet: "Bottom Sheet",
+        Sheet: "Bottom",
         Hyperlink:
-          "<a href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1498/-4.526>Bermannoch</a>",
+          "<a id=Bermannoch href=https://dgplacenames.github.io/maps/Ayrshire1775#14/55.1498/-4.526>Bermannoch</a>",
       },
       geometry: {
         type: "Polygon",
