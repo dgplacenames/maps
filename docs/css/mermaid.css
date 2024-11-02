@@ -207,17 +207,18 @@ th.gridjs-th {
   background-color: #9f9feb;
   border: 1px solid #e5e7eb;
   border-top: none;
-  padding: 12px 24px;
+  padding: 2px 24px;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
   box-sizing: border-box;
   white-space: nowrap;
   outline: none;
-  vertical-align: middle;
+  text-align: center;
+  vertical-align: top;
 }
 th.gridjs-th .gridjs-th-content {
-  text-overflow: ellipsis;
+  /*text-overflow: ellipsis;*/
   overflow: hidden;
   width: 100%;
   float: left;
@@ -225,9 +226,9 @@ th.gridjs-th .gridjs-th-content {
 th.gridjs-th-sort {
   cursor: pointer;
 }
-th.gridjs-th-sort .gridjs-th-content {
+/*th.gridjs-th-sort .gridjs-th-content {
   width: calc(100% - 15px);
-}
+}*/
 th.gridjs-th-sort:hover {
   background-color: #ddd;
 }
