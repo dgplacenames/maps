@@ -13,9 +13,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@allmaps/leaflet@1.0.0-beta.40/dist/bundled/allmaps-leaflet-1.9.umd.min.js"></script>
 
-    <script src="plugin/Leaflet.Control.Opacity/src/L.Control.Opacity.js"></script>
-    <link href="plugin/Leaflet.Control.Opacity/src/L.Control.Opacity.css" rel="stylesheet" />
-
     <link href="css/style.css" rel="stylesheet" />
 
     <script src="js/leaflet-hash.js"></script>
@@ -71,11 +68,6 @@
         var warpedMapLayer = new Allmaps.WarpedMapLayer(annotationUrl)
 
 
-        // Custom function to set opacity for Allmaps layers (warpedMapLayer)
-        function setAllmapsLayerOpacity(layer, opacity) {
-            warpedMapLayer.setOpacity(opacity);
-        }
-
         //Map
         const map = L.map('map', {
             center: [54.8470, -4.7269],
@@ -102,14 +94,6 @@
         //LayerControl
         L.control
             .layers(Map_BaseLayer, overlay, {
-                collapsed: false,
-            })
-            .addTo(map);
-
-        //OpacityControl
-        L.control
-            .opacity(overlay, {
-                label: 'Layer Transparency',
                 collapsed: false,
             })
             .addTo(map);
