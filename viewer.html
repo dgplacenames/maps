@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map Viewer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v8.2.0/ol.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 10px 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 0 20px;
+      justify-content: space-between;
+    }
+
+    .title-box {
+      flex: 1;
+    }
+
+    h1 {
+      font-size: 0.9em;
+      margin: 0;
+      font-weight: 600;
+      text-align: left;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 8px;
+    }
+
+    .nav-button {
+      color: white;
+      background: rgba(255, 255, 255, 0.1);
+      text-decoration: none;
+      font-size: 0.85em;
+      padding: 6px 12px;
+      border-radius: 4px;
+      white-space: nowrap;
+      transition: background 0.2s;
+      border: none;
+      cursor: pointer;
+      font-family: inherit;
+      box-shadow: none;
+    }
+
+    .nav-button:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 10000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-content {
+      background-color: white;
+      margin: 10% auto;
+      padding: 30px;
+      border-radius: 8px;
+      width: 90%;
+      max-width: 600px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .modal-header h2 {
+      margin: 0;
+      color: #2c3e50;
+    }
+
+    .close {
+      color: #aaa;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+      line-height: 1;
+    }
+
+    .close:hover {
+      color: #000;
+    }
+
+    #map {
+      flex: 1;
+      position: relative;
+    }
+
+    .loading-screen {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 2000;
+      transition: opacity 0.5s ease-out;
+    }
+
+    .loading-screen.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 4px solid #ddd;
+      border-top-color: #0078d7;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .loading-text {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #666;
+    }
+
+    .sidebar {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      width: 280px;
+      max-height: 40px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+      z-index: 900;
+      display: flex;
+      flex-direction: column;
+      transition: max-height 0.3s ease;
+      overflow: hidden;
+    }
+
+    .sidebar:not(.collapsed) {
+      max-height: calc(100vh - 140px);
+    }
+
+    .sidebar.collapsed {
+      width: 40px;
+      transition: max-height 0.3s ease, width 0.3s ease;
+    }
+
+    .sidebar-toggle {
+      width: 40px;
+      height: 40px;
+      background: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #2c3e50;
+      flex-shrink: 0;
+    }
+
+    .sidebar-toggle:hover {
+      background: #f4f4f4;
+    }
+
+    .sidebar:not(.collapsed) .sidebar-toggle {
+      display: none;
+    }
+
+    .sidebar-content {
+      padding: 20px;
+      flex: 1;
+    }
+
+    .sidebar.collapsed .sidebar-content {
+      display: none;
+    }
+
+    .sidebar-section {
+      margin-bottom: 20px;
+    }
+
+    .sidebar-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .sidebar-section h3 {
+      font-size: 1em;
+      margin-bottom: 12px;
+      color: #2c3e50;
+      font-weight: 600;
+    }
+
+    .info-item {
+      margin-bottom: 10px;
+      font-size: 0.9em;
+      line-height: 1.5;
+    }
+
+    .info-item strong {
+      color: #555;
+    }
+
+    .link-button {
+      display: inline-block;
+      padding: 6px 12px;
+      background: #0078d7;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.85em;
+      transition: background 0.2s;
+      text-align: center;
+    }
+
+    .link-button:hover {
+      background: #005a9e;
+    }
+
+    .links-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .links-grid .link-button {
+      margin: 0;
+    }
+
+    .controls {
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+      z-index: 1000;
+      min-width: 240px;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.3s ease;
+    }
+
+    .controls.collapsed {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .controls-toggle {
+      width: 40px;
+      height: 40px;
+      background: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2em;
+      color: #2c3e50;
+      flex-shrink: 0;
+    }
+
+    .controls-toggle:hover {
+      background: #f4f4f4;
+    }
+
+    .controls:not(.collapsed) .controls-toggle {
+      display: none;
+    }
+
+    .controls-content {
+      display: block;
+    }
+
+    .controls.collapsed .controls-content {
+      display: none;
+    }
+
+    .control-group {
+      margin-bottom: 12px;
+    }
+
+    .control-group:last-child {
+      margin-bottom: 0;
+    }
+
+    .control-group label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .slider-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .controls input[type="range"] {
+      flex: 1;
+      cursor: pointer;
+    }
+
+    .slider-value {
+      font-size: 13px;
+      min-width: 35px;
+      text-align: right;
+    }
+
+    .button-group {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 4px;
+    }
+
+    .button-group button {
+      padding: 6px 8px;
+      border: 2px solid #ddd;
+      background: white;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .button-group button.active {
+      background: #0078d7;
+      color: white;
+      border-color: #0078d7;
+    }
+
+    .button-group button:hover {
+      border-color: #0078d7;
+    }
+
+    .error {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #e74c3c;
+      max-width: 400px;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        left: 10px;
+        right: auto;
+        width: calc(100% - 20px);
+        max-width: 280px;
+      }
+
+      .controls {
+        right: 10px;
+        top: 70px;
+        min-width: 200px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .header-content {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 10px;
+      }
+
+      h1 {
+        font-size: 0.8em;
+        text-align: center;
+      }
+
+      .nav-links {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .nav-button {
+        font-size: 0.8em;
+        padding: 5px 10px;
+      }
+
+      .controls {
+        top: 90px;
+        min-width: 180px;
+      }
+
+      .button-group {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .button-group button {
+        font-size: 11px;
+        padding: 5px 6px;
+      }
+    }
+
+    .ol-zoom-extent {
+      top: 4.643em;
+    }
+
+    .ol-zoom-extent button {
+      background-color: #fff !important;
+      color: rgba(0, 0, 0, .6) !important;
+      text-shadow: none !important;
+      font-size: 1.14em;
+      width: 1.375em;
+      height: 1.375em;
+      line-height: .4em;
+    }
+
+    .ol-zoom-extent button:hover,
+    .ol-zoom-extent button:focus {
+      background-color: #fff !important;
+      color: rgba(0, 0, 0, .8) !important;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <div class="title-box">
+        <h1 id="map-title">Loading...</h1>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-button">Maps</a>
+        <a href="transcriptions.html" class="nav-button">Transcriptions</a>
+        <button class="nav-button" id="about-btn">About</button>
+      </div>
+    </div>
+  </header>
+
+  <div id="map">
+    <div class="loading-screen" id="loading">
+      <div class="spinner"></div>
+      <div class="loading-text">Loading map...</div>
+    </div>
+    <div class="error" id="error" style="display: none;"></div>
+  </div>
+
+  <aside class="sidebar" id="sidebar">
+    <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Toggle info">i</button>
+    <div class="sidebar-content">
+      <div class="sidebar-section">
+        <h3>Map Details</h3>
+        <div id="map-details"></div>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Links</h3>
+        <div id="external-links"></div>
+      </div>
+    </div>
+  </aside>
+
+  <div class="controls" id="controls">
+    <button class="controls-toggle" id="controls-toggle" aria-label="Toggle controls">⚙</button>
+    <div class="controls-content">
+      <div class="control-group">
+        <label>Base Layer</label>
+        <div class="button-group" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+          <button id="satellite-btn" class="active">Satellite</button>
+          <button id="osm-btn">OSM</button>
+          <button id="os1-btn">OS 1st</button>
+          <button id="os2-btn">OS 2nd</button>
+        </div>
+      </div>
+      <div class="control-group">
+        <label for="opacity">Overlay Opacity</label>
+        <div class="slider-container">
+          <input type="range" id="opacity" min="0" max="100" value="100" step="1">
+          <span class="slider-value" id="opacity-value">100%</span>
+        </div>
+      </div>
+      <div class="control-group">
+        <label for="rotation">Map Rotation</label>
+        <div class="slider-container">
+          <input type="range" id="rotation" min="0" max="360" value="0" step="1">
+          <span class="slider-value" id="rotation-value">0°</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>About</h2>
+        <span class="close">&times;</span>
+      </div>
+      <p style="text-align: center; font-size: 14px; margin-top: 20px; color: #666;">
+                Site by <a href="https://github.com/dgplacenames/maps" target="_blank">Colin Mackenzie</a>
+            </p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ol@v8.2.0/dist/ol.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@allmaps/openlayers/dist/bundled/allmaps-openlayers-8.umd.js"></script>
+
+  <script>
+    // Modal functionality
+    const modal = document.getElementById('about-modal');
+    const aboutBtn = document.getElementById('about-btn');
+    const closeBtn = document.querySelector('.close');
+
+    aboutBtn.onclick = () => modal.style.display = 'block';
+    closeBtn.onclick = () => modal.style.display = 'none';
+    window.onclick = (e) => {
+      if (e.target === modal) modal.style.display = 'none';
+    };
+
+    let currentMap = null;
+    let map = null;
+    let view = null;
+    let warpedMapLayer = null;
+    let targetAnnotationId = null;
+    let initialExtent = null;
+
+    const layers = {
+      osm: null,
+      satellite: null,
+      os1: null,
+      os2: null
+    };
+
+    const elements = {
+      loading: document.getElementById('loading'),
+      error: document.getElementById('error'),
+      mapTitle: document.getElementById('map-title'),
+      mapDetails: document.getElementById('map-details'),
+      externalLinks: document.getElementById('external-links'),
+      sidebar: document.getElementById('sidebar'),
+      controls: document.getElementById('controls')
+    };
+
+    async function init() {
+      const hashParts = window.location.hash.slice(1).split('/');
+      const mapId = hashParts[0];
+      targetAnnotationId = hashParts[1]; // Store globally
+
+      if (!mapId) {
+        showError('No map ID provided in URL');
+        return;
+      }
+
+      try {
+        const response = await fetch('maps.json');
+        const maps = await response.json();
+        currentMap = maps.find(m => m.id === mapId);
+
+        if (!currentMap) {
+          showError(`Map with ID "${mapId}" not found`);
+          return;
+        }
+
+        updateMapInfo();
+        await loadMap();
+
+      } catch (error) {
+        showError('Error loading map: ' + error.message);
+      }
+    }
+
+    function updateMapInfo() {
+      elements.mapTitle.textContent = currentMap.title;
+
+      const countyLabel = currentMap.counties.length === 1 ? 'County' : 'Counties';
+      const parishLabel = currentMap.parishes.length === 1 ? 'Parish' : 'Parishes';
+
+      elements.mapDetails.innerHTML = `
+        <div class="info-item"><strong>Date:</strong> ${currentMap.date}</div>
+        <div class="info-item"><strong>Mapmaker:</strong> ${currentMap.mapmaker}</div>
+        <div class="info-item"><strong>${countyLabel}:</strong> ${currentMap.counties.join(', ')}</div>
+        <div class="info-item"><strong>${parishLabel}:</strong> ${currentMap.parishes.join(', ')}</div>
+        ${currentMap.collection_name ? `<div class="info-item"><strong>Collection:</strong> ${currentMap.collection_name}</div>` : ''}
+      `;
+
+      const nlsViewUrl = `https://maps.nls.uk/view/${currentMap.id}`;
+
+
+      const links = [
+        `<a href="${nlsViewUrl}" target="_blank" rel="noopener" class="link-button">View on NLS</a>`,
+        currentMap.nls_info ? `<a href="${currentMap.nls_info}" target="_blank" rel="noopener" class="link-button">NLS Info</a>` : '',
+        currentMap.iiif_manifest ? `<a href="https://editor.allmaps.org/#/collection?url=${encodeURIComponent(currentMap.iiif_manifest)}" target="_blank" rel="noopener" class="link-button">Allmaps Editor</a>` : ''
+      ].filter(Boolean);
+
+      elements.externalLinks.innerHTML = `<div class="links-grid">${links.join('')}</div>`;
+    }
+
+    async function loadMap() {
+      // Create base layers in order: Satellite, OSM, OS 1st, OS 2nd
+      layers.satellite = new ol.layer.Tile({
+        source: new ol.source.XYZ({
+          url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+          attributions: 'Tiles © Esri'
+        }),
+        visible: true
+      });
+
+      layers.osm = new ol.layer.Tile({
+        source: new ol.source.OSM(),
+        visible: false
+      });
+
+      layers.os1 = new ol.layer.Tile({
+        source: new ol.source.XYZ({
+          url: 'https://mapseries-tilesets.s3.amazonaws.com/os/6inchfirst/{z}/{x}/{y}.png',
+          attributions: '<a href="https://www.maptiler.com/engine/">Rendered with MapTiler Engine</a>',
+          minZoom: 1,
+          maxZoom: 17,
+          extent: ol.proj.transformExtent([-7.80240183, 54.61769439, -0.61567872, 60.89992409], 'EPSG:4326', 'EPSG:3857')
+        }),
+        visible: false
+      });
+
+      layers.os2 = new ol.layer.Tile({
+        source: new ol.source.XYZ({
+          url: 'https://api.maptiler.com/tiles/uk-osgb10k1888/{z}/{x}/{y}.png?key=lctZzs518h1OEqcsh2zL',
+          attributions: '© MapTiler'
+        }),
+        visible: false
+      });
+
+      // Create the map
+      map = new ol.Map({
+        target: 'map',
+        layers: [layers.satellite, layers.osm, layers.os1, layers.os2],
+        controls: ol.control.defaults.defaults().extend([
+          new ol.control.ZoomToExtent({
+            extent: null,
+            label: '⛶',
+            tipLabel: 'Fit to map extent'
+          })
+        ]),
+        view: new ol.View({
+          center: [0, 0],
+          zoom: 2
+        })
+      });
+
+      view = map.getView();
+
+      // Load georeferenced map if available
+      if (currentMap.allmaps_annotation) {
+        await loadGeoreferencedMap();
+      } else {
+        showError('This map is not yet georeferenced. Please view it on the NLS website.');
+        return;
+      }
+
+      setupControls();
+      setupToggles();
+      setupAnnotationHover();
+    }
+
+    function setupAnnotationHover() {
+      // Create tooltip element
+      const tooltip = document.createElement('div');
+      tooltip.id = 'annotation-tooltip';
+      tooltip.style.cssText = `
+        position: absolute;
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 8px 12px;
+        border-radius: 4px;
+        font-size: 14px;
+        pointer-events: none;
+        z-index: 10000;
+        display: none;
+        max-width: 300px;
+      `;
+      document.body.appendChild(tooltip);
+
+      // Track mouse movement over map
+      map.on('pointermove', (e) => {
+        const feature = map.forEachFeatureAtPixel(e.pixel, (feat) => feat);
+
+        if (feature && feature.get('name')) {
+          // Show tooltip
+          const name = feature.get('name');
+          const transcription = feature.get('transcription');
+          const comments = feature.get('comments');
+
+          let tooltipText = '';
+          if (transcription) tooltipText += transcription;
+          if (comments && comments !== transcription) {
+            if (tooltipText) tooltipText += '<br>';
+            tooltipText += `<em>${comments}</em>`;
+          }
+          if (!tooltipText && name) tooltipText = name;
+
+          tooltip.innerHTML = tooltipText;
+          tooltip.style.display = 'block';
+          tooltip.style.left = (e.pixel[0] + 15) + 'px';
+          tooltip.style.top = (e.pixel[1] + 15) + 'px';
+
+          // Change cursor
+          map.getTargetElement().style.cursor = 'pointer';
+        } else {
+          tooltip.style.display = 'none';
+          map.getTargetElement().style.cursor = '';
+        }
+      });
+    }
+
+    async function loadGeoreferencedMap() {
+      try {
+        warpedMapLayer = new Allmaps.WarpedMapLayer();
+        const annotationUrl = currentMap.allmaps_annotation;
+
+        await warpedMapLayer.addGeoreferenceAnnotationByUrl(annotationUrl);
+        map.addLayer(warpedMapLayer);
+
+        // Wait for extent to be available
+        setTimeout(() => {
+          const extent = warpedMapLayer.getExtent();
+
+          if (extent) {
+            // Store the initial extent
+            initialExtent = extent;
+
+            // Update the ZoomToExtent control with the actual extent
+            const zoomToExtentControl = map.getControls().getArray().find(
+              control => control instanceof ol.control.ZoomToExtent
+            );
+            if (zoomToExtentControl) {
+              zoomToExtentControl.extent = extent;
+
+              // Override the button click to use padding like the initial load
+              const button = zoomToExtentControl.element.querySelector('button');
+              if (button) {
+                button.onclick = (e) => {
+                  e.preventDefault();
+                  view.fit(extent, {
+                    padding: [50, 50, 50, 50],
+                    duration: 0
+                  });
+                };
+              }
+            }
+
+            view.fit(extent, {
+              padding: [50, 50, 50, 50],
+              duration: 0
+            });
+
+            setTimeout(() => {
+              elements.loading.classList.add('hidden');
+            }, 300);
+          } else {
+            elements.loading.classList.add('hidden');
+          }
+
+          // Try to load annotations
+          loadAnnotations(targetAnnotationId);
+        }, 1000);
+
+      } catch (error) {
+        showError('Error loading georeferenced map: ' + error.message);
+      }
+    }
+
+    async function loadAnnotations(annotationId) {
+      if (!currentMap.transcription) {
+        console.log('No transcription file specified for this map');
+        return;
+      }
+
+      try {
+        const response = await fetch(currentMap.transcription);
+        if (!response.ok) {
+          console.log('Transcription file not found');
+          return;
+        }
+
+        const csvText = await response.text();
+        console.log('Annotations loaded');
+
+        // Parse CSV
+        const lines = csvText.split('\n');
+        const headers = lines[0].split(',').map(h => h.replace(/"/g, ''));
+
+        // Create a vector layer for annotations
+        const annotationSource = new ol.source.Vector();
+        const annotationLayer = new ol.layer.Vector({
+          source: annotationSource,
+          style: new ol.style.Style({
+            stroke: new ol.style.Stroke({
+              color: 'rgba(255, 0, 0, 0.8)',
+              width: 2
+            }),
+            fill: new ol.style.Fill({
+              color: 'rgba(255, 0, 0, 0.1)'
+            })
+          })
+        });
+        map.addLayer(annotationLayer);
+
+        let targetFeature = null;
+
+        for (let i = 1; i < lines.length; i++) {
+          if (!lines[i].trim()) continue;
+
+          const values = lines[i].match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g) || [];
+          const row = {};
+          headers.forEach((header, index) => {
+            row[header] = values[index] ? values[index].replace(/^"|"$/g, '').trim() : '';
+          });
+
+          console.log('Row UUID:', row.UUID, 'Target:', annotationId, 'Match:', row.UUID === annotationId);
+
+          if (row.ANCHOR && row.ANCHOR.startsWith('tbox:')) {
+            // Parse tbox coordinates: tbox:x=7275,y=8880,a=0.36397895650964407,l=247,h=-122
+            const anchorMatch = row.ANCHOR.match(/x=(\d+),y=(\d+),a=([\d.]+),l=(\d+),h=(-?\d+)/);
+            if (anchorMatch) {
+              const pixelX = parseFloat(anchorMatch[1]);
+              const pixelY = parseFloat(anchorMatch[2]);
+              const angle = parseFloat(anchorMatch[3]);
+              const width = parseFloat(anchorMatch[4]);
+              const height = parseFloat(anchorMatch[5]);
+
+              console.log(`Annotation "${row.COMMENTS}" at pixel coords: ${pixelX}, ${pixelY}, angle: ${angle} rad (${angle * 180 / Math.PI} deg), width: ${width}, height: ${height}`);
+
+              // Get the warped map using the correct API
+              const warpedMapList = warpedMapLayer.getWarpedMapList();
+
+              // The list uses a Map structure, not an array
+              if (warpedMapList && warpedMapList.warpedMapsById && warpedMapList.warpedMapsById.size > 0) {
+                // Get the first warped map from the Map
+                const warpedMap = Array.from(warpedMapList.warpedMapsById.values())[0];
+
+                if (warpedMap.transformer) {
+                  const cos = Math.cos(-angle);  // Negate angle
+                  const sin = Math.sin(-angle);  // Negate angle
+
+                  // Use bottom-left as anchor point (the one that worked!)
+                  const offsets = [[0, -height], [width, -height], [width, 0], [0, 0]];
+
+                  const corners = offsets.map(([dx, dy]) => {
+                    const rotatedX = dx * cos - dy * sin;
+                    const rotatedY = dx * sin + dy * cos;
+                    return [pixelX + rotatedX, pixelY + rotatedY];
+                  });
+
+                  const geoCorners = corners.map(corner => {
+                    const geo = warpedMap.transformer.transformForward(corner);
+                    return ol.proj.fromLonLat(geo);
+                  });
+
+                  const feature = new ol.Feature({
+                    geometry: new ol.geom.Polygon([geoCorners]),
+                    name: row.COMMENTS || row.QUOTE_TRANSCRIPTION || 'Annotation',
+                    transcription: row.QUOTE_TRANSCRIPTION || '',
+                    comments: row.COMMENTS || '',
+                    uuid: row.UUID || ''
+                  });
+
+                  annotationSource.addFeature(feature);
+
+                  // Check if this is the target annotation to zoom to
+                  if (annotationId && row.UUID === annotationId) {
+                    targetFeature = feature;
+                  }
+
+                  console.log(`Added annotation for "${row.COMMENTS}"`);
+                } else {
+                  console.log('No transformer available');
+                }
+              } else {
+                console.log('No warped maps in Map structure');
+              }
+            }
+          }
+        }
+
+        console.log(`Added ${annotationSource.getFeatures().length} annotation markers`);
+
+        // If a specific annotation was requested, zoom to it
+        if (targetFeature) {
+          const geometry = targetFeature.getGeometry();
+          const extent = geometry.getExtent();
+          view.fit(extent, {
+            padding: [100, 100, 100, 100],
+            duration: 1000,
+            maxZoom: 18
+          });
+          console.log(`Zoomed to annotation: ${targetFeature.get('name')}`);
+        }
+
+      } catch (error) {
+        console.log('Error loading annotations:', error);
+      }
+    }
+
+    function setupControls() {
+      // Base layer switching
+      const buttons = {
+        satellite: document.getElementById('satellite-btn'),
+        osm: document.getElementById('osm-btn'),
+        os1: document.getElementById('os1-btn'),
+        os2: document.getElementById('os2-btn')
+      };
+
+      Object.entries(buttons).forEach(([layerName, button]) => {
+        button.addEventListener('click', () => {
+          Object.entries(layers).forEach(([name, layer]) => {
+            layer.setVisible(name === layerName);
+            buttons[name].classList.toggle('active', name === layerName);
+          });
+        });
+      });
+
+      // Opacity control
+      const opacitySlider = document.getElementById('opacity');
+      const opacityValue = document.getElementById('opacity-value');
+
+      opacitySlider.addEventListener('input', (e) => {
+        const opacity = parseInt(e.target.value) / 100;
+        if (warpedMapLayer) {
+          warpedMapLayer.setOpacity(opacity);
+        }
+        opacityValue.textContent = e.target.value + '%';
+      });
+
+      // Rotation control
+      const rotationSlider = document.getElementById('rotation');
+      const rotationValue = document.getElementById('rotation-value');
+
+      rotationSlider.addEventListener('input', (e) => {
+        const degrees = parseInt(e.target.value);
+        const radians = (degrees * Math.PI) / 180;
+        view.setRotation(radians);
+        rotationValue.textContent = degrees + '°';
+      });
+    }
+
+    function setupToggles() {
+      let isDragging = false;
+      let dragStartX = 0;
+      let dragStartY = 0;
+      const dragThreshold = 5; // pixels of movement to consider it a drag
+
+      // Track mouse/touch movement to detect dragging
+      document.addEventListener('mousedown', (e) => {
+        isDragging = false;
+        dragStartX = e.clientX;
+        dragStartY = e.clientY;
+      });
+
+      document.addEventListener('mousemove', (e) => {
+        if (Math.abs(e.clientX - dragStartX) > dragThreshold ||
+          Math.abs(e.clientY - dragStartY) > dragThreshold) {
+          isDragging = true;
+        }
+      });
+
+      document.addEventListener('touchstart', (e) => {
+        isDragging = false;
+        dragStartX = e.touches[0].clientX;
+        dragStartY = e.touches[0].clientY;
+      });
+
+      document.addEventListener('touchmove', (e) => {
+        if (Math.abs(e.touches[0].clientX - dragStartX) > dragThreshold ||
+          Math.abs(e.touches[0].clientY - dragStartY) > dragThreshold) {
+          isDragging = true;
+        }
+      });
+
+      // Sidebar toggle
+      const sidebarToggle = document.getElementById('sidebar-toggle');
+      sidebarToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        elements.sidebar.classList.toggle('collapsed');
+      });
+
+      // Collapse sidebar when clicking outside (but not dragging)
+      document.addEventListener('click', (e) => {
+        if (!isDragging && !elements.sidebar.contains(e.target)) {
+          elements.sidebar.classList.add('collapsed');
+        }
+      });
+
+      elements.sidebar.addEventListener('click', (e) => {
+        e.stopPropagation();
+      });
+
+      // Controls toggle
+      const controlsToggle = document.getElementById('controls-toggle');
+      controlsToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        elements.controls.classList.toggle('collapsed');
+      });
+
+      // Collapse controls when clicking outside (but not dragging)
+      document.addEventListener('click', (e) => {
+        if (!isDragging && !elements.controls.contains(e.target)) {
+          elements.controls.classList.add('collapsed');
+        }
+      });
+
+      elements.controls.addEventListener('click', (e) => {
+        e.stopPropagation();
+      });
+    }
+
+    function showError(message) {
+      elements.loading.style.display = 'none';
+      elements.error.textContent = message;
+      elements.error.style.display = 'block';
+    }
+
+    window.addEventListener('hashchange', () => location.reload());
+
+    init();
+  </script>
+</body>
+
+</html>

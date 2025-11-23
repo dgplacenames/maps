@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcriptions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-left h1 {
+            font-size: 1.2em;
+            margin: 0 0 4px 0;
+            color: white;
+            font-weight: 600;
+        }
+
+        .results-info {
+            color: #ecf0f1;
+            font-size: 0.85em;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 8px;
+        }
+
+        .nav-button {
+            color: white;
+            background: rgba(255, 255, 255, 0.1);
+            text-decoration: none;
+            font-size: 0.85em;
+            padding: 6px 12px;
+            border-radius: 4px;
+            white-space: nowrap;
+            transition: background 0.2s;
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        .nav-button:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 10000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 10% auto;
+            padding: 30px;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+            color: #2c3e50;
+        }
+
+        .close {
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            line-height: 1;
+        }
+
+        .close:hover {
+            color: #000;
+        }
+
+        .filters {
+            background: white;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr auto;
+            gap: 12px;
+            align-items: end;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #2c3e50;
+            font-size: 0.85em;
+        }
+
+        .filter-group input,
+        .filter-group select {
+            padding: 6px 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+
+        .filter-group input:focus,
+        .filter-group select:focus {
+            outline: none;
+            border-color: #0078d7;
+        }
+
+        .clear-filters-btn {
+            padding: 6px 16px;
+            background: #0078d7;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 0.9em;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: background 0.2s;
+            font-family: inherit;
+        }
+
+        .clear-filters-btn:hover {
+            background: #005a9e;
+        }
+
+        .table-container {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            background: white;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: #f8f9fa;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        th {
+            padding: 12px 16px;
+            text-align: left;
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 0.9em;
+            white-space: nowrap;
+        }
+
+        td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 0.9em;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .transcription-link {
+            color: #0078d7;
+            text-decoration: none;
+        }
+
+        .transcription-link:hover {
+            text-decoration: underline;
+        }
+
+        .no-results {
+            border-radius: 8px;
+            background: white;
+            padding: 40px;
+            text-align: center;
+            color: #7f8c8d;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            header {
+                padding: 12px 15px;
+            }
+
+            .filters {
+                grid-template-columns: 1fr;
+                padding: 12px 15px;
+            }
+
+            table {
+                font-size: 0.85em;
+            }
+
+            th,
+            td {
+                padding: 8px 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-content {
+                flex-direction: column;
+                gap: 10px;
+                align-items: flex-start;
+            }
+
+            .header-left h1 {
+                font-size: 1em;
+            }
+
+            .results-info {
+                font-size: 0.8em;
+            }
+
+            .nav-buttons {
+                width: 100%;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+            }
+
+            .nav-button {
+                font-size: 0.8em;
+                padding: 5px 10px;
+            }
+
+            .filters {
+                padding: 10px;
+            }
+
+            .filter-group label {
+                font-size: 0.8em;
+            }
+
+            .filter-group input,
+            .filter-group select {
+                font-size: 0.85em;
+                padding: 5px 8px;
+            }
+
+            .clear-filters-btn {
+                font-size: 0.85em;
+                padding: 5px 12px;
+            }
+
+            table {
+                font-size: 0.8em;
+            }
+
+            th,
+            td {
+                padding: 6px 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="header-left">
+                    <h1>Transcriptions</h1>
+                    <div class="results-info">
+                        <span id="results-count">Loading...</span>
+                    </div>
+                </div>
+                <div class="nav-buttons">
+                    <a href="index.html" class="nav-button">Maps</a>
+                    <button class="nav-button" id="about-btn">About</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label for="search">Search</label>
+                <input type="text" id="search" placeholder="Search transcriptions...">
+            </div>
+
+            <div class="filter-group">
+                <label for="county-filter">County</label>
+                <select id="county-filter">
+                    <option value="">All Counties</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="parish-filter">Parish</label>
+                <select id="parish-filter">
+                    <option value="">All Parishes</option>
+                </select>
+            </div>
+
+            <button class="clear-filters-btn" id="clear-filters">Clear</button>
+        </div>
+
+        <div class="table-container" id="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Transcription</th>
+                        <th>Map</th>
+                        <th>Date</th>
+                        <th>Mapmaker</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody id="transcriptions-body">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="no-results" id="no-results" style="display: none;">
+            <h3>No transcriptions found</h3>
+            <p>Try adjusting your filters</p>
+        </div>
+    </div>
+
+    <div id="about-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>About</h2>
+                <span class="close">&times;</span>
+            </div>
+            <p>Coming soon...</p>
+            <p style="text-align: center; font-size: 14px; margin-top: 20px; color: #666;">
+                Site by <a href="https://github.com/dgplacenames/maps" target="_blank">Colin Mackenzie</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Modal functionality
+        const modal = document.getElementById('about-modal');
+        const aboutBtn = document.getElementById('about-btn');
+        const closeBtn = document.querySelector('.close');
+
+        aboutBtn.onclick = () => modal.style.display = 'block';
+        closeBtn.onclick = () => modal.style.display = 'none';
+        window.onclick = (e) => {
+            if (e.target === modal) modal.style.display = 'none';
+        };
+
+        let maps = [];
+        let allTranscriptions = [];
+        let filteredTranscriptions = [];
+
+        async function init() {
+            try {
+                const mapsResponse = await fetch('maps.json');
+                maps = await mapsResponse.json();
+
+                await loadAllAnnotations();
+
+                if (allTranscriptions.length > 0) {
+                    populateFilters();
+                    applyFilters();
+                } else {
+                    document.getElementById('results-count').textContent = '0 transcriptions';
+                    document.getElementById('table-container').style.display = 'none';
+                    document.getElementById('no-results').style.display = 'block';
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('results-count').textContent = 'Error loading';
+            }
+        }
+
+        async function loadAllAnnotations() {
+            for (const map of maps) {
+                if (!map.transcription) continue;
+
+                try {
+                    const response = await fetch(map.transcription);
+                    if (response.ok) {
+                        const csvText = await response.text();
+                        parseAnnotations(csvText, map);
+                    }
+                } catch (error) {
+                    console.error(`Error loading transcriptions for ${map.id}:`, error);
+                }
+            }
+        }
+
+        function parseAnnotations(csvText, map) {
+            const lines = csvText.split('\n');
+            const headers = lines[0].split(',').map(h => h.replace(/"/g, ''));
+
+            for (let i = 1; i < lines.length; i++) {
+                if (!lines[i].trim()) continue;
+
+                const values = lines[i].match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g) || [];
+                const row = {};
+                headers.forEach((header, index) => {
+                    row[header] = values[index] ? values[index].replace(/^"|"$/g, '').trim() : '';
+                });
+
+                if (row.QUOTE_TRANSCRIPTION || row.COMMENTS) {
+                    allTranscriptions.push({
+                        transcription: row.QUOTE_TRANSCRIPTION || '',
+                        comments: row.COMMENTS || '',
+                        mapId: map.id,
+                        mapTitle: map.title,
+                        mapDate: map.date,
+                        mapMaker: map.mapmaker,
+                        counties: map.counties,
+                        parishes: map.parishes,
+                        uuid: row.UUID || ''
+                    });
+                }
+            }
+        }
+
+        function populateFilters() {
+            const counties = new Set();
+            const parishes = new Set();
+
+            allTranscriptions.forEach(trans => {
+                trans.counties.forEach(c => counties.add(c));
+                trans.parishes.forEach(p => parishes.add(p));
+            });
+
+            populateSelect('county-filter', Array.from(counties).sort());
+            populateSelect('parish-filter', Array.from(parishes).sort());
+        }
+
+        function populateSelect(id, options) {
+            const select = document.getElementById(id);
+            options.forEach(option => {
+                const opt = document.createElement('option');
+                opt.value = option;
+                opt.textContent = option;
+                select.appendChild(opt);
+            });
+        }
+
+        function applyFilters() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            const countyFilter = document.getElementById('county-filter').value;
+            const parishFilter = document.getElementById('parish-filter').value;
+
+            filteredTranscriptions = allTranscriptions.filter(trans => {
+                const matchesSearch = !searchTerm ||
+                    trans.transcription.toLowerCase().includes(searchTerm) ||
+                    trans.comments.toLowerCase().includes(searchTerm) ||
+                    trans.mapTitle.toLowerCase().includes(searchTerm);
+
+                const matchesCounty = !countyFilter || trans.counties.includes(countyFilter);
+                const matchesParish = !parishFilter || trans.parishes.includes(parishFilter);
+
+                return matchesSearch && matchesCounty && matchesParish;
+            });
+
+            displayTranscriptions();
+        }
+
+        function displayTranscriptions() {
+            const tbody = document.getElementById('transcriptions-body');
+            const tableContainer = document.getElementById('table-container');
+            const noResults = document.getElementById('no-results');
+            const resultsCount = document.getElementById('results-count');
+
+            tbody.innerHTML = '';
+
+            if (filteredTranscriptions.length === 0) {
+                tableContainer.style.display = 'none';
+                noResults.style.display = 'block';
+                resultsCount.textContent = 'No transcriptions found';
+                return;
+            }
+
+            tableContainer.style.display = 'block';
+            noResults.style.display = 'none';
+            resultsCount.textContent = `Showing ${filteredTranscriptions.length} transcription${filteredTranscriptions.length !== 1 ? 's' : ''}`;
+
+            filteredTranscriptions.forEach(trans => {
+                const row = document.createElement('tr');
+
+                const transcCell = document.createElement('td');
+                const link = document.createElement('a');
+                link.href = `viewer.html#${trans.mapId}/${trans.uuid}`;
+                link.className = 'transcription-link';
+
+                // Show transcription if available, otherwise comments
+                let displayText = trans.transcription || trans.comments || '—';
+
+                link.textContent = displayText;
+                transcCell.appendChild(link);
+                row.appendChild(transcCell);
+
+                const mapCell = document.createElement('td');
+                const mapLink = document.createElement('a');
+                mapLink.href = `viewer.html#${trans.mapId}`;
+                mapLink.className = 'transcription-link';
+                mapLink.textContent = trans.mapTitle;
+                mapCell.appendChild(mapLink);
+                row.appendChild(mapCell);
+
+                const dateCell = document.createElement('td');
+                dateCell.textContent = trans.mapDate;
+                row.appendChild(dateCell);
+
+                const mapmakerCell = document.createElement('td');
+                mapmakerCell.textContent = Array.isArray(trans.mapMaker) ? trans.mapMaker.join(', ') : trans.mapMaker;
+                row.appendChild(mapmakerCell);
+
+                const locationCell = document.createElement('td');
+                locationCell.innerHTML = `${trans.counties.join(', ')}<br><small style="color: #7f8c8d;">${trans.parishes.join(', ')}</small>`;
+                row.appendChild(locationCell);
+
+                tbody.appendChild(row);
+            });
+        }
+
+        document.getElementById('search').addEventListener('input', applyFilters);
+        document.getElementById('county-filter').addEventListener('change', applyFilters);
+        document.getElementById('parish-filter').addEventListener('change', applyFilters);
+
+        document.getElementById('clear-filters').addEventListener('click', () => {
+            document.getElementById('search').value = '';
+            document.getElementById('county-filter').value = '';
+            document.getElementById('parish-filter').value = '';
+            applyFilters();
+        });
+
+        init();
+    </script>
+</body>
+
+</html>

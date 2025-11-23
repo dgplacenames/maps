@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Maps Index - Table View</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-left h1 {
+            font-size: 1.2em;
+            margin: 0 0 4px 0;
+            color: white;
+            font-weight: 600;
+        }
+
+        .results-info {
+            color: #ecf0f1;
+            font-size: 0.85em;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 8px;
+        }
+
+        .nav-button {
+            color: white;
+            background: rgba(255, 255, 255, 0.1);
+            text-decoration: none;
+            font-size: 0.85em;
+            padding: 6px 12px;
+            border-radius: 4px;
+            white-space: nowrap;
+            transition: background 0.2s;
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        .nav-button:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 10000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 10% auto;
+            padding: 30px;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+            color: #2c3e50;
+        }
+
+        .close {
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            line-height: 1;
+        }
+
+        .close:hover {
+            color: #000;
+        }
+
+        .filters {
+            background: white;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr auto;
+            gap: 12px;
+            align-items: end;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #2c3e50;
+            font-size: 0.85em;
+        }
+
+        .filter-group input,
+        .filter-group select {
+            padding: 6px 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+
+        .filter-group input:focus,
+        .filter-group select:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .clear-filters-btn {
+            padding: 6px 16px;
+            background: #0078d7;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 0.9em;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: background 0.2s;
+            font-family: inherit;
+        }
+
+        .clear-filters-btn:hover {
+            background: #005a9e;
+        }
+
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+            transition: background 0.2s;
+            z-index: 1000;
+        }
+
+        .scroll-to-top:hover {
+            background: #34495e;
+        }
+
+        .scroll-to-top.visible {
+            display: flex;
+        }
+
+        .table-container {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: #f8f9fa;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        th {
+            padding: 12px 16px;
+            text-align: left;
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 0.9em;
+            white-space: nowrap;
+        }
+
+        td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 0.9em;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .title-cell {
+            cursor: pointer;
+        }
+
+        .title-cell a {
+            color: #0078d7;
+            text-decoration: none;
+            font-weight: 500;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .title-cell a:hover {
+            text-decoration: underline;
+        }
+
+        .tags-cell {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+
+        .tag {
+            background: #ecf0f1;
+            color: #2c3e50;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            white-space: nowrap;
+        }
+
+        .tag.georeference {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .links-cell {
+            display: flex;
+            gap: 6px;
+        }
+
+        .link-btn {
+            padding: 6px 12px;
+            background: #0078d7;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.85em;
+            white-space: nowrap;
+            transition: background 0.2s;
+        }
+
+        .link-btn:hover {
+            background: #005a9e;
+        }
+
+        .no-results {
+            background: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 8px;
+            color: #7f8c8d;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            header {
+                padding: 12px 15px;
+            }
+
+            .filters {
+                grid-template-columns: 1fr;
+                padding: 12px 15px;
+            }
+
+            table {
+                font-size: 0.85em;
+            }
+
+            th,
+            td {
+                padding: 8px 12px;
+            }
+
+            .links-cell {
+                flex-direction: column;
+                gap: 4px;
+            }
+
+            .link-btn {
+                font-size: 0.8em;
+                padding: 4px 8px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-content {
+                flex-direction: column;
+                gap: 10px;
+                align-items: flex-start;
+            }
+
+            .header-left h1 {
+                font-size: 1em;
+            }
+
+            .results-info {
+                font-size: 0.8em;
+            }
+
+            .nav-buttons {
+                width: 100%;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+            }
+
+            .nav-button {
+                font-size: 0.8em;
+                padding: 5px 10px;
+            }
+
+            .filters {
+                padding: 10px;
+            }
+
+            .filter-group label {
+                font-size: 0.8em;
+            }
+
+            .filter-group input,
+            .filter-group select {
+                font-size: 0.85em;
+                padding: 5px 8px;
+            }
+
+            .clear-filters-btn {
+                font-size: 0.85em;
+                padding: 5px 12px;
+            }
+
+            table {
+                font-size: 0.8em;
+            }
+
+            th,
+            td {
+                padding: 6px 8px;
+            }
+
+            .scroll-to-top {
+                width: 40px;
+                height: 40px;
+                font-size: 20px;
+                bottom: 15px;
+                right: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="header-left">
+                    <h1>Georeferenced Maps</h1>
+                    <div class="results-info">
+                        <span id="results-count">Loading maps...</span>
+                    </div>
+                </div>
+                <div class="nav-buttons">
+                    <a href="transcriptions.html" class="nav-button">Transcriptions</a>
+                    <button class="nav-button" id="about-btn">About</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label for="search">Search</label>
+                <input type="text" id="search" placeholder="Search title, mapmaker...">
+            </div>
+
+            <div class="filter-group">
+                <label for="county-filter">County</label>
+                <select id="county-filter">
+                    <option value="">All Counties</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="parish-filter">Parish</label>
+                <select id="parish-filter">
+                    <option value="">All Parishes</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="collection-filter">Collection</label>
+                <select id="collection-filter">
+                    <option value="">All Collections</option>
+                </select>
+            </div>
+
+            <button class="clear-filters-btn" id="clear-filters">Clear</button>
+        </div>
+
+        <div class="table-container" id="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Date</th>
+                        <th>Mapmaker</th>
+                        <th>Location</th>
+                        <th>NLS</th>
+                        <th>Allmaps</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <!-- Rows will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="no-results" id="no-results" style="display: none;">
+            <h3>No maps found</h3>
+            <p>Try adjusting your filters</p>
+        </div>
+    </div>
+
+    <button class="scroll-to-top" id="scroll-to-top" aria-label="Scroll to top">↑</button>
+
+    <div id="about-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>About</h2>
+                <span class="close">&times;</span>
+            </div>
+            <p>This is a collection of maps from <a href="https://maps.nls.uk/" target="_blank">maps.nls.uk </a> that I've georeferenced using <a href="https://allmaps.org/" target="_blank">Allmaps.</a></p>
+            <p>The georeferences use versioned annotations so won't change if the map is edited on Allmaps.</p>
+            <p>I have transcribed some maps <a href="https://recogitostudio.org/" target="_blank">Recogito Studio</a></p>
+            <p style="text-align: center; font-size: 14px; margin-top: 20px; color: #666;">
+                Site by <a href="https://github.com/dgplacenames/maps" target="_blank">Colin Mackenzie</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        let allMaps = [];
+        let filteredMaps = [];
+
+        // Modal functionality
+        const modal = document.getElementById('about-modal');
+        const aboutBtn = document.getElementById('about-btn');
+        const closeBtn = document.querySelector('.close');
+
+        aboutBtn.onclick = () => modal.style.display = 'block';
+        closeBtn.onclick = () => modal.style.display = 'none';
+        window.onclick = (e) => {
+            if (e.target === modal) modal.style.display = 'none';
+        };
+
+        // Scroll to top functionality
+        const scrollToTopBtn = document.getElementById('scroll-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollToTopBtn.classList.add('visible');
+            } else {
+                scrollToTopBtn.classList.remove('visible');
+            }
+        });
+
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        async function init() {
+            try {
+                const response = await fetch('maps.json');
+                allMaps = await response.json();
+                populateFilters();
+                applyFilters();
+            } catch (error) {
+                console.error('Error loading maps:', error);
+                document.getElementById('results-count').textContent = 'Error loading maps';
+            }
+        }
+
+        function populateFilters() {
+            const counties = new Set();
+            const parishes = new Set();
+            const collections = new Set();
+
+            allMaps.forEach(map => {
+                // Handle comma-separated values within array elements
+                map.counties.forEach(c => {
+                    c.split(',').forEach(county => counties.add(county.trim()));
+                });
+                map.parishes.forEach(p => {
+                    p.split(',').forEach(parish => parishes.add(parish.trim()));
+                });
+                if (map.collection_name) collections.add(map.collection_name);
+            });
+
+            populateSelect('county-filter', Array.from(counties).sort());
+            populateSelect('parish-filter', Array.from(parishes).sort());
+            populateSelect('collection-filter', Array.from(collections).sort());
+        }
+
+        function populateSelect(id, options) {
+            const select = document.getElementById(id);
+            options.forEach(option => {
+                const opt = document.createElement('option');
+                opt.value = option;
+                opt.textContent = option;
+                select.appendChild(opt);
+            });
+        }
+
+        function applyFilters() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            const countyFilter = document.getElementById('county-filter').value;
+            const parishFilter = document.getElementById('parish-filter').value;
+            const collectionFilter = document.getElementById('collection-filter').value;
+
+            filteredMaps = allMaps.filter(map => {
+                const mapmakers = Array.isArray(map.mapmaker) ? map.mapmaker.join(' ') : map.mapmaker;
+                const matchesSearch = !searchTerm ||
+                    map.title.toLowerCase().includes(searchTerm) ||
+                    mapmakers.toLowerCase().includes(searchTerm) ||
+                    map.date.includes(searchTerm);
+
+                const matchesCounty = !countyFilter || map.counties.includes(countyFilter);
+                const matchesParish = !parishFilter || map.parishes.includes(parishFilter);
+                const matchesCollection = !collectionFilter || map.collection_name === collectionFilter;
+
+                return matchesSearch && matchesCounty && matchesParish && matchesCollection;
+            });
+
+            // Sort by county, parish, date, then title
+            filteredMaps.sort((a, b) => {
+                // Compare counties
+                const countyA = a.counties[0] || '';
+                const countyB = b.counties[0] || '';
+                if (countyA !== countyB) return countyA.localeCompare(countyB);
+
+                // Compare parishes
+                const parishA = a.parishes[0] || '';
+                const parishB = b.parishes[0] || '';
+                if (parishA !== parishB) return parishA.localeCompare(parishB);
+
+                // Compare dates
+                if (a.date !== b.date) return a.date.localeCompare(b.date);
+
+                // Compare titles
+                return a.title.localeCompare(b.title);
+            });
+
+            displayMaps();
+        }
+
+        function displayMaps() {
+            const tableBody = document.getElementById('table-body');
+            const tableContainer = document.getElementById('table-container');
+            const noResults = document.getElementById('no-results');
+            const resultsCount = document.getElementById('results-count');
+
+            tableBody.innerHTML = '';
+
+            if (filteredMaps.length === 0) {
+                tableContainer.style.display = 'none';
+                noResults.style.display = 'block';
+                resultsCount.textContent = 'No maps found';
+                return;
+            }
+
+            tableContainer.style.display = 'block';
+            noResults.style.display = 'none';
+            resultsCount.textContent = `Showing ${filteredMaps.length} map${filteredMaps.length !== 1 ? 's' : ''}`;
+
+            filteredMaps.forEach(map => {
+                const row = createTableRow(map);
+                tableBody.appendChild(row);
+            });
+        }
+
+        function createTableRow(map) {
+            const row = document.createElement('tr');
+
+            const countyLabel = map.counties.length === 1 ? 'County' : 'Counties';
+            const parishLabel = map.parishes.length === 1 ? 'Parish' : 'Parishes';
+
+            // Title cell
+            const titleCell = document.createElement('td');
+            titleCell.className = 'title-cell';
+            titleCell.innerHTML = `<a href="viewer.html#${map.id}">${map.title}</a>`;
+            row.appendChild(titleCell);
+
+            // Date cell
+            const dateCell = document.createElement('td');
+            dateCell.textContent = map.date;
+            row.appendChild(dateCell);
+
+            // Mapmaker cell
+            const mapmakerCell = document.createElement('td');
+            mapmakerCell.textContent = Array.isArray(map.mapmaker) ? map.mapmaker.join(', ') : map.mapmaker;
+            row.appendChild(mapmakerCell);
+
+            // Location cell
+            const locationCell = document.createElement('td');
+            locationCell.innerHTML = `${map.counties.join(', ')}<br><small style="color: #7f8c8d;">${map.parishes.join(', ')}</small>`;
+            row.appendChild(locationCell);
+
+            // NLS cell
+            const nlsCell = document.createElement('td');
+            const nlsDiv = document.createElement('div');
+            nlsDiv.className = 'links-cell';
+
+            const nlsViewLink = document.createElement('a');
+            nlsViewLink.href = `https://maps.nls.uk/view/${map.id}`;
+            nlsViewLink.className = 'link-btn';
+            nlsViewLink.target = '_blank';
+            nlsViewLink.rel = 'noopener';
+            nlsViewLink.textContent = 'View';
+            nlsDiv.appendChild(nlsViewLink);
+
+            if (map.nls_info) {
+                const nlsInfoLink = document.createElement('a');
+                nlsInfoLink.href = map.nls_info;
+                nlsInfoLink.className = 'link-btn';
+                nlsInfoLink.target = '_blank';
+                nlsInfoLink.rel = 'noopener';
+                nlsInfoLink.textContent = 'Info';
+                nlsDiv.appendChild(nlsInfoLink);
+            }
+
+            if (map.iiif_manifest) {
+                const iiifLink = document.createElement('a');
+                iiifLink.href = map.iiif_manifest;
+                iiifLink.className = 'link-btn';
+                iiifLink.target = '_blank';
+                iiifLink.rel = 'noopener';
+                iiifLink.textContent = 'IIIF';
+                nlsDiv.appendChild(iiifLink);
+            }
+
+            nlsCell.appendChild(nlsDiv);
+            row.appendChild(nlsCell);
+
+            // Allmaps cell
+            const allmapsCell = document.createElement('td');
+            const allmapsDiv = document.createElement('div');
+            allmapsDiv.className = 'links-cell';
+
+            if (map.iiif_manifest) {
+                const editorLink = document.createElement('a');
+                editorLink.href = `https://editor.allmaps.org/#/collection?url=${encodeURIComponent(map.iiif_manifest)}`;
+                editorLink.className = 'link-btn';
+                editorLink.target = '_blank';
+                editorLink.rel = 'noopener';
+                editorLink.textContent = 'Editor';
+                allmapsDiv.appendChild(editorLink);
+            }
+
+            if (map.allmaps_annotation) {
+                const annotationUrl = map.allmaps_annotation;
+                const annotationLink = document.createElement('a');
+                annotationLink.href = map.allmaps_annotation;
+                annotationLink.className = 'link-btn';
+                annotationLink.target = '_blank';
+                annotationLink.rel = 'noopener';
+                annotationLink.textContent = 'Annotation';
+                allmapsDiv.appendChild(annotationLink);
+            }
+
+            allmapsCell.appendChild(allmapsDiv);
+            row.appendChild(allmapsCell);
+
+            return row;
+        }
+
+        document.getElementById('search').addEventListener('input', applyFilters);
+        document.getElementById('county-filter').addEventListener('change', applyFilters);
+        document.getElementById('parish-filter').addEventListener('change', applyFilters);
+        document.getElementById('collection-filter').addEventListener('change', applyFilters);
+
+        document.getElementById('clear-filters').addEventListener('click', () => {
+            document.getElementById('search').value = '';
+            document.getElementById('county-filter').value = '';
+            document.getElementById('parish-filter').value = '';
+            document.getElementById('collection-filter').value = '';
+            applyFilters();
+        });
+
+        init();
+    </script>
+</body>
+
+</html>
