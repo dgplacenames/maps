@@ -829,6 +829,7 @@
       // Annotation vector layer
       annotationLayer = new ol.layer.Vector({
         source: new ol.source.Vector(),
+        visible: false,
         style: new ol.style.Style({
           stroke: new ol.style.Stroke({ color: 'rgba(0, 120, 215, 0.8)', width: 2 }),
           fill: new ol.style.Fill({ color: 'rgba(0, 120, 215, 0.1)' })
@@ -1104,6 +1105,7 @@
       osdViewer.addHandler('update-viewport', updateSVG);
       osdViewer.addHandler('animation', updateSVG);
       updateSVG();
+      svg.style.display = 'none';
     }
 
     function handleOSDHover(e, annotations, imageWidth, imageHeight) {
