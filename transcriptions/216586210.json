@@ -1,0 +1,191 @@
+{
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "type": "AnnotationPage",
+  "id": "https://map-view.nls.uk/iiif/2/21658%2F216586210/annotations/77a8021c-b3b5-4e94-85eb-a38131390077",
+  "partOf": {
+    "id": "https://map-view.nls.uk/iiif/2/21658%2F216586210",
+    "type": "Canvas"
+  },
+  "items": [
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21658%2F216586210/5302f249-4b6a-440d-b737-306da3863853",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Lime Kiln",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21658%2F216586210",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2094,3239 1704,3147 1718,3085 2109,3177\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21658%2F216586210/ebf7dd07-ca3a-41c3-9888-ea403e17bfcb",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Lime Stone",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21658%2F216586210",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2324,2924 2014,3089 1987,3037 2297,2873\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21658%2F216586210/cad945e8-c0d2-449b-91c2-2e6491daf7f3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Calf",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21658%2F216586210",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2659,3224 2144,3184 2151,3097 2666,3137\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21658%2F216586210/9c161375-c5aa-4975-99a5-dc9b652d5114",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Boky hole",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21658%2F216586210",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2211,3851 2158,3566 2220,3555 2272,3840\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21658%2F216586210/e219f584-2904-41dc-a81d-65cf6a3b7889",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Air",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21658%2F216586210",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3169,3549 3022,3451 3058,3398 3205,3496\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21658%2F216586210/09b05803-f7b8-4f33-b33f-a1012d75102a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Bought",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21658%2F216586210",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3605,3756 3287,3634 3316,3556 3634,3678\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21658%2F216586210/e7419e3d-1be3-4a62-ad18-6ec4566d1455",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "salt pans",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21658%2F216586210",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3887,3484 3606,3584 3587,3531 3868,3431\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21658%2F216586210/e80fbc0b-9f01-4260-9c1e-be9deeeccd55",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Gray Stane",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21658%2F216586210",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"5102,2838 4339,3111 4312,3036 5075,2762\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21658%2F216586210/0458ab0a-0ad7-4858-874c-d2727d548594",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "DALES",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21658%2F216586210",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"7087,2773 5563,3145 5531,3013 7055,2640\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21658%2F216586210/8840f6dc-43ca-45a8-ba78-6d5916361e99",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Stony Croo",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21658%2F216586210",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"6893,2426 6639,2558 6603,2488 6857,2357\"/></svg>"
+        }
+      }
+    }
+  ]
+}
