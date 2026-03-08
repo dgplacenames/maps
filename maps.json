@@ -8,7 +8,7 @@
     "iiif_manifest": "https://map-view.nls.uk/iiif/2/21658%2F216586210/info.json",
     "nls_georeference": "",
     "allmaps_annotation": "https://annotations.allmaps.org/images/2ffe9b45d9ceaff5@1d6fb8504f35c90f",
-    "transcription": "",
+    "transcription": "transcriptions/216586210.json",
     "counties": ["Orkney"],
     "parishes": ["Orphir"],
     "collection_name": "",
@@ -38,7 +38,7 @@
     "iiif_manifest": "https://map-view.nls.uk/iiif/2/21658%2F216586162/info.json",
     "nls_georeference": "",
     "allmaps_annotation": "https://annotations.allmaps.org/images/cecab87e3a6e2ffe@daf836877ae8cb23",
-    "transcription": "transcriptions/216586162.csv",
+    "transcription": "",
     "counties": ["Orkney"],
     "parishes": ["Orphir"],
     "collection_name": "",
@@ -750,3 +750,4 @@
     "collection_url": "https://maps.nls.uk/estates/selkirk/"
   }
 ]
+
