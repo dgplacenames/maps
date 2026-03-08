@@ -217,6 +217,22 @@
             text-decoration: underline;
         }
 
+        .tag {
+            display: inline-block;
+            background: #e8f0fe;
+            color: #1a56db;
+            border-radius: 3px;
+            padding: 1px 6px;
+            font-size: 0.8em;
+            margin-right: 3px;
+        }
+
+        .notes {
+            color: #7f8c8d;
+            font-size: 0.85em;
+            font-style: italic;
+        }
+
         .no-results {
             border-radius: 8px;
             background: white;
@@ -351,6 +367,7 @@
                 <thead>
                     <tr>
                         <th>Transcription</th>
+                        <th>Tags</th>
                         <th>Map</th>
                         <th>Date</th>
                         <th>Mapmaker</th>
@@ -425,8 +442,8 @@
                 try {
                     const response = await fetch(map.transcription);
                     if (response.ok) {
-                        const csvText = await response.text();
-                        parseAnnotations(csvText, map);
+                        const json = await response.json();
+                        parseAnnotations(json, map);
                     }
                 } catch (error) {
                     console.error(`Error loading transcriptions for ${map.id}:`, error);
@@ -434,32 +451,35 @@
             }
         }
 
-        function parseAnnotations(csvText, map) {
-            const lines = csvText.split('\n');
-            const headers = lines[0].split(',').map(h => h.replace(/"/g, ''));
+        function parseAnnotations(annotationPage, map) {
+            if (!annotationPage.items) return;
 
-            for (let i = 1; i < lines.length; i++) {
-                if (!lines[i].trim()) continue;
+            for (const annotation of annotationPage.items) {
+                const body = annotation.body;
+                if (!Array.isArray(body)) continue;
 
-                const values = lines[i].match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g) || [];
-                const row = {};
-                headers.forEach((header, index) => {
-                    row[header] = values[index] ? values[index].replace(/^"|"$/g, '').trim() : '';
+                const transcription = body.find(b => b.purpose === 'commenting')?.value || '';
+                const tags = body.find(b => b.purpose === 'classifying')?.value || '';
+                const notes = body.find(b => b.purpose === 'describing')?.value || '';
+
+                // Only include if there's a transcription
+                if (!transcription) continue;
+
+                // Extract UUID from annotation id (last path segment)
+                const uuid = annotation.id ? annotation.id.split('/').pop() : '';
+
+                allTranscriptions.push({
+                    transcription,
+                    tags: tags ? tags.split(',').map(t => t.trim()).filter(Boolean) : [],
+                    notes,
+                    mapId: map.id,
+                    mapTitle: map.title,
+                    mapDate: map.date,
+                    mapMaker: map.mapmaker,
+                    counties: map.counties,
+                    parishes: map.parishes,
+                    uuid
                 });
-
-                if (row.QUOTE_TRANSCRIPTION || row.COMMENTS) {
-                    allTranscriptions.push({
-                        transcription: row.QUOTE_TRANSCRIPTION || '',
-                        comments: row.COMMENTS || '',
-                        mapId: map.id,
-                        mapTitle: map.title,
-                        mapDate: map.date,
-                        mapMaker: map.mapmaker,
-                        counties: map.counties,
-                        parishes: map.parishes,
-                        uuid: row.UUID || ''
-                    });
-                }
             }
         }
 
@@ -494,7 +514,8 @@
             filteredTranscriptions = allTranscriptions.filter(trans => {
                 const matchesSearch = !searchTerm ||
                     trans.transcription.toLowerCase().includes(searchTerm) ||
-                    trans.comments.toLowerCase().includes(searchTerm) ||
+                    trans.notes.toLowerCase().includes(searchTerm) ||
+                    trans.tags.some(t => t.toLowerCase().includes(searchTerm)) ||
                     trans.mapTitle.toLowerCase().includes(searchTerm);
 
                 const matchesCounty = !countyFilter || trans.counties.includes(countyFilter);
@@ -528,18 +549,36 @@
             filteredTranscriptions.forEach(trans => {
                 const row = document.createElement('tr');
 
+                // Transcription cell with link to viewer
                 const transcCell = document.createElement('td');
                 const link = document.createElement('a');
                 link.href = `viewer.html#${trans.mapId}/${trans.uuid}`;
                 link.className = 'transcription-link';
-
-                // Show transcription if available, otherwise comments
-                let displayText = trans.transcription || trans.comments || '—';
-
-                link.textContent = displayText;
+                link.textContent = trans.transcription || '—';
                 transcCell.appendChild(link);
+                if (trans.notes) {
+                    const notesEl = document.createElement('div');
+                    notesEl.className = 'notes';
+                    notesEl.textContent = trans.notes;
+                    transcCell.appendChild(notesEl);
+                }
                 row.appendChild(transcCell);
 
+                // Tags cell
+                const tagsCell = document.createElement('td');
+                if (trans.tags.length > 0) {
+                    trans.tags.forEach(tag => {
+                        const span = document.createElement('span');
+                        span.className = 'tag';
+                        span.textContent = tag;
+                        tagsCell.appendChild(span);
+                    });
+                } else {
+                    tagsCell.textContent = '—';
+                }
+                row.appendChild(tagsCell);
+
+                // Map cell
                 const mapCell = document.createElement('td');
                 const mapLink = document.createElement('a');
                 mapLink.href = `viewer.html#${trans.mapId}`;
@@ -548,14 +587,17 @@
                 mapCell.appendChild(mapLink);
                 row.appendChild(mapCell);
 
+                // Date cell
                 const dateCell = document.createElement('td');
                 dateCell.textContent = trans.mapDate;
                 row.appendChild(dateCell);
 
+                // Mapmaker cell
                 const mapmakerCell = document.createElement('td');
                 mapmakerCell.textContent = Array.isArray(trans.mapMaker) ? trans.mapMaker.join(', ') : trans.mapMaker;
                 row.appendChild(mapmakerCell);
 
+                // Location cell
                 const locationCell = document.createElement('td');
                 locationCell.innerHTML = `${trans.counties.join(', ')}<br><small style="color: #7f8c8d;">${trans.parishes.join(', ')}</small>`;
                 row.appendChild(locationCell);
