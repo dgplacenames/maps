@@ -68,7 +68,7 @@
     "iiif_manifest": "https://map-view.nls.uk/iiif/2/21762%2F217626700/info.json",
     "nls_georeference": "",
     "allmaps_annotation": "https://annotations.allmaps.org/images/aefceba32da20326@e59c4bbf9f07d5ae",
-    "transcription": "",
+    "transcription": "transcriptions/217626700.json",
     "counties": ["Kirkcudbright"],
     "parishes": ["Borgue"],
     "collection_name": "",

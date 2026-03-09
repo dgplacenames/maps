@@ -1,7 +1,7 @@
 {
   "@context": "http://www.w3.org/ns/anno.jsonld",
   "type": "AnnotationPage",
-  "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/annotations/e66175a1-067d-4d5e-b1ba-52a4285a098a",
+  "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/annotations/539f1f4b-d3ac-4258-b997-d77f373fba47",
   "partOf": {
     "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
     "type": "Canvas"
@@ -220,6 +220,1140 @@
         "selector": {
           "type": "SvgSelector",
           "value": "<svg><polygon points=\"4855,4849 5305,4844 5306,4920 4856,4926\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/6147b03b-107f-4211-a25f-e0847f8c169e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "White Bay",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4642,6009 4770,5919 4882,5875 4989,5866 5068,5876 5065,5936 4983,5931 4893,5942 4802,5986 4689,6063\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/5dde6ca3-30c5-4453-b914-e8ac3aa4e7cb",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Slack of the Ross",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3657,6354 3767,6260 3826,6225 3909,6185 4005,6153 4076,6137 4058,6073 3983,6089 3896,6120 3794,6165 3723,6216 3614,6306\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/73d66da7-59ac-44b5-8a5d-8d87b48d5418",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Slack Heugh",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3134,6597 3411,6408 3460,6480 3183,6669\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/806c808a-e0c2-4818-a685-74ad387da5ea",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Ross Cairn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3477,5771 3253,5765 3255,5714 3479,5719\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/db9b3031-202e-4c59-b780-6ea211e6d9fb",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Kingans Croft",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2068,4316 2354,4302 2357,4371 2071,4385\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/f2c9c0b9-8e8f-46fc-bc7f-3c4968c7571a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Ruins of Bread yard houses",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2746,4007 2964,3998 2967,4068 2749,4076\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/62189f3b-79c0-4c08-b803-bc9a915d55d4",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Garmies Point",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3539,4252 3251,4239 3253,4198 3541,4211\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/79988ac6-08ef-4318-8036-19de20411ec6",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Green Point",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3402,4011 3210,4014 3210,3980 3401,3977\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/d5da9318-d2ba-478e-984f-c514b99065f7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Balmangan Bay",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4258,3898 3015,3866 3017,3780 4261,3813\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/fb57e9c6-aaea-4927-a273-2634537f1b6a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Mannor Castle",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4414,4387 4333,4383 4335,4339 4416,4343\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/27bb70e9-055b-434f-a123-444e0664a291",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Mannorhole",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4829,4366 4558,4471 4539,4422 4810,4317\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/a728f708-c816-413a-bb0f-2e46287e4e97",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Mannor Point",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"5264,4691 4942,4689 4942,4639 5264,4641\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/e56bafd1-926a-4b71-9fa7-5d135a54a54d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Point of the Bar",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"5499,3523 5145,3513 5146,3465 5500,3475\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/800eb2a4-886f-43e5-a3b9-d73d8141113e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Shell Bank",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4637,3578 4057,3556 4060,3484 4639,3506\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/fe3c87c7-da76-4019-b99c-eaca09a168d5",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Low Bar",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3941,3103 3686,3089 3689,3039 3944,3053\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/d3863bb8-7811-4e0d-b429-5fd52add5342",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "High Bar",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4284,2731 4532,2756 4523,2840 4275,2814\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/0a32470a-57f2-42ca-aec9-031116701b74",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Watch hill",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4952,2942 4775,2931 4777,2890 4955,2901\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/07c73ff4-042a-4128-b000-d0aaf3677490",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Watch-hill haven",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"5291,2771 4965,2763 4967,2714 5292,2722\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/f94c7946-3292-4d74-b70b-1b66083ccc13",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Baithole",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"5155,2587 4947,2581 4948,2521 5157,2527\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/2a149eec-fbd8-4f47-9f69-ad30aecfa3ae",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Shawholw",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"5104,2254 4897,2246 4900,2188 5106,2195\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/8e9f1f3c-278a-4945-a9c7-a6891632cafe",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Shawhole Park",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4723,2142 4274,2123 4276,2062 4725,2081\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/1b20a6d6-17c5-4cc8-a6ef-dbc270423a0a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Well",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4804,2292 4754,2291 4754,2260 4804,2260\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/ee388431-56e5-4e8b-a13a-a8c386756536",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "well",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4710,2060 4640,2055 4643,2014 4713,2018\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/ac456f9b-7a58-48da-8f0a-899ff0643234",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Longlands",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3303,2744 3025,2727 3031,2636 3308,2653\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/c8990fb0-0138-40f5-a642-b3fedb3755df",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Mutter hills",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2898,2236 2621,2230 2623,2159 2899,2165\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/5218dbd1-fac1-4062-8e72-3e2ba8b916b3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Longlands Cairn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3330,2316 3645,2330 3642,2392 3328,2378\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/f993e234-8707-424c-878f-160b8f52c7a7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Place Crofts",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3502,1777 3240,1753 3245,1698 3507,1722\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/31eb7e96-be52-48a6-b3d6-038e8b9b7067",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Kill croft",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4092,1948 3858,1925 3864,1861 4098,1884\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/915852d1-06d1-4b79-b80d-481a81eba6ee",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Reedy Moss",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2672,1409 2875,1344 2891,1391 2687,1456\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/a42bccf4-9814-44dc-b48a-760356620d4e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Port Cheek",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3223,1278 3014,1293 3010,1239 3220,1225\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/2159f80a-39bb-434b-a9f3-0c5f27ec531d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Kirklands",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4547,1470 4293,1468 4294,1411 4548,1414\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/e8ce44bb-30dd-41a8-8987-6c0fda042bd1",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Meadow Park",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4136,1332 3831,1319 3833,1270 4138,1283\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/838f88b3-9323-4098-88df-ce157cbae4b9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Guthries Well",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3762,1232 3527,1225 3529,1180 3763,1188\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/a8194441-dcf3-4ce0-aaa9-0f76d9d8566e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Fauld Bog Bay",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1570,4581 1762,4181 1844,4221 1652,4621\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/5de45a34-463c-4265-b84a-ad4984dc44fd",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Mull Park",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2037,3755 1816,3745 1819,3692 2040,3702\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/8becfbd9-e366-4254-a2e4-1f13baa44a80",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Mull Cairn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1339,3325 1065,3311 1068,3254 1342,3268\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/89b6e124-cc9a-42dd-949d-475975ca8af2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Mull-hill Park",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1232,3547 858,3520 862,3463 1236,3490\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/d1b5338a-a859-4470-9918-371ecea811ea",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Mull-myre",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2248,3224 2531,3238 2528,3309 2245,3295\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/0075ae0c-1c99-4dbd-9182-dce8b79cd97f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Greenlaw Well",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2966,3600 2697,3594 2698,3549 2967,3556\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/25ea8ac5-4904-4bb4-ad01-21b3b97d92e3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Long rig",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2581,3523 2775,3416 2810,3479 2616,3585\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/e799d301-1d20-42ad-930d-eb8e700c6928",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Fore Quarter",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1973,3074 1654,3002 1668,2943 1986,3014\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/1dd4fdea-4868-46c7-a76a-2a3b2281ea68",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Back Quarter",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1538,2878 1219,2855 1223,2796 1542,2819\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/ace69c26-041b-4651-b98f-031a3a68eb00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Sheep house Park",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1956,2138 2396,2177 2388,2270 1948,2231\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/44c6f1c5-75d6-4204-b024-6a5ea55b7576",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Brighouse",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1587,1548 1340,1546 1341,1455 1588,1457\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/fed3ffbf-3eeb-4c00-94ea-792d11bbf0c3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Tumbling Cloddach Bay",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1679,5393 2187,5102 2223,5164 1715,5455\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/b5affe96-8d16-43d5-aa5f-a900510a3811",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "well",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3871,4607 3793,4607 3793,4556 3871,4556\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/ab540053-564f-4e1c-bde9-16eba9d904b0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Boat Haven",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3725,4389 3493,4385 3493,4338 3726,4342\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/ce36cdb5-e545-43e0-add9-0fe1e4012046",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Mannor Hill",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4106,4552 4267,4548 4268,4620 4107,4623\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/1750a3e8-b923-4b3d-ba4b-c9a01cbd93c2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Mannorhill Park",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4264,4787 3888,4797 3886,4729 4262,4719\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/a0fce9bf-aa3a-4e30-b30e-67753885d299",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "*abies Croft",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3129,4430 2843,4426 2843,4374 3130,4377\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/bae0d024-694d-4b62-b5d2-8b004b563ded",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Bay house",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4026,4364 4152,4307 4167,4341 4042,4397\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/aaa3d88f-f6a4-46f3-94ed-b155fef2fa8c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Barny Slack",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3916,2286 3639,2277 3642,2204 3919,2213\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/82b6c251-dd7d-4313-83f8-100af6040a2d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Brighouse Bay",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"309,1417 434,1444 564,1506 652,1573 724,1667 779,1801 808,1928 801,2050 770,2149 679,2300 597,2372 484,2434 369,2475 405,2602 547,2544 645,2496 777,2388 870,2213 911,2089 921,1928 906,1777 844,1619 743,1480 597,1377 458,1317 321,1293\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/985ea3f6-f609-48ca-b1c6-f6bbb0c3dc35",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Well",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"882,2540 809,2578 782,2526 856,2488\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/5d126edb-b621-4811-9e5f-8b20c44bc850",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "A Bold Rocky Shore, but not perpendicular",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"527,4103 719,4206 868,4283 1016,4353 1208,4427 1317,4446 1485,4445 1595,4430 1578,4374 1474,4385 1326,4386 1212,4359 1022,4288 919,4231 806,4177 555,4053\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/9c7a11f0-6031-415e-90ea-3bcc792e36b2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Fauld Bog",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2067,4056 1878,3928 1920,3865 2110,3992\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/766c45d1-d456-4e28-906d-a3894bb502d9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "well",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2073,3938 2016,3894 2037,3868 2094,3911\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/999a3a5c-a286-461d-8ef1-98aab44168d3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Bay of Kirkcudbright",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"5648,750 5549,5497 5322,5492 5421,746\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/d1bb3152-84a2-40ca-a5cd-3e9ab3620abd",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "The Irish Sea",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3664,7085 599,7098 599,6908 3663,6895\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/7274ae3e-9c4c-47e0-8226-13a421196292",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Safe Anchorage & Moorings",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3784,4206 3875,4120 3955,4070 4055,4038 4153,4021 4268,4032 4355,4059 4413,4094 4378,4153 4283,4113 4198,4098 4120,4111 4022,4135 3956,4160 3851,4259\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/66c024c0-0c6b-471e-be1d-7956caa0511c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Shell bank runs cross the Bay",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3638,4299 3591,4208 3567,4118 3555,4017 3557,3937 3566,3852 3584,3776 3659,3637 3602,3607 3524,3762 3504,3856 3497,3935 3498,4034 3511,4138 3538,4237 3587,4326\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/d6c4ddb7-a924-43d4-b92e-e8a0135a145c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Upper Senwick",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3095,1074 4744,391 4797,517 3147,1200\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/e8d84640-83ad-4d9e-b152-6d4546ce9664",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Balmangan",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3777,1730 3546,1705 3554,1629 3785,1654\"/></svg>"
         }
       }
     }
