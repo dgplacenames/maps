@@ -1,0 +1,227 @@
+{
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "type": "AnnotationPage",
+  "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/annotations/e66175a1-067d-4d5e-b1ba-52a4285a098a",
+  "partOf": {
+    "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+    "type": "Canvas"
+  },
+  "items": [
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/39b827d1-5c64-4a8d-9490-d956026cdffb",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Manksmans Bay",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4705,5938 4368,6127 4332,6063 4669,5874\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/6b50238a-9ed4-437d-a8de-ab5b6e7e08d7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Little Ross",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"5101,6289 4828,6282 4829,6231 5102,6238\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/a4f64748-e288-4f29-89ef-84b9f7e58807",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Sound",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4662,6624 4626,6811 4558,6798 4594,6611\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/eb7da207-5c4d-4acc-b869-f348ccf49367",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Fox Craig",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4172,6876 3968,7059 3919,7005 4122,6821\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/bd28fccb-a3bc-4af5-9830-4d5deae0c253",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Maiden Craig",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4174,7136 4341,6831 4419,6874 4252,7178\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/4667605c-e886-417b-8fba-c23ed20f9c87",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Gowls Heugh",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3743,6821 3466,7028 3411,6955 3689,6748\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/ec41f15c-818f-43f1-8eb9-c989e186d58b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Point of the Bents",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1881,5787 1462,5786 1462,5736 1881,5737\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/ac4e14de-3249-4d09-94d1-3c3901be7f09",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Sheep Ree",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2240,4991 2415,4989 2415,5046 2241,5047\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/64032523-4271-4ac2-97ee-9014fa1c9124",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Wells",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2504,5113 2405,5113 2405,5077 2504,5077\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/1d0b3274-cb80-4793-bb7f-0fd477280034",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Cottage",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2664,4834 2788,4829 2790,4879 2666,4884\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/c976a42c-c809-407f-8617-b4e138ef14cb",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Ross",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2366,4653 2250,4655 2249,4601 2365,4599\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/33beb89e-5b82-4b47-aec7-52348eace0a5",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Thunderholes Bay",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4855,4849 5305,4844 5306,4920 4856,4926\"/></svg>"
+        }
+      }
+    }
+  ]
+}
