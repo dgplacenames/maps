@@ -152,9 +152,7 @@
     }
 
     @keyframes spin {
-      to {
-        transform: rotate(360deg);
-      }
+      to { transform: rotate(360deg); }
     }
 
     .loading-text {
@@ -410,10 +408,7 @@
     .toggle-slider {
       position: absolute;
       cursor: pointer;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
+      top: 0; left: 0; right: 0; bottom: 0;
       background: #ccc;
       border-radius: 20px;
       transition: 0.2s;
@@ -431,11 +426,11 @@
       transition: 0.2s;
     }
 
-    .toggle-switch input:checked+.toggle-slider {
+    .toggle-switch input:checked + .toggle-slider {
       background: #0078d7;
     }
 
-    .toggle-switch input:checked+.toggle-slider:before {
+    .toggle-switch input:checked + .toggle-slider:before {
       transform: translateX(16px);
     }
 
@@ -455,8 +450,7 @@
 
     #osd-container {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 0; left: 0;
       width: 100%;
       height: 100%;
       display: none;
@@ -1000,8 +994,7 @@
         prefixUrl: 'https://cdn.jsdelivr.net/npm/openseadragon@4.1.0/build/openseadragon/images/',
         tileSources: currentMap.iiif_manifest,
         showNavigationControl: true,
-        gestureSettingsMouse: { clickToZoom: false },
-        maxZoomPixelRatio: 4
+        gestureSettingsMouse: { clickToZoom: false }
       });
 
       osdViewer.addHandler('open', async () => {
@@ -1051,12 +1044,11 @@
           const topLeft = osdViewer.viewport.imageToViewportCoordinates(minX, minY);
           const bottomRight = osdViewer.viewport.imageToViewportCoordinates(maxX, maxY);
 
-          const padding = 0.1;
           const rect = new OpenSeadragon.Rect(
-            topLeft.x - padding,
-            topLeft.y - padding,
-            (bottomRight.x - topLeft.x) + padding * 2,
-            (bottomRight.y - topLeft.y) + padding * 2
+            topLeft.x,
+            topLeft.y,
+            bottomRight.x - topLeft.x,
+            bottomRight.y - topLeft.y
           );
           osdViewer.viewport.fitBoundsWithConstraints(rect);
         }
@@ -1159,6 +1151,7 @@
         if (osdViewer) {
           const svgOverlay = document.getElementById('osd-svg-overlay');
           if (svgOverlay) svgOverlay.style.display = annotationsVisible ? '' : 'none';
+          osdViewer.forceRedraw();
         }
 
         if (!annotationsVisible) elements.tooltip.style.display = 'none';
