@@ -748,6 +748,21 @@
     "parishes": ["Kirkcudbright"],
     "collection_name": "A Collection of Surveys of Scottish Estates of the Earl of Selkirk, ca. 1808-1815",
     "collection_url": "https://maps.nls.uk/estates/selkirk/"
+  },
+      {
+    "id": "129393076",
+    "title": "Index plan of lands belonging to his Grace the of Duke of Buccleuch and Queensberry",
+    "date": "1845",
+    "mapmaker": ["D. McCallum", "John Francis Dundas"],
+    "nls_info": "https://maps.nls.uk/estates/queensberry-plans/browse/1/page/1",
+    "iiif_manifest": "https://map-view.nls.uk/iiif/2/12939%2F129393076/info.json",
+    "nls_georeference": "https://maps.nls.uk/geo/explore/#zoom=11.0&lat=55.27160&lon=-3.63390&layers=129393076&b=ESRIWorld&o=100",
+    "allmaps_annotation": "",
+    "transcription": "",
+    "counties": ["Dumfries", "Lanark"],
+    "parishes": ["Closeburn", "Crawford"],
+    "collection_name": "Queensberry Estate Plans, 1854",
+    "collection_url": "https://maps.nls.uk/estates/queensberry-plans/"
   }
 ]
 
