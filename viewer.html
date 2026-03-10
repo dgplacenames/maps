@@ -526,6 +526,12 @@
       top: 4.643em;
     }
 
+    .ol-rotate {
+      top: 7.2em;
+      left: 0.5em;
+      right: auto;
+    }
+
     .ol-zoom-extent button {
       background-color: #fff !important;
       color: rgba(0, 0, 0, .6) !important;
@@ -1174,6 +1180,11 @@
       document.addEventListener('touchmove', (e) => {
         if (Math.abs(e.touches[0].clientX - dragStartX) > dragThreshold || Math.abs(e.touches[0].clientY - dragStartY) > dragThreshold) isDragging = true;
       });
+
+      if (window.innerWidth <= 768) {
+        elements.sidebar.classList.add('collapsed');
+        elements.controls.classList.add('collapsed');
+      }
 
       document.getElementById('sidebar-toggle').addEventListener('click', (e) => {
         e.stopPropagation();
