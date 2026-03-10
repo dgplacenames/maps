@@ -20,7 +20,7 @@
         }
 
         .container {
-            max-width: 1400px;
+            max-width: 1600px;
             margin: 0 auto;
             padding: 20px;
         }
@@ -124,7 +124,7 @@
             margin-bottom: 20px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             display: grid;
-            grid-template-columns: 2fr 1fr 1fr auto;
+            grid-template-columns: 2fr 1fr 1fr 1fr auto;
             gap: 12px;
             align-items: end;
         }
@@ -346,6 +346,13 @@
             </div>
 
             <div class="filter-group">
+                <label for="map-filter">Map</label>
+                <select id="map-filter">
+                    <option value="">All Maps</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
                 <label for="county-filter">County</label>
                 <select id="county-filter">
                     <option value="">All Counties</option>
@@ -370,7 +377,6 @@
                         <th>Tags</th>
                         <th>Map</th>
                         <th>Date</th>
-                        <th>Mapmaker</th>
                         <th>Location</th>
                     </tr>
                 </thead>
@@ -414,7 +420,7 @@
         let allTranscriptions = [];
         let filteredTranscriptions = [];
 
-        async function init() {
+        async function init(mapParam) {
             try {
                 const mapsResponse = await fetch('maps.json');
                 maps = await mapsResponse.json();
@@ -423,6 +429,9 @@
 
                 if (allTranscriptions.length > 0) {
                     populateFilters();
+                    if (mapParam) {
+                        document.getElementById('map-filter').value = mapParam;
+                    }
                     applyFilters();
                 } else {
                     document.getElementById('results-count').textContent = '0 transcriptions';
@@ -486,14 +495,26 @@
         function populateFilters() {
             const counties = new Set();
             const parishes = new Set();
+            const mapTitles = new Map();
 
             allTranscriptions.forEach(trans => {
                 trans.counties.forEach(c => counties.add(c));
                 trans.parishes.forEach(p => parishes.add(p));
+                mapTitles.set(trans.mapId, trans.mapTitle);
             });
 
             populateSelect('county-filter', Array.from(counties).sort());
             populateSelect('parish-filter', Array.from(parishes).sort());
+
+            const mapSelect = document.getElementById('map-filter');
+            Array.from(mapTitles.entries())
+                .sort((a, b) => a[1].localeCompare(b[1]))
+                .forEach(([id, title]) => {
+                    const opt = document.createElement('option');
+                    opt.value = id;
+                    opt.textContent = title;
+                    mapSelect.appendChild(opt);
+                });
         }
 
         function populateSelect(id, options) {
@@ -510,6 +531,7 @@
             const searchTerm = document.getElementById('search').value.toLowerCase();
             const countyFilter = document.getElementById('county-filter').value;
             const parishFilter = document.getElementById('parish-filter').value;
+            const mapFilter = document.getElementById('map-filter').value;
 
             filteredTranscriptions = allTranscriptions.filter(trans => {
                 const matchesSearch = !searchTerm ||
@@ -520,8 +542,9 @@
 
                 const matchesCounty = !countyFilter || trans.counties.includes(countyFilter);
                 const matchesParish = !parishFilter || trans.parishes.includes(parishFilter);
+                const matchesMap = !mapFilter || trans.mapId === mapFilter;
 
-                return matchesSearch && matchesCounty && matchesParish;
+                return matchesSearch && matchesCounty && matchesParish && matchesMap;
             });
 
             displayTranscriptions();
@@ -592,11 +615,6 @@
                 dateCell.textContent = trans.mapDate;
                 row.appendChild(dateCell);
 
-                // Mapmaker cell
-                const mapmakerCell = document.createElement('td');
-                mapmakerCell.textContent = Array.isArray(trans.mapMaker) ? trans.mapMaker.join(', ') : trans.mapMaker;
-                row.appendChild(mapmakerCell);
-
                 // Location cell
                 const locationCell = document.createElement('td');
                 locationCell.innerHTML = `${trans.counties.join(', ')}<br><small style="color: #7f8c8d;">${trans.parishes.join(', ')}</small>`;
@@ -607,6 +625,7 @@
         }
 
         document.getElementById('search').addEventListener('input', applyFilters);
+        document.getElementById('map-filter').addEventListener('change', applyFilters);
         document.getElementById('county-filter').addEventListener('change', applyFilters);
         document.getElementById('parish-filter').addEventListener('change', applyFilters);
 
@@ -614,10 +633,15 @@
             document.getElementById('search').value = '';
             document.getElementById('county-filter').value = '';
             document.getElementById('parish-filter').value = '';
+            document.getElementById('map-filter').value = '';
             applyFilters();
         });
 
-        init();
+        // Pre-filter by map ID if passed as URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const mapParam = urlParams.get('map');
+
+        init(mapParam);
     </script>
 </body>
 

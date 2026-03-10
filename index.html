@@ -20,7 +20,7 @@
         }
 
         .container {
-            max-width: 1400px;
+            max-width: 1600px;
             margin: 0 auto;
             padding: 20px;
         }
@@ -253,29 +253,11 @@
             text-decoration: underline;
         }
 
-        .tags-cell {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 4px;
-        }
-
-        .tag {
-            background: #ecf0f1;
-            color: #2c3e50;
-            padding: 2px 8px;
-            border-radius: 3px;
-            font-size: 0.75em;
-            white-space: nowrap;
-        }
-
-        .tag.georeference {
-            background: #d4edda;
-            color: #155724;
-        }
-
         .links-cell {
             display: flex;
             gap: 6px;
+            flex-wrap: nowrap;
+            white-space: nowrap;
         }
 
         .link-btn {
@@ -292,6 +274,7 @@
         .link-btn:hover {
             background: #005a9e;
         }
+
 
         .no-results {
             background: white;
@@ -353,7 +336,8 @@
             .nav-buttons {
                 width: 100%;
                 justify-content: flex-start;
-                flex-wrap: wrap;
+                flex-wrap: nowrap;
+            white-space: nowrap;
             }
 
             .nav-button {
@@ -420,7 +404,7 @@
         <div class="filters">
             <div class="filter-group">
                 <label for="search">Search</label>
-                <input type="text" id="search" placeholder="Search title, mapmaker...">
+                <input type="text" id="search" placeholder="Search title, county, parish...">
             </div>
 
             <div class="filter-group">
@@ -453,14 +437,13 @@
                     <tr>
                         <th>Title</th>
                         <th>Date</th>
-                        <th>Mapmaker</th>
                         <th>Location</th>
+                        <th>Transcription</th>
                         <th>NLS</th>
                         <th>Allmaps</th>
                     </tr>
                 </thead>
                 <tbody id="table-body">
-                    <!-- Rows will be inserted here -->
                 </tbody>
             </table>
         </div>
@@ -479,9 +462,9 @@
                 <h2>About</h2>
                 <span class="close">&times;</span>
             </div>
-            <p>This is a collection of maps from <a href="https://maps.nls.uk/" target="_blank">maps.nls.uk </a> that I've georeferenced using <a href="https://allmaps.org/" target="_blank">Allmaps.</a></p>
+            <p>This is a collection of maps from <a href="https://maps.nls.uk/" target="_blank">maps.nls.uk</a> that I've georeferenced using <a href="https://allmaps.org/" target="_blank">Allmaps.</a></p>
             <p>The georeferences use versioned annotations so won't change if the map is edited on Allmaps.</p>
-            <p>I have transcribed some maps <a href="https://recogitostudio.org/" target="_blank">Recogito Studio</a></p>
+            <p>I have transcribed some maps using <a href="https://recogitostudio.org/" target="_blank">Recogito Studio</a>.</p>
             <p style="text-align: center; font-size: 14px; margin-top: 20px; color: #666;">
                 Site by <a href="https://github.com/dgplacenames/maps" target="_blank">Colin Mackenzie</a>
             </p>
@@ -492,7 +475,6 @@
         let allMaps = [];
         let filteredMaps = [];
 
-        // Modal functionality
         const modal = document.getElementById('about-modal');
         const aboutBtn = document.getElementById('about-btn');
         const closeBtn = document.querySelector('.close');
@@ -503,7 +485,6 @@
             if (e.target === modal) modal.style.display = 'none';
         };
 
-        // Scroll to top functionality
         const scrollToTopBtn = document.getElementById('scroll-to-top');
 
         window.addEventListener('scroll', () => {
@@ -515,10 +496,7 @@
         });
 
         scrollToTopBtn.addEventListener('click', () => {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
         async function init() {
@@ -539,7 +517,6 @@
             const collections = new Set();
 
             allMaps.forEach(map => {
-                // Handle comma-separated values within array elements
                 map.counties.forEach(c => {
                     c.split(',').forEach(county => counties.add(county.trim()));
                 });
@@ -571,11 +548,10 @@
             const collectionFilter = document.getElementById('collection-filter').value;
 
             filteredMaps = allMaps.filter(map => {
-                const mapmakers = Array.isArray(map.mapmaker) ? map.mapmaker.join(' ') : map.mapmaker;
                 const matchesSearch = !searchTerm ||
                     map.title.toLowerCase().includes(searchTerm) ||
-                    mapmakers.toLowerCase().includes(searchTerm) ||
-                    map.date.includes(searchTerm);
+                    map.counties.join(' ').toLowerCase().includes(searchTerm) ||
+                    map.parishes.join(' ').toLowerCase().includes(searchTerm);
 
                 const matchesCounty = !countyFilter || map.counties.includes(countyFilter);
                 const matchesParish = !parishFilter || map.parishes.includes(parishFilter);
@@ -584,22 +560,17 @@
                 return matchesSearch && matchesCounty && matchesParish && matchesCollection;
             });
 
-            // Sort by county, parish, date, then title
             filteredMaps.sort((a, b) => {
-                // Compare counties
                 const countyA = a.counties[0] || '';
                 const countyB = b.counties[0] || '';
                 if (countyA !== countyB) return countyA.localeCompare(countyB);
 
-                // Compare parishes
                 const parishA = a.parishes[0] || '';
                 const parishB = b.parishes[0] || '';
                 if (parishA !== parishB) return parishA.localeCompare(parishB);
 
-                // Compare dates
                 if (a.date !== b.date) return a.date.localeCompare(b.date);
 
-                // Compare titles
                 return a.title.localeCompare(b.title);
             });
 
@@ -634,9 +605,6 @@
         function createTableRow(map) {
             const row = document.createElement('tr');
 
-            const countyLabel = map.counties.length === 1 ? 'County' : 'Counties';
-            const parishLabel = map.parishes.length === 1 ? 'Parish' : 'Parishes';
-
             // Title cell
             const titleCell = document.createElement('td');
             titleCell.className = 'title-cell';
@@ -648,15 +616,38 @@
             dateCell.textContent = map.date;
             row.appendChild(dateCell);
 
-            // Mapmaker cell
-            const mapmakerCell = document.createElement('td');
-            mapmakerCell.textContent = Array.isArray(map.mapmaker) ? map.mapmaker.join(', ') : map.mapmaker;
-            row.appendChild(mapmakerCell);
-
             // Location cell
             const locationCell = document.createElement('td');
             locationCell.innerHTML = `${map.counties.join(', ')}<br><small style="color: #7f8c8d;">${map.parishes.join(', ')}</small>`;
             row.appendChild(locationCell);
+
+            // Transcription cell
+            const transcCell = document.createElement('td');
+            const transcDiv = document.createElement('div');
+            transcDiv.className = 'links-cell';
+
+            const hasTranscription = map.transcription && map.transcription.trim() !== '';
+
+            if (hasTranscription) {
+                const yesBtn = document.createElement('a');
+                yesBtn.href = `transcriptions.html?map=${map.id}`;
+                yesBtn.className = 'link-btn';
+                yesBtn.textContent = 'Yes';
+                transcDiv.appendChild(yesBtn);
+            }
+
+            if (map.iiif_manifest) {
+                const editBtn = document.createElement('a');
+                editBtn.href = `https://dgplacenames.github.io/iiif-annotator/?iiif=${encodeURIComponent(map.iiif_manifest.replace(/\/info\.json$/, ''))}`;
+                editBtn.className = 'link-btn';
+                editBtn.target = '_blank';
+                editBtn.rel = 'noopener';
+                editBtn.textContent = 'Edit';
+                transcDiv.appendChild(editBtn);
+            }
+
+            transcCell.appendChild(transcDiv);
+            row.appendChild(transcCell);
 
             // NLS cell
             const nlsCell = document.createElement('td');
@@ -710,7 +701,6 @@
             }
 
             if (map.allmaps_annotation) {
-                const annotationUrl = map.allmaps_annotation;
                 const annotationLink = document.createElement('a');
                 annotationLink.href = map.allmaps_annotation;
                 annotationLink.className = 'link-btn';
