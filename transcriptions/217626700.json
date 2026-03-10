@@ -1,7 +1,7 @@
 {
   "@context": "http://www.w3.org/ns/anno.jsonld",
   "type": "AnnotationPage",
-  "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/annotations/539f1f4b-d3ac-4258-b997-d77f373fba47",
+  "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/annotations/bfd5c24b-7d03-4f87-ba74-c7d3e54c4ca5",
   "partOf": {
     "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
     "type": "Canvas"
@@ -1354,6 +1354,168 @@
         "selector": {
           "type": "SvgSelector",
           "value": "<svg><polygon points=\"3777,1730 3546,1705 3554,1629 3785,1654\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/da609101-77c9-4723-8fcb-17bb7eadd5c0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "A Flatt Shore with great outlying Breakers",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1858,4388 1863,4578 2015,4954 2051,5088 2051,5307 1992,5497 1929,5484 1972,5126 1916,4941 1801,4609 1788,4382\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/267ccc1a-f7dc-4659-9657-38337a907c70",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "The Shore perpendicular & from 30 to 50 feet High, from the point of the Bents to the Fox Craig",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1868,5925 1948,6013 2034,6133 2237,6378 2395,6495 2684,6612 3026,6735 3320,6821 3693,6905 3847,6954 3831,7036 3668,6980 3292,6895 2994,6815 2654,6690 2355,6559 2089,6338 1954,6167 1875,6053 1814,5975\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/cb1ebf7e-2436-426a-9f28-5da734997d3d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "MEIKLE ROSS",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2188,3296 2351,3796 2419,4140 2483,4703 2608,5127 2880,5444 3217,5645 3648,5781 3917,5819 4321,5796 4306,5588 3951,5626 3701,5603 3319,5482 3024,5301 2839,5047 2665,4665 2616,4151 2570,3788 2434,3266\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/62826eef-a997-4a6f-9d60-f4a5404560bc",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "BALMANGAN",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2441,2935 2717,2670 2957,2485 3305,2336 3581,2252 3919,2169 4231,2089 4598,1904 4932,1588 4845,1435 4525,1708 4206,1904 3908,2020 3570,2071 3269,2151 2873,2328 2634,2499 2325,2768\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/f9647470-d858-486a-bc71-903a2117f7b8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "BRIGHOUSE",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"816,3632 969,3321 1104,3159 1255,3011 1652,2817 1957,2644 2179,2487 2456,2142 2643,1829 2492,1742 2338,2031 2108,2328 1903,2495 1558,2698 1112,2919 956,3033 834,3265 681,3543\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/ab68b078-d18c-427a-a57d-f4e9c1afe9b8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Road passable through the Bay any where at Low Water",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2871,3815 2930,3860 3030,3901 3171,3919 3239,3942 3635,4088 3744,4172 3719,4207 3660,4173 3468,4111 3351,4084 3160,3986 3120,4018 2922,3952 2828,3842\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/732a8086-8865-4acc-903f-5efbc0441d09",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Senwick Glebe exchanged, with part of Culraven 17**",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4606,737 4998,737 4998,886 4606,886\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/3e7cd90d-6503-4de0-9dda-2b0f9ff8e345",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Road to Kirkcudbt Borgue Kirk",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3440,455 3261,969 3208,951 3387,437\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/21762%2F217626700/93738c04-400e-4d6e-9546-754d425a5f9e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Brighouse & Nether Senwick the Property of William Currie Esq",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/21762%2F217626700",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"896,2495 3147,196 3388,432 1136,2731\"/></svg>"
         }
       }
     }
