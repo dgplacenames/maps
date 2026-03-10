@@ -158,7 +158,7 @@
     "iiif_manifest": "https://map-view.nls.uk/iiif/2/24394%2F243944261/info.json",
     "nls_georeference": "",
     "allmaps_annotation": "",
-    "transcription": "",
+    "transcription": "transcriptions/243944261.json",
     "counties": ["Kirkcudbright"],
     "parishes": ["Twynholm"],
     "collection_name": "A Collection of Surveys of Scottish Estates of the Earl of Selkirk, ca. 1808-1815",

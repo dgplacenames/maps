@@ -1,0 +1,569 @@
+{
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "type": "AnnotationPage",
+  "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/annotations/91962793-dc31-4cc7-9f74-98879a25744b",
+  "partOf": {
+    "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+    "type": "Canvas"
+  },
+  "items": [
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/b7a6b524-eaa0-4034-8134-85cd8b95bfb3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Bishopton Yair",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2189,1555 2296,1564 2292,1614 2185,1605\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/156fca01-7c4e-45f7-9637-ba61823645f6",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Town Ya [Yair]",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2598,1890 2491,1886 2492,1862 2599,1867\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/2f6974be-fc11-4eca-8036-eb65d945e82d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Greatcross Yair",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2680,2257 2788,2261 2786,2310 2678,2305\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/3dce56be-a3fa-488e-8058-c2465f9bdff2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Carhow",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"888,3166 804,3170 802,3145 887,3141\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/75a12adf-6e31-4f14-8eda-7aa0f3a9978e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Lochen Shalloch",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1048,2640 804,2681 799,2651 1043,2610\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/63d1b710-df7d-4fcc-a4b0-b31c584e4f28",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Knockbogle",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"864,2420 971,2408 974,2437 867,2449\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/e06148ef-085e-4896-ac4b-9084ec80eba7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Barend moss",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1389,2395 1215,2401 1214,2372 1388,2365\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/0fb85345-bc3f-46a0-9d68-6c087a06c170",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Bishopton",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1546,2557 1655,2509 1669,2542 1560,2589\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/c58502c4-5099-432f-a150-0eeb149b35b8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Langmyoch Moss",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1371,3090 1229,3120 1219,3072 1361,3042\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/875a8e4d-b3c4-4200-83a5-75f06a06dc5b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Ghaist how",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1075,3277 1098,3410 1073,3414 1050,3282\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/f55e68a7-32b5-426b-af08-53862ec07eaa",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Lochenennie",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"932,1315 775,1320 774,1296 932,1291\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/e6335519-de98-4c9f-a4b8-af58ecd78637",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Lochen tammock",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"569,1617 328,1625 327,1592 568,1584\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/843f9795-0c50-4de9-8f06-971c8faef505",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Burrying Ground",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2040,785 2108,762 2122,801 2054,824\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/631b0450-17c1-4455-97d0-d224c8a33eaf",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Deadwifes Well",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1844,1442 1772,1610 1741,1597 1813,1429\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/a6bcd200-9292-4a6d-92e9-c20547a52804",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Deadwifes strand",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1982,1549 2156,1536 2160,1591 1987,1604\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/a7ef669f-89cc-4ff2-ac10-fed5938fab9a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Lochengore",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1113,2115 967,2096 971,2066 1117,2085\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/6d7dcb95-5734-4654-9d1f-9a5deb5c9e91",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Cormorar how",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1269,2060 1310,2249 1276,2257 1235,2068\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/c89dd8db-960d-49b2-b966-5a5390e7ee58",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Knockwhae",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"687,2091 568,2077 571,2049 690,2063\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/ebb3cab0-cb66-45cb-ad0e-fb29dc4a031f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Newton",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"952,2050 882,2039 885,2017 956,2028\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/b52fa27b-8012-4dbc-9689-2a3320404c10",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Sunday Well",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1880,2695 1938,2619 1968,2642 1910,2718\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/145f775e-0a8e-4b8d-9c1b-304b989a6bb8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "CUMSTONEND",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"23,1610 560,1302 588,1350 50,1658\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/12eca0b0-de50-415e-a6ac-98c6c061b868",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "KIRKCHRIST",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"678,1293 968,1219 1216,1090 1393,932 1565,753 1761,625 1888,485 1946,331 1931,194 1844,33 1779,73 1860,212 1872,322 1828,448 1716,573 1516,701 1334,890 1166,1025 943,1135 652,1211\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/39d410e3-e5d0-4523-919a-62a39ce4ab5f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "KIRKEOCH",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"855,3753 1156,3651 1316,3482 1468,3309 1600,3099 1711,3004 1903,3034 2161,3086 2176,3027 1921,2969 1702,2932 1555,3053 1422,3259 1273,3422 1123,3587 839,3686\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/cf130a42-1491-45f8-a41e-c3c39671e399",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "CARHOW",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"483,2824 102,2826 102,2747 482,2745\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/fa49b1d5-5695-42c5-b385-24aa722cdfa7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "LONGLANDS",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"34,1728 247,2106 215,2124 2,1746\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/e8ab2d2e-45f3-4701-adfc-a64f116e26d4",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Mr Buchanan",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"260,2096 410,2315 360,2349 210,2130\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/3bbd5641-7de0-45db-9ba8-165decaa61ce",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "NEWTON",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"384,3349 442,3125 511,2948 552,2658 476,2504 402,2318 340,2347 412,2530 488,2688 447,2920 377,3108 318,3335\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/249ade6f-11bb-4939-ab0a-4f8132bab093",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Newton",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"635,954 206,951 207,796 636,800\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/6371069c-cb6e-431f-937d-82aefe160a2f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "BANK of Bishopton",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1616,543 1241,534 1247,294 1622,303\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/fee88878-82a9-4481-bdd2-11b81fb68814",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "BISHOPTON",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2297,3587 1695,3586 1695,3514 2297,3515\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944261/80436c9d-4c35-4a70-adad-dc8b0cf8c884",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "RIVER DEE",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944261",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2693,2692 2665,2446 2637,2224 2552,1981 2407,1842 2374,1657 2353,1206 2295,1205 2308,1652 2349,1859 2491,2017 2559,2223 2591,2436 2619,2688\"/></svg>"
+        }
+      }
+    }
+  ]
+}
