@@ -1051,11 +1051,12 @@
           const topLeft = osdViewer.viewport.imageToViewportCoordinates(minX, minY);
           const bottomRight = osdViewer.viewport.imageToViewportCoordinates(maxX, maxY);
 
+          const padding = 0.1;
           const rect = new OpenSeadragon.Rect(
-            topLeft.x,
-            topLeft.y,
-            bottomRight.x - topLeft.x,
-            bottomRight.y - topLeft.y
+            topLeft.x - padding,
+            topLeft.y - padding,
+            (bottomRight.x - topLeft.x) + padding * 2,
+            (bottomRight.y - topLeft.y) + padding * 2
           );
           osdViewer.viewport.fitBoundsWithConstraints(rect);
         }
