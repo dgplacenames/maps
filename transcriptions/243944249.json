@@ -1,0 +1,173 @@
+{
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "type": "AnnotationPage",
+  "id": "https://map-view.nls.uk/iiif/2/24394%2F243944249/annotations/6d5ae5b7-ba1d-46f9-937d-59f9ad7e1d12",
+  "partOf": {
+    "id": "https://map-view.nls.uk/iiif/2/24394%2F243944249",
+    "type": "Canvas"
+  },
+  "items": [
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944249/45e7f79a-f90d-4c6f-8eb8-6e4456c16fba",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Hoddom hill",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944249",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1910,1437 1672,1487 1664,1448 1902,1398\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944249/2b2291bd-fcd3-4d26-ba3f-9bca29b3c197",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Mayfield",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944249",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2855,1235 2945,1187 2961,1218 2871,1266\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944249/385e3e3d-1596-4ce8-b658-2000dc4a2fb2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Well",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944249",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3064,1038 3106,1026 3113,1049 3071,1061\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944249/081b1b11-a260-4820-8573-030667a0a337",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "PART OF LOWER NETHERTHIRD",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944249",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2209,1455 1348,2106 1318,2066 2179,1415\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944249/7dea20f3-4391-425d-8520-771832c2dbcf",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Road from Kirkcudbright to Dumfries",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944249",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1555,2199 1788,2015 2021,1867 2270,1725 2253,1693 2113,1767 1883,1906 1758,1996 1537,2170\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944249/c72bb97b-4b21-4008-a907-21fc840ba77d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "RIVER DEE",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944249",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1157,1782 1313,1640 1456,1550 1587,1426 1696,1313 1857,1150 1994,1056 2154,919 2118,882 1970,1006 1825,1107 1656,1264 1548,1381 1437,1493 1289,1592 1117,1743\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944249/6c1f66f6-5198-4c17-84a0-177457a08968",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "NETHERTHIRD",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944249",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"717,2451 984,2547 1213,2568 1399,2493 1555,2412 1689,2331 1848,2235 1961,2150 2399,1853 2365,1799 1668,2273 1544,2350 1399,2427 1202,2489 986,2470 745,2382\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944249/eb027158-6fb2-4df7-8f21-b9e4f46de69e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "MILLTHIRD",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944249",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3472,1529 2485,1785 2466,1710 3453,1455\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944249/129fb691-205a-4a62-8e5e-67809e1be530",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "BILLES",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944249",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3265,593 3336,736 3379,848 3395,956 3408,1084 3439,1280 3513,1275 3483,1098 3465,944 3452,831 3412,700 3350,573\"/></svg>"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "type": "AnnotationPage",
+  "id": "https://map-view.nls.uk/iiif/2/24394%2F243944321/annotations/6d4145bb-a63b-47ee-a5d8-f0d6660d2e68",
+  "partOf": {
+    "id": "https://map-view.nls.uk/iiif/2/24394%2F243944321",
+    "type": "Canvas"
+  },
+  "items": [
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944321/6fa03b45-0a90-4e64-ad76-111d928e7383",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Garden",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944321",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1627,2472 1549,2471 1549,2444 1628,2445\"/></svg>"
+        }
+      }
+    }
+  ]
+}
