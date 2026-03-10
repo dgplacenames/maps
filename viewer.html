@@ -384,7 +384,6 @@
       border-color: #0078d7;
     }
 
-    /* Toggle switch */
     .toggle-row {
       display: flex;
       align-items: center;
@@ -449,7 +448,6 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     }
 
-    /* OpenSeadragon container */
     #osd-container {
       position: absolute;
       top: 0; left: 0;
@@ -566,7 +564,6 @@
       <div class="loading-text">Loading map...</div>
     </div>
     <div class="error" id="error" style="display: none;"></div>
-    <!-- OpenSeadragon container for non-georeferenced maps -->
     <div id="osd-container"></div>
   </div>
 
@@ -641,7 +638,6 @@
   <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1.0/build/openseadragon/openseadragon.min.js"></script>
 
   <script>
-    // Modal
     const modal = document.getElementById('about-modal');
     document.getElementById('about-btn').onclick = () => modal.style.display = 'block';
     document.querySelector('.close').onclick = () => modal.style.display = 'none';
@@ -674,7 +670,6 @@
     // Annotation JSON parsing
     // -------------------------
     function parsePolygonPoints(svgValue) {
-      // Handles <polygon points="x1,y1 x2,y2 ..."/> 
       const polyMatch = svgValue.match(/points="([^"]+)"/);
       if (polyMatch) {
         return polyMatch[1].trim().split(/\s+/).map(p => {
@@ -682,7 +677,6 @@
           return [x, y];
         });
       }
-      // Handles <path d="M x,y L x,y ... Z"/>
       const pathMatch = svgValue.match(/d="([^"]+)"/);
       if (pathMatch) {
         const coords = pathMatch[1].match(/[\d.]+,[\d.]+/g) || [];
@@ -709,7 +703,6 @@
         if (selector?.type === 'SvgSelector') {
           points = parsePolygonPoints(selector.value);
         } else if (selector?.type === 'FragmentSelector') {
-          // xywh=pixel:x,y,w,h  or  xywh=x,y,w,h
           const xywhMatch = selector.value.match(/xywh=(?:pixel:)?([\d.]+),([\d.]+),([\d.]+),([\d.]+)/);
           if (xywhMatch) {
             const [, x, y, w, h] = xywhMatch.map(Number);
@@ -718,7 +711,6 @@
         }
 
         const uuid = annotation.id ? annotation.id.split('/').pop() : '';
-
         return { transcription, tags, notes, points, uuid, id: annotation.id };
       }).filter(a => a.points && a.points.length >= 3);
     }
@@ -773,6 +765,7 @@
       const links = [
         `<a href="${nlsViewUrl}" target="_blank" rel="noopener" class="link-button">View on NLS</a>`,
         currentMap.nls_info ? `<a href="${currentMap.nls_info}" target="_blank" rel="noopener" class="link-button">NLS Info</a>` : '',
+        currentMap.iiif_manifest ? `<a href="${currentMap.iiif_manifest}" target="_blank" rel="noopener" class="link-button">IIIF</a>` : '',
         currentMap.iiif_manifest ? `<a href="https://editor.allmaps.org/#/collection?url=${encodeURIComponent(currentMap.iiif_manifest)}" target="_blank" rel="noopener" class="link-button">Allmaps Editor</a>` : ''
       ].filter(Boolean);
 
@@ -826,7 +819,6 @@
       await warpedMapLayer.addGeoreferenceAnnotationByUrl(currentMap.allmaps_annotation);
       olMap.addLayer(warpedMapLayer);
 
-      // Annotation vector layer
       annotationLayer = new ol.layer.Vector({
         source: new ol.source.Vector(),
         visible: false,
@@ -886,7 +878,6 @@
             return ol.proj.fromLonLat(geo);
           });
 
-          // Close the polygon by repeating first point if needed
           if (geoCorners.length > 0) geoCorners.push(geoCorners[0]);
 
           const feature = new ol.Feature({
@@ -927,7 +918,6 @@
         const features = [];
         olMap.forEachFeatureAtPixel(e.pixel, feat => features.push(feat));
 
-        // Smallest area wins
         const feature = features
           .filter(f => f.get('transcription') || f.get('notes'))
           .sort((a, b) => a.getGeometry().getArea() - b.getGeometry().getArea())[0];
@@ -983,14 +973,12 @@
     // Non-georeferenced (OSD)
     // -------------------------
     async function loadOSDMap() {
-      // Hide OL-specific controls
       document.getElementById('base-layer-group').style.display = 'none';
       document.getElementById('opacity-group').style.display = 'none';
       document.getElementById('rotation-group').style.display = 'none';
 
       document.getElementById('osd-container').style.display = 'block';
 
-      // Fetch image dimensions
       let imageWidth = 1, imageHeight = 1;
       try {
         const infoUrl = currentMap.iiif_manifest.replace(/\/info\.json$/, '') + '/info.json';
@@ -1000,8 +988,6 @@
       } catch (e) {
         console.warn('Could not fetch IIIF info:', e);
       }
-
-      const iiifBase = currentMap.iiif_manifest.replace(/\/info\.json$/, '');
 
       osdViewer = OpenSeadragon({
         id: 'osd-container',
@@ -1013,14 +999,14 @@
 
       osdViewer.addHandler('open', async () => {
         elements.loading.classList.add('hidden');
-        await loadAnnotationsOSD(imageWidth, imageHeight);
+        await loadAnnotationsOSD();
       });
 
       setupToggles();
       setupTranscriptionToggle();
     }
 
-    async function loadAnnotationsOSD(imageWidth, imageHeight) {
+    async function loadAnnotationsOSD() {
       if (!currentMap.transcription) return;
 
       try {
@@ -1029,40 +1015,40 @@
         const json = await response.json();
         const annotations = parseAnnotationPage(json);
 
-        // OSD overlays use viewport coordinates (0–1 in width, proportional height)
-        // We'll draw SVG overlays on a canvas overlay
         const tracker = new OpenSeadragon.MouseTracker({
           element: osdViewer.canvas,
-          moveHandler: (e) => handleOSDHover(e, annotations, imageWidth, imageHeight)
+          moveHandler: (e) => handleOSDHover(e, annotations)
         });
         tracker.setTracking(true);
 
         let targetAnn = null;
-
         for (const ann of annotations) {
           if (targetAnnotationId && ann.uuid === targetAnnotationId) {
             targetAnn = ann;
           }
         }
 
-        // Draw polygons as SVG overlay
-        drawOSDOverlay(annotations, imageWidth, imageHeight);
+        drawOSDOverlay(annotations);
 
         if (annotations.length > 0) {
           document.getElementById('transcriptions-toggle-group').style.display = '';
         }
 
-        // Zoom to target annotation
+        // Zoom to target annotation using OSD's coordinate conversion
         if (targetAnn) {
           const xs = targetAnn.points.map(p => p[0]);
           const ys = targetAnn.points.map(p => p[1]);
           const minX = Math.min(...xs), maxX = Math.max(...xs);
           const minY = Math.min(...ys), maxY = Math.max(...ys);
+
+          const topLeft = osdViewer.viewport.imageToViewportCoordinates(minX, minY);
+          const bottomRight = osdViewer.viewport.imageToViewportCoordinates(maxX, maxY);
+
           const rect = new OpenSeadragon.Rect(
-            minX / imageWidth,
-            minY / imageHeight,
-            (maxX - minX) / imageWidth,
-            (maxY - minY) / imageHeight
+            topLeft.x,
+            topLeft.y,
+            bottomRight.x - topLeft.x,
+            bottomRight.y - topLeft.y
           );
           osdViewer.viewport.fitBoundsWithConstraints(rect.times(1.5));
         }
@@ -1072,7 +1058,7 @@
       }
     }
 
-    function drawOSDOverlay(annotations, imageWidth, imageHeight) {
+    function drawOSDOverlay(annotations) {
       const existing = document.getElementById('osd-svg-overlay');
       if (existing) existing.remove();
 
@@ -1108,14 +1094,13 @@
       svg.style.display = 'none';
     }
 
-    function handleOSDHover(e, annotations, imageWidth, imageHeight) {
+    function handleOSDHover(e, annotations) {
       if (!annotationsVisible) { elements.tooltip.style.display = 'none'; return; }
 
       const containerPoint = osdViewer.getMousePosition(e.originalEvent);
       const vp = osdViewer.viewport.viewerElementToViewportCoordinates(containerPoint);
       const img = osdViewer.viewport.viewportToImageCoordinates(vp);
 
-      // Find annotations containing the point, pick smallest area
       const hit = annotations
         .filter(ann => pointInPolygon([img.x, img.y], ann.points))
         .sort((a, b) => polygonArea(a.points) - polygonArea(b.points))[0];
@@ -1163,9 +1148,7 @@
           annotationLayer.setVisible(annotationsVisible);
         }
 
-        // OSD: trigger redraw
         if (osdViewer) {
-          osdViewer.forceRedraw();
           const svgOverlay = document.getElementById('osd-svg-overlay');
           if (svgOverlay) svgOverlay.style.display = annotationsVisible ? '' : 'none';
         }
