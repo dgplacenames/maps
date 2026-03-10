@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -153,7 +152,9 @@
     }
 
     @keyframes spin {
-      to { transform: rotate(360deg); }
+      to {
+        transform: rotate(360deg);
+      }
     }
 
     .loading-text {
@@ -409,7 +410,10 @@
     .toggle-slider {
       position: absolute;
       cursor: pointer;
-      top: 0; left: 0; right: 0; bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
       background: #ccc;
       border-radius: 20px;
       transition: 0.2s;
@@ -427,11 +431,11 @@
       transition: 0.2s;
     }
 
-    .toggle-switch input:checked + .toggle-slider {
+    .toggle-switch input:checked+.toggle-slider {
       background: #0078d7;
     }
 
-    .toggle-switch input:checked + .toggle-slider:before {
+    .toggle-switch input:checked+.toggle-slider:before {
       transform: translateX(16px);
     }
 
@@ -451,7 +455,8 @@
 
     #osd-container {
       position: absolute;
-      top: 0; left: 0;
+      top: 0;
+      left: 0;
       width: 100%;
       height: 100%;
       display: none;
@@ -995,7 +1000,8 @@
         prefixUrl: 'https://cdn.jsdelivr.net/npm/openseadragon@4.1.0/build/openseadragon/images/',
         tileSources: currentMap.iiif_manifest,
         showNavigationControl: true,
-        gestureSettingsMouse: { clickToZoom: false }
+        gestureSettingsMouse: { clickToZoom: false },
+        maxZoomPixelRatio: 4
       });
 
       osdViewer.addHandler('open', async () => {
