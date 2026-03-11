@@ -1,0 +1,209 @@
+{
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "type": "AnnotationPage",
+  "id": "https://map-view.nls.uk/iiif/2/24394%2F243944252/annotations/0422f89a-af61-48b2-904c-9d83ce46cf6f",
+  "partOf": {
+    "id": "https://map-view.nls.uk/iiif/2/24394%2F243944252",
+    "type": "Canvas"
+  },
+  "items": [
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944252/46bd276a-cd5d-4aa9-bb4f-45a733ff54ad",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Cook Hill",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944252",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2246,1340 2103,1342 2102,1312 2246,1309\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944252/d690b035-3d10-4d78-86a4-84051bb83218",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Netherthird",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944252",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2421,1012 2335,929 2351,912 2437,995\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944252/4dfaaa28-c05c-4bef-a93d-9b4d5ee401c2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Road to Netherthird",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944252",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1649,1794 1660,1756 1688,1721 1721,1694 1760,1677 1814,1641 1808,1621 1758,1654 1718,1675 1680,1704 1647,1743 1630,1786\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944252/7550c571-ef41-4467-81cd-e09e459e8892",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Cross Moss",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944252",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2561,2523 2450,2476 2459,2456 2570,2503\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944252/ca181cc2-b266-426d-93f2-37bdb9c4cf1b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "PART, OF LOWER NETHERTHIRD",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944252",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1422,920 1718,716 2401,107 2351,59 1687,661 1403,866\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944252/8e8dcb0f-e0fb-4f15-aeff-63fab748f026",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Road from Kirkcudbright to Dumfries",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944252",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1288,2066 1379,1951 1414,1815 1573,1607 1681,1409 1800,1138 2005,909 2018,881 2049,862 2180,697 2156,682 2038,836 2003,857 1984,887 1780,1123 1652,1398 1541,1597 1387,1800 1347,1938 1269,2043\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944252/5c776089-cf7c-4bf0-a640-aded26f86e13",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "RIVER DEE",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944252",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1031,1424 1206,1182 1212,1100 1261,1027 1418,781 1473,676 1576,569 1525,534 1429,647 1362,758 1286,900 1223,963 1149,1078 1140,1169 980,1382\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944252/a156463d-2b56-4621-84a0-9e5b55306051",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Netherthird",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944252",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"839,634 373,629 374,520 840,524\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944252/46214492-850d-470f-85f1-677f158aefa8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "CULD-DOCH",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944252",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2734,2694 651,2308 664,2234 2748,2620\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944252/2575ff54-f828-4eae-9ccc-e29f47d55573",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Black Stockarton",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944252",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3306,1563 2987,2648 2837,2604 3156,1519\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/24394%2F243944252/b322c1b9-1b10-4ca9-b226-ac8d193439ec",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "ARKLAND and MILL-THIRD",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/24394%2F243944252",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3303,1383 3311,612 2912,132 2846,212 3190,630 3185,1376\"/></svg>"
+        }
+      }
+    }
+  ]
+}
