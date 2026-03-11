@@ -758,7 +758,7 @@
     "iiif_manifest": "https://map-view.nls.uk/iiif/2/12939%2F129393076/info.json",
     "nls_georeference": "https://maps.nls.uk/geo/explore/#zoom=11.0&lat=55.27160&lon=-3.63390&layers=129393076&b=ESRIWorld&o=100",
     "allmaps_annotation": "",
-    "transcription": "transcriptions/129393076",
+    "transcription": "transcriptions/129393076.json",
     "counties": ["Dumfries", "Lanark"],
     "parishes": ["Closeburn", "Crawford"],
     "collection_name": "Queensberry Estate Plans, 1854",
