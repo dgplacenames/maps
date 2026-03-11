@@ -763,6 +763,21 @@
     "parishes": ["Closeburn", "Crawford"],
     "collection_name": "Queensberry Estate Plans, 1854",
     "collection_url": "https://maps.nls.uk/estates/queensberry-plans/"
+  },
+        {
+    "id": "268334872",
+    "title": "Plan of the Estate of Littleton in the Parish of Kirkoswald & the County of Ayr. Property of William Crawford Esquire, Physician, 1815",
+    "date": "1815",
+    "mapmaker": ["James milligan"],
+    "nls_info": "https://maps.nls.uk/estates/rec/14137",
+    "iiif_manifest": "https://map-view.nls.uk/iiif/2/26833%2F268334872/info.json",
+    "nls_georeference": "",
+    "allmaps_annotation": "https://annotations.allmaps.org/images/882ecb37427a0f4e@8268fc20e6e71339",
+    "transcription": "",
+    "counties": ["Ayr"],
+    "parishes": ["Kirkoswald"],
+    "collection_name": "",
+    "collection_url": ""
   }
 ]
 
