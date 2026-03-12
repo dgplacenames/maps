@@ -17,8 +17,8 @@ var georefs = {
       "parish": "Penpont",
       "county": "Dumfriesshire",
       "mapmaker": "McCallum, D. & Dundas, John Francis",
-      "nls": null,
-      "allmaps": null,
+      "nls": '129393403',
+      "allmaps": "331be48079f6f948@c6b4c12628af90fa",
       "series": "Queensberry Estate Plans",
       "vol": "5"
   },

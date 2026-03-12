@@ -22,7 +22,7 @@ fetch('geoJSON/georefs.js')
                 { id: 'county', name: 'County', sort: true },
                 { id: 'mapmaker', name: 'Mapmaker', sort: true },
                 { id: 'nls', name: 'NLS ID', formatter: cell => gridjs.html(`<a href=https://maps.nls.uk/view/${cell}>${cell}</a>`)},
-                { id: 'allmaps', name: 'AllMaps', formatter: cell => gridjs.html(`<a href=https://viewer.allmaps.org/?url=https://annotations.allmaps.org/images/${cell}>${cell}</a>`) },
+                { id: 'allmaps', name: 'AllMaps', formatter: cell => gridjs.html(`<a href=https://annotations.allmaps.org/images/${cell}>${cell}</a>`) },
             ],
             data: data,
             search: true,
