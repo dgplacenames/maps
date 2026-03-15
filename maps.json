@@ -862,7 +862,7 @@
     "nls_info": "https://maps.nls.uk/estates/queensberry-plans/browse/1/page/8",
     "iiif_manifest": "https://map-view.nls.uk/iiif/2/12939%2F129393097/info.json",
     "nls_georeference": "",
-    "allmaps_annotation": "",
+    "allmaps_annotation": "https://annotations.allmaps.org/images/17cc53ea921017ba@b0d9f246c5019123",
     "transcription": "",
     "counties": ["Dumfries"],
     "parishes": ["Closeburn"],
