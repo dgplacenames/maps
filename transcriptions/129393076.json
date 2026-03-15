@@ -1,7 +1,7 @@
 {
   "@context": "http://www.w3.org/ns/anno.jsonld",
   "type": "AnnotationPage",
-  "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/annotations/44533666-9ef5-41b0-bfd1-b1052860ae37",
+  "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/annotations/8efcf8a3-a2dd-44c1-a8cb-8e3e828a0c64",
   "partOf": {
     "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
     "type": "Canvas"
@@ -1822,6 +1822,906 @@
         "selector": {
           "type": "SvgSelector",
           "value": "<svg><polygon points=\"6400,7627 5968,7615 5971,7517 6403,7530\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/af9eccc8-49e4-49cc-a8fa-18a6b3754d22",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Bankend",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"6983,5362 6689,5528 6651,5461 6945,5295\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/ce23c597-8bc7-42f5-939a-607f116c6db9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "ow Cleuch",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"8006,5413 7836,5733 7765,5696 7935,5375\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/d7f9bb42-ab10-450a-b750-0a0d713cee57",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Shiel Cleuch",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"8862,6216 8651,6526 8596,6489 8807,6179\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/c4544d32-bbd8-4e1a-8af3-bcee24296ea2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Wee Rowantree Grain",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"8470,6177 8826,5825 8875,5875 8519,6226\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/e3eaf9ec-05e8-4bf7-941b-bc0768c38ad0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Bellinglaw Cleuch Burn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"6864,6877 6223,7002 6200,6888 6841,6762\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/df727bf9-a396-46f8-8067-10168880e4c1",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Catlaw Gitter",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"6632,6393 6970,6410 6966,6479 6628,6461\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/7b4b4ed9-74d3-4efd-aa26-fd2924a16375",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Bank Hill",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"6708,6228 6332,6438 6295,6372 6672,6162\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/4f195eee-008b-4e18-8afd-405b8e584c8c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Well Glen Burn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"5026,6066 4815,6248 4777,6204 4988,6022\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/2ffd11ac-cef4-4310-a4b4-e81c44c72b39",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Deadside",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"5565,4887 5350,5189 5277,5137 5492,4835\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/ddf07582-25c9-49a8-af26-039ecff9142e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Kirkhope Cleuch Burn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"5173,5254 5022,5901 4922,5878 5073,5231\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/32d49879-98fb-4b3e-9237-79f8e5c69699",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Troloss Heights",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4913,6835 5756,7038 5727,7162 4883,6959\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/0975ce57-582d-4453-b8c1-99af20f9bd52",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Upper Grain Cleuch",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"7707,8231 7176,8285 7166,8189 7697,8135\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/907ec67b-6269-4948-adc2-5d9da776c00a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Nether Grain Cleuch",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"7797,7697 7190,7766 7178,7658 7785,7590\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/8a5e70ad-2edf-4d48-a5fe-6f7606da4cdf",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Carsehope little Hill",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"7691,7321 6997,7414 6984,7319 7678,7226\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/0a6afdbd-909e-4ef8-98b8-22cc9a5f3782",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Birk Cleuch Burn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"7464,6902 7085,6663 7128,6594 7507,6833\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/40eed2e6-6cb3-4c9b-a010-1acf484709c7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Carsehope Burn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"7313,5466 7019,5914 6941,5863 7235,5415\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/f95ceb55-6e17-4906-b53c-fbf5a2265a95",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Carsehope Middings",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"7175,8315 7001,8913 6900,8883 7074,8285\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/92b4b1af-cdaa-4588-aed0-b44a8445d4d3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Low Yad Stell",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"8750,7790 8378,7873 8364,7812 8736,7729\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/66e5a04c-0319-4963-b672-4250f19be584",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Yad Stell Burn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"8934,7760 9301,7662 9322,7739 8955,7836\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/d81311a6-b1ea-428b-ad77-aaceb89e1872",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "High Yad Stell",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"8502,8101 8897,7860 8943,7936 8548,8177\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/4be8462a-705f-4a8b-9e5b-412dc7fc7563",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Thicklaw Head",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"9373,8115 9134,8398 9077,8351 9317,8067\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/0131874d-3574-4c2c-a6c7-6165fb7c8c6a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Craw Burn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"10288,7053 10043,6953 10067,6895 10312,6995\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/a9415358-f134-4f18-8a6f-1e45ae053a6b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Gana Burn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"9731,6858 9657,7162 9586,7145 9661,6841\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/57f65f09-8466-458b-ae11-ecd63edcc346",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Thicklaw Burn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"9372,6772 9200,7208 9133,7182 9305,6746\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/88d353dc-7b7c-4f5e-9ca8-ca83b8b8440b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Little Hagie Hill",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"9622,6893 9318,7264 9238,7198 9542,6827\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/0bf538bd-dbd4-4229-a9db-c5c306ea42bc",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Keppel Gate",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"11512,5677 11295,5790 11268,5737 11485,5624\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/da2dcbb2-0b87-4ac8-b945-eba716baab4b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Lang Grain",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"12145,6046 11885,6228 11846,6172 12106,5990\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/3bd3cadb-370c-4336-b4da-ca4b0310113e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Glenbaith Burn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"12706,5957 12338,6168 12303,6108 12671,5896\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/dde6966c-5580-4702-9e33-1ce82c7b8f45",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Deer Grain",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"10947,9950 10621,9885 10633,9828 10958,9893\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/2dda4846-755c-4a0a-b1eb-f1a04fe9b85f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Brandy Holes",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"10896,11010 10555,10971 10563,10901 10904,10941\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/51891741-e15a-49e4-b6fc-dfedecdfb438",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "The Dod",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"11133,10749 10816,10755 10814,10677 11131,10671\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/f6ce7293-76a6-4f11-9cae-03525bb00e56",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Dod Cleuch",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"10812,10549 11133,10415 11163,10486 10842,10620\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/d8a8955e-6912-43d3-b589-0b8136128d4d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "The Deuk Loch",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"12100,10549 11694,10534 11696,10473 12102,10488\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/e10b6d16-1873-4111-bff4-83754f2b43c3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Garroch Burn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"12306,10858 11820,10856 11821,10769 12306,10771\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/3c778004-0f37-4d26-bc94-3ee6a18315a5",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Palmer's Knowe",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"11565,10861 11184,10911 11174,10831 11555,10781\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/234cb81b-1183-4c51-853d-b90ee3cb7e74",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Glenbuith Burn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"10982,10355 11064,9856 11147,9869 11065,10369\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/f04a357f-2a2d-4c83-9c09-8a92f6e77ad1",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Welltrees Syke",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"12429,10426 12821,10318 12840,10386 12448,10494\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/e5b84a85-813c-4e5c-9bdf-14136a8c716c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Garroch Burn",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"12480,10829 12803,10549 12855,10609 12532,10889\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/02c82664-be69-421c-906f-dd6506b21eec",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "From Thornhill",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"13125,10546 12866,10793 12808,10733 13067,10485\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/b6a69028-512a-4dde-9f97-f276edb59a2c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Little Rig",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"13123,9980 13473,9881 13496,9964 13146,10063\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/a860ca7b-8de5-49bc-aa9e-29101136f8d7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Glass Rig",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"14481,10478 13907,10483 13906,10364 14480,10359\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/e3e32af1-8d16-426b-836d-e18727643337",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "The Neise",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"12092,8857 11807,8986 11774,8913 12059,8784\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/45ebbfba-5b45-49b5-91a4-2b5a262bffa9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Bught Cleuch",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"12400,9312 12639,9061 12688,9107 12448,9358\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/cb15a133-93a7-4cd3-b66f-335377f51aa2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Birk Cleuch",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"12309,8926 12260,9216 12181,9203 12231,8913\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/85a3b993-3b1f-4c6f-afee-4f78915bec49",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Gana Hill",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"10164,8189 10504,8128 10519,8208 10178,8270\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/0b94f320-66b8-495b-9507-07920e153f8b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Gana Shank",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"11504,8133 10809,7951 10829,7875 11524,8056\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/3e76351d-42c4-4755-a478-7786499bb4a6",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Brown Knowe",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"11425,8456 11169,8684 11122,8632 11378,8404\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/53246c96-29b3-40ff-88fe-2cfe76816679",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Lamb Cleuch",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"11617,8393 11570,8756 11503,8747 11549,8384\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/d4d54d62-1c50-4306-8fdb-e6a4db5b0f4d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Dry Slack",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"11657,8401 11790,8126 11852,8155 11719,8431\"/></svg>"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "id": "https://map-view.nls.uk/iiif/2/12939%2F129393076/56b963ce-2f77-49fc-93e9-5320eae69002",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Whitespot Hill",
+          "purpose": "commenting"
+        }
+      ],
+      "target": {
+        "source": "https://map-view.nls.uk/iiif/2/12939%2F129393076",
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"11032,7469 11899,7239 11935,7375 11068,7606\"/></svg>"
         }
       }
     }
